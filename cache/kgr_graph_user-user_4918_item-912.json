@@ -1,0 +1,90 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4918",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Casablanca",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nWarner_Bros.",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Payback",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Right Stuff, The",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Full Metal Jacket",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Eraser",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Demolition Man",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        }
+    ]
+}

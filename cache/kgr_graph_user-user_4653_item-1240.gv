@@ -1,0 +1,50 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Random Hearts" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"Civil Action, A" -> "[MUSICCOMPOSER]
+Brad_Fiedel"
+	"Kramer Vs. Kramer" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_4653 -> "Any Given Sunday"
+	"True Lies" -> "[MUSICCOMPOSER]
+Brad_Fiedel"
+	"Ghosts of Mississippi" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"[MUSICCOMPOSER]
+Danny_Elfman" -> "Terminator, The"
+	"Random Hearts" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4653 -> "Ghosts of Mississippi"
+	user_4653 -> "Kramer Vs. Kramer"
+	user_4653 -> "Random Hearts"
+	"Kramer Vs. Kramer" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Terminator, The"
+	"Any Given Sunday" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4653 -> "Good Will Hunting"
+	"Groundhog Day" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_4653 -> Instinct
+	user_4653 -> "True Lies"
+	"Groundhog Day" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Good Will Hunting" -> "[MUSICCOMPOSER]
+Brad_Fiedel"
+	"[MUSICCOMPOSER]
+Brad_Fiedel" -> "Terminator, The"
+	"Any Given Sunday" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"Civil Action, A" -> "[MUSICCOMPOSER]
+Danny_Elfman"
+	user_4653 -> "Groundhog Day"
+	user_4653 -> "Civil Action, A"
+	"Ghosts of Mississippi" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[DISTRIBUTOR]
+Warner_Bros._Pictures" -> "Terminator, The"
+	Instinct -> "[MUSICCOMPOSER]
+Brad_Fiedel"
+}

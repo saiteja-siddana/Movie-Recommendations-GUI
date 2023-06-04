@@ -1,0 +1,177 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4918",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Die Hard",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\n20th_Century_Fox",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Princess Bride, The",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Cocoon",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Star Wars: Episode IV - A New Hope",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Conan the Barbarian",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "X-Files: Fight the Future, The",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[STARRING]\nAlexander_Godunov",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Dogma",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Armageddon",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Sixth Sense, The",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Twelve Monkeys",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "Galaxy Quest",
+            "group": 4
+        },
+        {
+            "id": 14,
+            "labelC": "[STARRING]\nBruce_Willis",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 13
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 9,
+            "to": 14
+        },
+        {
+            "from": 14,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 13,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 10
+        }
+    ]
+}

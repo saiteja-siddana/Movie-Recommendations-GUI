@@ -1,0 +1,20 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4918 -> "Demolition Man"
+	"Right Stuff, The" -> "[DISTRIBUTOR]
+Warner_Bros."
+	user_4918 -> Payback
+	user_4918 -> "Full Metal Jacket"
+	user_4918 -> Eraser
+	"Demolition Man" -> "[DISTRIBUTOR]
+Warner_Bros."
+	Eraser -> "[DISTRIBUTOR]
+Warner_Bros."
+	user_4918 -> "Right Stuff, The"
+	Payback -> "[DISTRIBUTOR]
+Warner_Bros."
+	"Full Metal Jacket" -> "[DISTRIBUTOR]
+Warner_Bros."
+	"[DISTRIBUTOR]
+Warner_Bros." -> Casablanca
+}

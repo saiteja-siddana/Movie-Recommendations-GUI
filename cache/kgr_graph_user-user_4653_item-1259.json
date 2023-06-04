@@ -1,0 +1,155 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4653",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Stand by Me",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nColumbia_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Groundhog Day",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Kramer Vs. Kramer",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Random Hearts",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Ghosts of Mississippi",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Erin Brockovich",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[EDITING]\nRobert_Leighton_(film_editor)",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Best in Show",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Few Good Men, A",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "American President, The",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "When Harry Met Sally...",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 6,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 7
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	Amadeus -> "[PRODUCER]
+Saul_Zaentz"
+	Starman -> "[PRODUCER]
+Michael_Douglas"
+	user_4918 -> "Apocalypse Now"
+	user_4918 -> "Tomorrow Never Dies"
+	Starman -> "[PRODUCER]
+Saul_Zaentz"
+	user_4918 -> "For Your Eyes Only"
+	"For Your Eyes Only" -> "[DISTRIBUTOR]
+United_Artists"
+	user_4918 -> Amadeus
+	"Live and Let Die" -> "[DISTRIBUTOR]
+United_Artists"
+	"[PRODUCER]
+Saul_Zaentz" -> "One Flew Over the Cuckoo's Nest"
+	"Romancing the Stone" -> "[PRODUCER]
+Saul_Zaentz"
+	user_4918 -> Starman
+	"Annie Hall" -> "[DISTRIBUTOR]
+United_Artists"
+	user_4918 -> "Romancing the Stone"
+	"[PRODUCER]
+Michael_Douglas" -> "One Flew Over the Cuckoo's Nest"
+	user_4918 -> "Live and Let Die"
+	"Tomorrow Never Dies" -> "[DISTRIBUTOR]
+United_Artists"
+	"Romancing the Stone" -> "[PRODUCER]
+Michael_Douglas"
+	Amadeus -> "[PRODUCER]
+Michael_Douglas"
+	"[DISTRIBUTOR]
+United_Artists" -> "One Flew Over the Cuckoo's Nest"
+	"Apocalypse Now" -> "[DISTRIBUTOR]
+United_Artists"
+	user_4918 -> "Annie Hall"
+}

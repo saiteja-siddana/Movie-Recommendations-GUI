@@ -1,0 +1,36 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4653 -> "American President, The"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Random Hearts" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4653 -> "Ghosts of Mississippi"
+	"[EDITING]
+Robert_Leighton_(film_editor)" -> "Stand by Me"
+	user_4653 -> "Kramer Vs. Kramer"
+	user_4653 -> "Random Hearts"
+	"Kramer Vs. Kramer" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4653 -> "When Harry Met Sally..."
+	"Ghosts of Mississippi" -> "[EDITING]
+Robert_Leighton_(film_editor)"
+	"Few Good Men, A" -> "[EDITING]
+Robert_Leighton_(film_editor)"
+	user_4653 -> "Best in Show"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Stand by Me"
+	"Groundhog Day" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"When Harry Met Sally..." -> "[EDITING]
+Robert_Leighton_(film_editor)"
+	user_4653 -> "Few Good Men, A"
+	"Best in Show" -> "[EDITING]
+Robert_Leighton_(film_editor)"
+	user_4653 -> "Groundhog Day"
+	"American President, The" -> "[EDITING]
+Robert_Leighton_(film_editor)"
+	"Ghosts of Mississippi" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4653 -> "Erin Brockovich"
+}

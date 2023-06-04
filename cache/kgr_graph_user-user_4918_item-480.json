@@ -1,0 +1,181 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4918",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Jurassic Park",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nUniversal_Studios",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Animal House",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Nutty Professor, The",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Conan the Barbarian",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Dark Crystal, The",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "E.T. the Extra-Terrestrial",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[MUSICCOMPOSER]\nJohn_Williams",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Raiders of the Lost Ark",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Saving Private Ryan",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Superman II",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Star Wars: Episode IV - A New Hope",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "[STUDIO]\nAmblin_Entertainment",
+            "group": 3
+        },
+        {
+            "id": 14,
+            "labelC": "Schindler's List",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 13,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 14,
+            "to": 13
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 14
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 7,
+            "to": 13
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 7,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 5,
+            "to": 2
+        }
+    ]
+}

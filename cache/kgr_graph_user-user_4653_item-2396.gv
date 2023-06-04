@@ -1,0 +1,49 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[STARRING]
+Judi_Dench" -> "Shakespeare in Love"
+	"[DISTRIBUTOR]
+Universal_Studios" -> "Shakespeare in Love"
+	"For Love of the Game" -> "[DISTRIBUTOR]
+Miramax"
+	"Animal House" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Circle of Friends" -> "[STARRING]
+Judi_Dench"
+	Dogma -> "[STARRING]
+Judi_Dench"
+	"Forces of Nature" -> "[STARRING]
+Judi_Dench"
+	user_4653 -> "Mrs. Brown (Her Majesty, Mrs. Brown)"
+	"Animal House" -> "[DISTRIBUTOR]
+Miramax"
+	user_4653 -> "Forces of Nature"
+	"For Love of the Game" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_4653 -> "For Love of the Game"
+	user_4653 -> Dogma
+	"How to Make an American Quilt" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"How to Make an American Quilt" -> "[DISTRIBUTOR]
+Miramax"
+	user_4653 -> "How to Make an American Quilt"
+	user_4653 -> "Man on the Moon"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Miramax"
+	"Mrs. Brown (Her Majesty, Mrs. Brown)" -> "[STARRING]
+Judi_Dench"
+	user_4653 -> "Animal House"
+	"Man on the Moon" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Man on the Moon" -> "[DISTRIBUTOR]
+Miramax"
+	user_4653 -> "Circle of Friends"
+	"[DISTRIBUTOR]
+Miramax" -> "Shakespeare in Love"
+	user_4653 -> "Sliding Doors"
+	user_4653 -> "Erin Brockovich"
+	"Sliding Doors" -> "[STARRING]
+Judi_Dench"
+}

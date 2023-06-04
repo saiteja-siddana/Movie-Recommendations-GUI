@@ -1,0 +1,164 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4918",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Shawshank Redemption, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nColumbia_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Terminator, The",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Full Metal Jacket",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Starman",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Ghostbusters",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Men in Black",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[EDITING]\nRichard_Francis-Bruce",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Seven (Se7en)",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Rock, The",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Green Mile, The",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "[STUDIO]\nCastle_Rock_Entertainment",
+            "group": 3
+        },
+        {
+            "id": 13,
+            "labelC": "In the Line of Fire",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 12,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 11,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 13,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 13
+        }
+    ]
+}

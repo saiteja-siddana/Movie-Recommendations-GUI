@@ -1,0 +1,28 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4918 -> "Princess Bride, The"
+	user_4918 -> "Father of the Bride"
+	"[DISTRIBUTOR]
+Metro-Goldwyn-Mayer" -> "2001 - A Space Odyssey"
+	user_4918 -> "World Is Not Enough, The"
+	user_4918 -> "Licence to Kill"
+	Aliens -> "[EDITING]
+Ray_Lovejoy"
+	"Father of the Bride" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	"World Is Not Enough, The" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	user_4918 -> Aliens
+	Batman -> "[EDITING]
+Ray_Lovejoy"
+	"[EDITING]
+Ray_Lovejoy" -> "2001 - A Space Odyssey"
+	"Tomorrow Never Dies" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	user_4918 -> Batman
+	user_4918 -> "Tomorrow Never Dies"
+	"Princess Bride, The" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	"Licence to Kill" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+}

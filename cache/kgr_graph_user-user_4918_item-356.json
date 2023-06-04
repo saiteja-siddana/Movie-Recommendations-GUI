@@ -1,0 +1,177 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4918",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Forrest Gump",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nParamount_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Raiders of the Lost Ark",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Clue",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Saving Private Ryan",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Star Trek: Insurrection",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Coneheads",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[MUSICCOMPOSER]\nAlan_Silvestri",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Predator",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Eraser",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Romancing the Stone",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Who Framed Roger Rabbit?",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "Back to the Future Part II",
+            "group": 4
+        },
+        {
+            "id": 14,
+            "labelC": "[DIRECTOR]\nRobert_Zemeckis",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 14,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 11,
+            "to": 14
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 13
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 13,
+            "to": 8
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 6
+        }
+    ]
+}

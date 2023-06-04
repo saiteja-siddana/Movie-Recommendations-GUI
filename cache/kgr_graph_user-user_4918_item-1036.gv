@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	Cocoon -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_4918 -> "Galaxy Quest"
+	"Star Wars - Episode IV - A New Hope" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	Armageddon -> "[STARRING]
+Alexander_Godunov"
+	"Twelve Monkeys" -> "[STARRING]
+Alexander_Godunov"
+	Dogma -> "[STARRING]
+Bruce_Willis"
+	"[STARRING]
+Bruce_Willis" -> "Die Hard"
+	user_4918 -> "Conan the Barbarian"
+	user_4918 -> Cocoon
+	"[STARRING]
+Alexander_Godunov" -> "Die Hard"
+	user_4918 -> "Twelve Monkeys"
+	"Conan the Barbarian" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> "Die Hard"
+	user_4918 -> "Sixth Sense, The"
+	"Sixth Sense, The" -> "[STARRING]
+Alexander_Godunov"
+	"X-Files - Fight the Future, The" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Princess Bride, The" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	Dogma -> "[STARRING]
+Alexander_Godunov"
+	user_4918 -> "Princess Bride, The"
+	user_4918 -> Dogma
+	"Galaxy Quest" -> "[STARRING]
+Alexander_Godunov"
+	user_4918 -> "X-Files - Fight the Future, The"
+	user_4918 -> "Star Wars - Episode IV - A New Hope"
+	user_4918 -> Armageddon
+}

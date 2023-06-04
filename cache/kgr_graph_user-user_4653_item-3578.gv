@@ -1,0 +1,50 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4653 -> "Girl, Interrupted"
+	"Fried Green Tomatoes" -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+	Vacation -> "[PRODUCER]
+David_Franzoni"
+	"Galaxy Quest" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"American Graffiti" -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+	user_4653 -> Vacation
+	user_4653 -> "Schindler's List"
+	user_4653 -> Amistad
+	"Girl, Interrupted" -> "[PRODUCER]
+David_Franzoni"
+	"[DISTRIBUTOR]
+DreamWorks_Pictures" -> Gladiator
+	"[DISTRIBUTOR]
+Universal_Pictures" -> Gladiator
+	"Schindler's List" -> "[PRODUCER]
+David_Franzoni"
+	Wolf -> "[PRODUCER]
+David_Franzoni"
+	"Fried Green Tomatoes" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	user_4653 -> "Fried Green Tomatoes"
+	"Galaxy Quest" -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+	user_4653 -> "Galaxy Quest"
+	"Far and Away" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"American Graffiti" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"Far and Away" -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+	Amistad -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+	Amistad -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"Schindler's List" -> "[PRODUCER]
+Branko_Lustig"
+	user_4653 -> Wolf
+	user_4653 -> "American Graffiti"
+	"[PRODUCER]
+Branko_Lustig" -> Gladiator
+	"[PRODUCER]
+David_Franzoni" -> Gladiator
+	user_4653 -> "Far and Away"
+}

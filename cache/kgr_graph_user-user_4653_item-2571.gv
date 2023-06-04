@@ -1,0 +1,52 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Practical Magic" -> "[STUDIO]
+Village_Roadshow_Pictures"
+	"Three Kings" -> "[STUDIO]
+bal"
+	user_4653 -> "Any Given Sunday"
+	"Practical Magic" -> "[STUDIO]
+bal"
+	GoodFellas -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"Practical Magic" -> "[STUDIO]
+Silver_Pictures"
+	"[PRODUCER]
+Joel_Silver" -> "Matrix, The"
+	"[STUDIO]
+Silver_Pictures" -> "Matrix, The"
+	"Perfect Storm, The" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"Three Kings" -> "[STUDIO]
+Village_Roadshow_Pictures"
+	user_4653 -> "Hudsucker Proxy, The"
+	"Three Kings" -> "[STUDIO]
+Silver_Pictures"
+	"[STUDIO]
+bal" -> "Matrix, The"
+	"Hudsucker Proxy, The" -> "[STUDIO]
+Silver_Pictures"
+	"Conspiracy Theory" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"Hudsucker Proxy, The" -> "[STUDIO]
+bal"
+	"[STUDIO]
+Village_Roadshow_Pictures" -> "Matrix, The"
+	"Executive Decision" -> "[PRODUCER]
+Joel_Silver"
+	"Hudsucker Proxy, The" -> "[STUDIO]
+Village_Roadshow_Pictures"
+	user_4653 -> "Three Kings"
+	user_4653 -> "Bridges of Madison County, The"
+	"Any Given Sunday" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_4653 -> "Perfect Storm, The"
+	"[DISTRIBUTOR]
+Warner_Bros._Pictures" -> "Matrix, The"
+	user_4653 -> GoodFellas
+	user_4653 -> "Executive Decision"
+	user_4653 -> "Practical Magic"
+	"Bridges of Madison County, The" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_4653 -> "Conspiracy Theory"
+}

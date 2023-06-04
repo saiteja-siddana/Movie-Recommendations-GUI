@@ -1,0 +1,38 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4918 -> "Full Metal Jacket"
+	Ghostbusters -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[EDITING]
+Richard_Francis-Bruce" -> "Shawshank Redemption, The"
+	"[STUDIO]
+Castle_Rock_Entertainment" -> "Shawshank Redemption, The"
+	"Terminator, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	Starman -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Seven (Se7en)" -> "[EDITING]
+Richard_Francis-Bruce"
+	user_4918 -> Ghostbusters
+	"Men in Black" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4918 -> Starman
+	"Green Mile, The" -> "[STUDIO]
+Castle_Rock_Entertainment"
+	user_4918 -> "Terminator, The"
+	"Green Mile, The" -> "[EDITING]
+Richard_Francis-Bruce"
+	"Full Metal Jacket" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Shawshank Redemption, The"
+	user_4918 -> "Seven (Se7en)"
+	user_4918 -> "Green Mile, The"
+	"Rock, The" -> "[EDITING]
+Richard_Francis-Bruce"
+	user_4918 -> "Rock, The"
+	user_4918 -> "Men in Black"
+	"In the Line of Fire" -> "[STUDIO]
+Castle_Rock_Entertainment"
+	user_4918 -> "In the Line of Fire"
+}

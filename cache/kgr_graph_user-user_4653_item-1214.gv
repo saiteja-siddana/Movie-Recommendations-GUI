@@ -1,0 +1,42 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	Kagemusha -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Local Hero" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_4653 -> "L.A. Confidential"
+	"L.A. Confidential" -> "[MUSICCOMPOSER]
+Jerry_Goldsmith"
+	user_4653 -> "All About Eve"
+	user_4653 -> "Local Hero"
+	user_4653 -> "City Hall"
+	"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Blade Runner" -> "[DIRECTOR]
+Ridley_Scott"
+	"City Hall" -> "[MUSICCOMPOSER]
+Jerry_Goldsmith"
+	user_4653 -> "Office Space"
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> Alien
+	"Executive Decision" -> "[MUSICCOMPOSER]
+Jerry_Goldsmith"
+	"Six Degrees of Separation" -> "[MUSICCOMPOSER]
+Jerry_Goldsmith"
+	"Forever Young" -> "[MUSICCOMPOSER]
+Jerry_Goldsmith"
+	"Office Space" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_4653 -> Kagemusha
+	user_4653 -> "Six Degrees of Separation"
+	user_4653 -> "Forever Young"
+	"[MUSICCOMPOSER]
+Jerry_Goldsmith" -> Alien
+	user_4653 -> "Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)"
+	"All About Eve" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_4653 -> "Executive Decision"
+	"[DIRECTOR]
+Ridley_Scott" -> Alien
+	user_4653 -> "Blade Runner"
+}

@@ -1,0 +1,112 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4918",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Silence of the Lambs, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nOrion_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Amadeus",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Robocop",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Dances with Wolves",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Robocop 2",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "[CINEMATOGRAPHY]\nTak_Fujimoto",
+            "group": 3
+        },
+        {
+            "id": 8,
+            "labelC": "Ferris Bueller's Day Off",
+            "group": 4
+        },
+        {
+            "id": 9,
+            "labelC": "Sixth Sense, The",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 9,
+            "to": 7
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 7,
+            "to": 1
+        },
+        {
+            "from": 8,
+            "to": 7
+        }
+    ]
+}

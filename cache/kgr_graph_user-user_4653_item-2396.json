@@ -1,0 +1,193 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4653",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Shakespeare in Love",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nMiramax",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "For Love of the Game",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Animal House",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Man on the Moon",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Erin Brockovich",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "How to Make an American Quilt",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[DISTRIBUTOR]\nUniversal_Studios",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "[STARRING]\nJudi_Dench",
+            "group": 3
+        },
+        {
+            "id": 10,
+            "labelC": "Sliding Doors",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Dogma",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Mrs. Brown (Her Majesty, Mrs. Brown)",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "Circle of Friends",
+            "group": 4
+        },
+        {
+            "id": 14,
+            "labelC": "Forces of Nature",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 9,
+            "to": 1
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 8
+        },
+        {
+            "from": 13,
+            "to": 9
+        },
+        {
+            "from": 11,
+            "to": 9
+        },
+        {
+            "from": 14,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 14
+        },
+        {
+            "from": 3,
+            "to": 8
+        },
+        {
+            "from": 6,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 7,
+            "to": 8
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 12,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 5,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 13
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 10,
+            "to": 9
+        }
+    ]
+}

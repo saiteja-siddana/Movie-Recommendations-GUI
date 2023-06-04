@@ -1,0 +1,159 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4918",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "One Flew Over the Cuckoo's Nest",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nUnited_Artists",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "For Your Eyes Only",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Annie Hall",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Tomorrow Never Dies",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Live and Let Die",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Apocalypse Now",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[PRODUCER]\nMichael_Douglas",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Amadeus",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Starman",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Romancing the Stone",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "[PRODUCER]\nSaul_Zaentz",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 9,
+            "to": 12
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 10,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 12,
+            "to": 1
+        },
+        {
+            "from": 11,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 4
+        }
+    ]
+}

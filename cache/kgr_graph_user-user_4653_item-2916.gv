@@ -1,0 +1,50 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Ulee's Gold" -> "[STARRING]
+Colin_Farrell"
+	"Last Days of Disco, The" -> "[STARRING]
+Bill_Nighy"
+	"Random Hearts" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Ulee's Gold" -> "[STARRING]
+Jessica_Biel"
+	user_4653 -> "Ghosts of Mississippi"
+	"[STARRING]
+Bryan_Cranston" -> "Total Recall"
+	user_4653 -> "Kramer Vs. Kramer"
+	"Last Days of Disco, The" -> "[STARRING]
+Jessica_Biel"
+	user_4653 -> "Random Hearts"
+	"Kramer Vs. Kramer" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[STARRING]
+Jessica_Biel" -> "Total Recall"
+	"[STARRING]
+Colin_Farrell" -> "Total Recall"
+	"Last Days of Disco, The" -> "[STARRING]
+Colin_Farrell"
+	user_4653 -> "Ulee's Gold"
+	"Ulee's Gold" -> "[STARRING]
+Bryan_Cranston"
+	"[STARRING]
+Bill_Nighy" -> "Total Recall"
+	"[STARRING]
+Kate_Beckinsale" -> "Total Recall"
+	"Groundhog Day" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Total Recall"
+	"Last Days of Disco, The" -> "[STARRING]
+Kate_Beckinsale"
+	user_4653 -> "Groundhog Day"
+	"Ghosts of Mississippi" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Ulee's Gold" -> "[STARRING]
+Bill_Nighy"
+	user_4653 -> "Erin Brockovich"
+	"Last Days of Disco, The" -> "[STARRING]
+Bryan_Cranston"
+	user_4653 -> "Last Days of Disco, The"
+}

@@ -1,0 +1,54 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4653 -> "High Fidelity"
+	"Map of the World, A" -> "[PRODUCER]
+Frank_Marshall_(film_producer)"
+	"Cradle Will Rock, The" -> "[STUDIO]
+Touchstone_Pictures"
+	user_4653 -> "Map of the World, A"
+	"[STUDIO]
+Touchstone_Pictures" -> "Who Framed Roger Rabbit?"
+	"Remember the Titans" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Civil Action, A" -> "[STUDIO]
+Amblin_Entertainment"
+	"High Fidelity" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Quiz Show" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_4653 -> "Quiz Show"
+	"Cradle Will Rock, The" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Civil Action, A" -> "[STUDIO]
+Touchstone_Pictures"
+	"[PRODUCER]
+Frank_Marshall_(film_producer)" -> "Who Framed Roger Rabbit?"
+	user_4653 -> "How to Make an American Quilt"
+	"How to Make an American Quilt" -> "[STUDIO]
+Amblin_Entertainment"
+	user_4653 -> "Remember the Titans"
+	Ransom -> "[STUDIO]
+Amblin_Entertainment"
+	"Cradle Will Rock, The" -> "[STUDIO]
+Amblin_Entertainment"
+	Ransom -> "[STUDIO]
+Touchstone_Pictures"
+	"[STUDIO]
+Amblin_Entertainment" -> "Who Framed Roger Rabbit?"
+	"How to Make an American Quilt" -> "[STUDIO]
+Touchstone_Pictures"
+	user_4653 -> "Indiana Jones and the Last Crusade"
+	"High Fidelity" -> "[STUDIO]
+Amblin_Entertainment"
+	"Indiana Jones and the Last Crusade" -> "[PRODUCER]
+Frank_Marshall_(film_producer)"
+	user_4653 -> "Civil Action, A"
+	"[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures" -> "Who Framed Roger Rabbit?"
+	"Civil Action, A" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_4653 -> "Cradle Will Rock, The"
+	"High Fidelity" -> "[STUDIO]
+Touchstone_Pictures"
+	user_4653 -> Ransom
+}

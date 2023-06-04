@@ -1,0 +1,37 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4653 -> "Ferris Bueller's Day Off"
+	"Indiana Jones and the Last Crusade" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Age of Innocence, The" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	user_4653 -> "Great Escape, The"
+	"Great Escape, The" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	user_4653 -> "Stalag 17"
+	"Ferris Bueller's Day Off" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Devil in a Blue Dress" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	"To Kill a Mockingbird" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	"Firm, The" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"[DISTRIBUTOR]
+Paramount_Pictures" -> "Airplane!"
+	"Sliding Doors" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_4653 -> "To Kill a Mockingbird"
+	"Stalag 17" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"[MUSICCOMPOSER]
+Elmer_Bernstein" -> "Airplane!"
+	user_4653 -> "Devil in a Blue Dress"
+	user_4653 -> "Firm, The"
+	user_4653 -> "Indiana Jones and the Last Crusade"
+	"Animal House" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	user_4653 -> "Animal House"
+	user_4653 -> "Age of Innocence, The"
+	user_4653 -> "Sliding Doors"
+}

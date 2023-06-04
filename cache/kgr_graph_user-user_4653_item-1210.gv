@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	Kagemusha -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Local Hero" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"[STARRING]
+Carrie_Fisher" -> "Star Wars - Episode VI - Return of the Jedi"
+	"Star Wars - Episode V - The Empire Strikes Back" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_4653 -> "All About Eve"
+	user_4653 -> "Local Hero"
+	"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Indiana Jones and the Last Crusade" -> "[STARRING]
+Carrie_Fisher"
+	user_4653 -> "Schindler's List"
+	Amistad -> "[MUSICCOMPOSER]
+John_Williams"
+	user_4653 -> Amistad
+	user_4653 -> "Office Space"
+	"Office Space" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Far and Away" -> "[MUSICCOMPOSER]
+John_Williams"
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> "Star Wars - Episode VI - Return of the Jedi"
+	user_4653 -> Kagemusha
+	user_4653 -> "Star Wars - Episode V - The Empire Strikes Back"
+	user_4653 -> "Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)"
+	user_4653 -> "Indiana Jones and the Last Crusade"
+	"Schindler's List" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Indiana Jones and the Last Crusade" -> "[MUSICCOMPOSER]
+John_Williams"
+	"All About Eve" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"[MUSICCOMPOSER]
+John_Williams" -> "Star Wars - Episode VI - Return of the Jedi"
+	user_4653 -> "Far and Away"
+}

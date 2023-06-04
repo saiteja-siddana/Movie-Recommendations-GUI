@@ -1,0 +1,48 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4653 -> "Usual Suspects, The"
+	user_4653 -> "High Fidelity"
+	"Return to Me" -> "[STARRING]
+Jonathan_Harris"
+	Outbreak -> "[STARRING]
+Phyllis_Diller"
+	"Return to Me" -> "[STARRING]
+Phyllis_Diller"
+	user_4653 -> "Return to Me"
+	Outbreak -> "[STARRING]
+Hayden_Panettiere"
+	"Return to Me" -> "[STARRING]
+Hayden_Panettiere"
+	"Usual Suspects, The" -> "[STARRING]
+Hayden_Panettiere"
+	"Usual Suspects, The" -> "[STARRING]
+Phyllis_Diller"
+	"High Fidelity" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Quiz Show" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_4653 -> "Quiz Show"
+	"Cradle Will Rock, The" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"[STARRING]
+Phyllis_Diller" -> "Bug's Life, A"
+	user_4653 -> "Remember the Titans"
+	"[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures" -> "Bug's Life, A"
+	"[STARRING]
+Hayden_Panettiere" -> "Bug's Life, A"
+	user_4653 -> "Civil Action, A"
+	"Jerry Maguire" -> "[STARRING]
+Hayden_Panettiere"
+	"Civil Action, A" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"[STARRING]
+Jonathan_Harris" -> "Bug's Life, A"
+	"Jerry Maguire" -> "[STARRING]
+Phyllis_Diller"
+	user_4653 -> "Cradle Will Rock, The"
+	user_4653 -> Outbreak
+	user_4653 -> "Jerry Maguire"
+	"Remember the Titans" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+}

@@ -1,0 +1,42 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4653 -> Titanic
+	user_4653 -> Glory
+	Glory -> "[MUSICCOMPOSER]
+James_Horner"
+	Kagemusha -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Local Hero" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	Dave -> "[STARRING]
+Sigourney_Weaver"
+	user_4653 -> "All About Eve"
+	user_4653 -> "Local Hero"
+	"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Perfect Storm, The" -> "[MUSICCOMPOSER]
+James_Horner"
+	user_4653 -> "Office Space"
+	"[MUSICCOMPOSER]
+James_Horner" -> Aliens
+	Titanic -> "[MUSICCOMPOSER]
+James_Horner"
+	"Office Space" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> Aliens
+	user_4653 -> Kagemusha
+	user_4653 -> "Apollo 13"
+	user_4653 -> "Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)"
+	"[STARRING]
+Sigourney_Weaver" -> Aliens
+	user_4653 -> "Perfect Storm, The"
+	"Apollo 13" -> "[MUSICCOMPOSER]
+James_Horner"
+	"All About Eve" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_4653 -> Dave
+	Ransom -> "[MUSICCOMPOSER]
+James_Horner"
+	user_4653 -> Ransom
+}

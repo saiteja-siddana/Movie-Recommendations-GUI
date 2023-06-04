@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[STARRING]
+Vincent_D'Onofrio" -> "Men in Black"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	Dogma -> "[STARRING]
+Vincent_D'Onofrio"
+	user_4653 -> "Defending Your Life"
+	"[STARRING]
+Linda_Fiorentino" -> "Men in Black"
+	"Random Hearts" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4653 -> "Ghosts of Mississippi"
+	user_4653 -> "Kramer Vs. Kramer"
+	user_4653 -> "Random Hearts"
+	"Kramer Vs. Kramer" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Defending Your Life" -> "[STARRING]
+Linda_Fiorentino"
+	"Wonder Boys" -> "[STARRING]
+Vincent_D'Onofrio"
+	user_4653 -> Dogma
+	user_4653 -> "How to Make an American Quilt"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Men in Black"
+	"Groundhog Day" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Six Degrees of Separation" -> "[STARRING]
+Vincent_D'Onofrio"
+	user_4653 -> "Six Degrees of Separation"
+	user_4653 -> "Wonder Boys"
+	"How to Make an American Quilt" -> "[STARRING]
+Vincent_D'Onofrio"
+	user_4653 -> "Groundhog Day"
+	"Ghosts of Mississippi" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4653 -> "Erin Brockovich"
+	"Defending Your Life" -> "[STARRING]
+Vincent_D'Onofrio"
+}

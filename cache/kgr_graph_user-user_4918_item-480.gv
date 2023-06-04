@@ -1,0 +1,43 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Raiders of the Lost Ark" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Star Wars - Episode IV - A New Hope" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_4918 -> "Nutty Professor, The"
+	"[STUDIO]
+Amblin_Entertainment" -> "Jurassic Park"
+	"Dark Crystal, The" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_4918 -> "E.T. the Extra-Terrestrial"
+	"Schindler's List" -> "[STUDIO]
+Amblin_Entertainment"
+	"Saving Private Ryan" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_4918 -> "Schindler's List"
+	user_4918 -> "Animal House"
+	user_4918 -> "Conan the Barbarian"
+	"[MUSICCOMPOSER]
+John_Williams" -> "Jurassic Park"
+	"E.T. the Extra-Terrestrial" -> "[STUDIO]
+Amblin_Entertainment"
+	"E.T. the Extra-Terrestrial" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_4918 -> "Saving Private Ryan"
+	"[DISTRIBUTOR]
+Universal_Studios" -> "Jurassic Park"
+	"Animal House" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Superman II" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_4918 -> "Dark Crystal, The"
+	"Nutty Professor, The" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_4918 -> "Star Wars - Episode IV - A New Hope"
+	"E.T. the Extra-Terrestrial" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_4918 -> "Superman II"
+	user_4918 -> "Raiders of the Lost Ark"
+	"Conan the Barbarian" -> "[DISTRIBUTOR]
+Universal_Studios"
+}

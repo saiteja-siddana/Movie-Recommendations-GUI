@@ -1,0 +1,201 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4653",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Who Framed Roger Rabbit?",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nWalt_Disney_Studios_Motion_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "High Fidelity",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Quiz Show",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Cradle Will Rock, The",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Civil Action, A",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Remember the Titans",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[STUDIO]\nAmblin_Entertainment",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "How to Make an American Quilt",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Ransom",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "[STUDIO]\nTouchstone_Pictures",
+            "group": 3
+        },
+        {
+            "id": 12,
+            "labelC": "[PRODUCER]\nFrank_Marshall_(film_producer)",
+            "group": 3
+        },
+        {
+            "id": 13,
+            "labelC": "Indiana Jones and the Last Crusade",
+            "group": 4
+        },
+        {
+            "id": 14,
+            "labelC": "Map of the World, A",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 14,
+            "to": 12
+        },
+        {
+            "from": 5,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 14
+        },
+        {
+            "from": 11,
+            "to": 1
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 6,
+            "to": 8
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 6,
+            "to": 11
+        },
+        {
+            "from": 12,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 11
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 9,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 13
+        },
+        {
+            "from": 3,
+            "to": 8
+        },
+        {
+            "from": 13,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 3,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 10
+        }
+    ]
+}
