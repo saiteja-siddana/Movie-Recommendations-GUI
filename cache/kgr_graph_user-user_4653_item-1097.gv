@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[DIRECTOR]
+Steven_Spielberg" -> "E.T. the Extra-Terrestrial"
+	"Star Wars - Episode V - The Empire Strikes Back" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Animal House" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"For Love of the Game" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_4653 -> "For Love of the Game"
+	user_4653 -> Amistad
+	Amistad -> "[MUSICCOMPOSER]
+John_Williams"
+	user_4653 -> "Schindler's List"
+	"[MUSICCOMPOSER]
+John_Williams" -> "E.T. the Extra-Terrestrial"
+	"How to Make an American Quilt" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_4653 -> "How to Make an American Quilt"
+	user_4653 -> "Man on the Moon"
+	"Far and Away" -> "[MUSICCOMPOSER]
+John_Williams"
+	Amistad -> "[DIRECTOR]
+Steven_Spielberg"
+	user_4653 -> "Star Wars - Episode V - The Empire Strikes Back"
+	user_4653 -> "Indiana Jones and the Last Crusade"
+	user_4653 -> "Animal House"
+	"Man on the Moon" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Schindler's List" -> "[MUSICCOMPOSER]
+John_Williams"
+	"[DISTRIBUTOR]
+Universal_Studios" -> "E.T. the Extra-Terrestrial"
+	"Indiana Jones and the Last Crusade" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_4653 -> "Erin Brockovich"
+	user_4653 -> "Far and Away"
+}

@@ -1,0 +1,50 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[STARRING]
+Ben_Affleck" -> "Shakespeare in Love"
+	Harvey -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3841 -> "Scent of a Woman"
+	user_3841 -> "Sugarland Express, The"
+	"[DISTRIBUTOR]
+Universal_Studios" -> "Shakespeare in Love"
+	"Sugarland Express, The" -> "[DISTRIBUTOR]
+Miramax"
+	Airport -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3841 -> Harvey
+	user_3841 -> "Mystery Men"
+	"My Life So Far" -> "[STARRING]
+Judi_Dench"
+	"Chasing Amy" -> "[STARRING]
+Judi_Dench"
+	user_3841 -> Airport
+	"Scent of a Woman" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"[STARRING]
+Judi_Dench" -> "Shakespeare in Love"
+	user_3841 -> Armageddon
+	Harvey -> "[DISTRIBUTOR]
+Miramax"
+	"Scent of a Woman" -> "[DISTRIBUTOR]
+Miramax"
+	user_3841 -> "Airport 1975"
+	Armageddon -> "[STARRING]
+Judi_Dench"
+	"[DISTRIBUTOR]
+Miramax" -> "Shakespeare in Love"
+	"Airport 1975" -> "[DISTRIBUTOR]
+Miramax"
+	"Airport 1975" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3841 -> "Chasing Amy"
+	"Mystery Men" -> "[STARRING]
+Judi_Dench"
+	"Chasing Amy" -> "[STARRING]
+Ben_Affleck"
+	user_3841 -> "My Life So Far"
+	Airport -> "[DISTRIBUTOR]
+Miramax"
+	"Sugarland Express, The" -> "[DISTRIBUTOR]
+Universal_Studios"
+}

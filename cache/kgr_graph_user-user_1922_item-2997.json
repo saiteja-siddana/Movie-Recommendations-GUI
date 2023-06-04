@@ -1,0 +1,257 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_1922",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Being John Malkovich",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[STARRING]\nJohn_Malkovich",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "My Best Friend's Wedding",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "There's Something About Mary",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Big Chill, The",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Grifters, The",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Say Anything...",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[STARRING]\nJohn_Cusack",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "[STARRING]\nCameron_Diaz",
+            "group": 3
+        },
+        {
+            "id": 10,
+            "labelC": "[STARRING]\nMary_Kay_Place",
+            "group": 3
+        },
+        {
+            "id": 11,
+            "labelC": "[STARRING]\nOrson_Bean",
+            "group": 3
+        },
+        {
+            "id": 12,
+            "labelC": "[STARRING]\nCatherine_Keener",
+            "group": 3
+        },
+        {
+            "id": 13,
+            "labelC": "[MUSICCOMPOSER]\nCarter_Burwell",
+            "group": 3
+        },
+        {
+            "id": 14,
+            "labelC": "Big Lebowski, The",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 14
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 3,
+            "to": 11
+        },
+        {
+            "from": 4,
+            "to": 12
+        },
+        {
+            "from": 4,
+            "to": 8
+        },
+        {
+            "from": 3,
+            "to": 10
+        },
+        {
+            "from": 6,
+            "to": 12
+        },
+        {
+            "from": 7,
+            "to": 10
+        },
+        {
+            "from": 6,
+            "to": 8
+        },
+        {
+            "from": 3,
+            "to": 9
+        },
+        {
+            "from": 5,
+            "to": 12
+        },
+        {
+            "from": 5,
+            "to": 8
+        },
+        {
+            "from": 7,
+            "to": 11
+        },
+        {
+            "from": 7,
+            "to": 9
+        },
+        {
+            "from": 12,
+            "to": 1
+        },
+        {
+            "from": 11,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 10
+        },
+        {
+            "from": 6,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 9,
+            "to": 1
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 6,
+            "to": 10
+        },
+        {
+            "from": 4,
+            "to": 11
+        },
+        {
+            "from": 3,
+            "to": 12
+        },
+        {
+            "from": 4,
+            "to": 9
+        },
+        {
+            "from": 5,
+            "to": 10
+        },
+        {
+            "from": 10,
+            "to": 1
+        },
+        {
+            "from": 7,
+            "to": 12
+        },
+        {
+            "from": 3,
+            "to": 8
+        },
+        {
+            "from": 6,
+            "to": 9
+        },
+        {
+            "from": 14,
+            "to": 13
+        },
+        {
+            "from": 7,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 11
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 13,
+            "to": 1
+        }
+    ]
+}

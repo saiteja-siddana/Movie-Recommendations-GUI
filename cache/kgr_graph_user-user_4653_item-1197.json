@@ -1,0 +1,225 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4653",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Princess Bride, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nVestron_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Office Space",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Kagemusha",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Return to Me",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Local Hero",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[DISTRIBUTOR]\nMetro-Goldwyn-Mayer",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "[DISTRIBUTOR]\n20th_Century_Fox",
+            "group": 3
+        },
+        {
+            "id": 10,
+            "labelC": "[DISTRIBUTOR]\nNew_Line_Cinema",
+            "group": 3
+        },
+        {
+            "id": 11,
+            "labelC": "[STARRING]\nBilly_Crystal",
+            "group": 3
+        },
+        {
+            "id": 12,
+            "labelC": "Cradle Will Rock, The",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "Message in a Bottle",
+            "group": 4
+        },
+        {
+            "id": 14,
+            "labelC": "Twister",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 7,
+            "to": 8
+        },
+        {
+            "from": 4,
+            "to": 9
+        },
+        {
+            "from": 7,
+            "to": 9
+        },
+        {
+            "from": 4,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 7,
+            "to": 10
+        },
+        {
+            "from": 12,
+            "to": 11
+        },
+        {
+            "from": 4,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 11,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 9
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 6,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 13
+        },
+        {
+            "from": 6,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 14
+        },
+        {
+            "from": 3,
+            "to": 9
+        },
+        {
+            "from": 3,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 3,
+            "to": 10
+        },
+        {
+            "from": 9,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 13,
+            "to": 11
+        },
+        {
+            "from": 14,
+            "to": 11
+        },
+        {
+            "from": 5,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 5,
+            "to": 10
+        },
+        {
+            "from": 8,
+            "to": 1
+        }
+    ]
+}

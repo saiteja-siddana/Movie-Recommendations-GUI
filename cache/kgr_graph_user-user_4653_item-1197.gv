@@ -1,0 +1,67 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Local Hero" -> "[DISTRIBUTOR]
+Vestron_Pictures"
+	"Local Hero" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	Kagemusha -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Local Hero" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	Kagemusha -> "[DISTRIBUTOR]
+New_Line_Cinema"
+	user_4653 -> "Return to Me"
+	"Local Hero" -> "[DISTRIBUTOR]
+New_Line_Cinema"
+	"Cradle Will Rock, The" -> "[STARRING]
+Billy_Crystal"
+	Kagemusha -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)" -> "[DISTRIBUTOR]
+Vestron_Pictures"
+	Kagemusha -> "[DISTRIBUTOR]
+Vestron_Pictures"
+	user_4653 -> "Local Hero"
+	"[STARRING]
+Billy_Crystal" -> "Princess Bride, The"
+	"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Return to Me" -> "[DISTRIBUTOR]
+Vestron_Pictures"
+	user_4653 -> "Office Space"
+	"Return to Me" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	"[DISTRIBUTOR]
+New_Line_Cinema" -> "Princess Bride, The"
+	user_4653 -> "Message in a Bottle"
+	"Return to Me" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_4653 -> Twister
+	"Office Space" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Office Space" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	user_4653 -> Kagemusha
+	"Office Space" -> "[DISTRIBUTOR]
+New_Line_Cinema"
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> "Princess Bride, The"
+	"Return to Me" -> "[DISTRIBUTOR]
+New_Line_Cinema"
+	user_4653 -> "Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)"
+	"Office Space" -> "[DISTRIBUTOR]
+Vestron_Pictures"
+	"[DISTRIBUTOR]
+Vestron_Pictures" -> "Princess Bride, The"
+	"Message in a Bottle" -> "[STARRING]
+Billy_Crystal"
+	Twister -> "[STARRING]
+Billy_Crystal"
+	"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	user_4653 -> "Cradle Will Rock, The"
+	"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)" -> "[DISTRIBUTOR]
+New_Line_Cinema"
+	"[DISTRIBUTOR]
+Metro-Goldwyn-Mayer" -> "Princess Bride, The"
+}

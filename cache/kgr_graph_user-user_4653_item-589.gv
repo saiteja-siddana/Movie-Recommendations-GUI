@@ -1,0 +1,33 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4653 -> Titanic
+	user_4653 -> Glory
+	"[DISTRIBUTOR]
+TriStar_Pictures" -> "Terminator 2 - Judgment Day"
+	"[DIRECTOR]
+James_Cameron" -> "Terminator 2 - Judgment Day"
+	Glory -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	Philadelphia -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	user_4653 -> Birdy
+	Birdy -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	user_4653 -> Philadelphia
+	"True Lies" -> "[DIRECTOR]
+James_Cameron"
+	"Devil in a Blue Dress" -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	user_4653 -> "True Lies"
+	Dave -> "[CINEMATOGRAPHY]
+Adam_Greenberg_(cinematographer)"
+	user_4653 -> "Devil in a Blue Dress"
+	"[CINEMATOGRAPHY]
+Adam_Greenberg_(cinematographer)" -> "Terminator 2 - Judgment Day"
+	user_4653 -> "L.A. Story"
+	"L.A. Story" -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	Titanic -> "[DIRECTOR]
+James_Cameron"
+	user_4653 -> Dave
+}

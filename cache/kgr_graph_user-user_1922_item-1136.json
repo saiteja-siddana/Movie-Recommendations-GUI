@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_1922",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Monty Python and the Holy Grail",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[STARRING]\nMichael_Palin",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Fish Called Wanda, A",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "[STARRING]\nJohn_Cleese",
+            "group": 3
+        },
+        {
+            "id": 5,
+            "labelC": "[STARRING]\nGraham_Chapman",
+            "group": 3
+        },
+        {
+            "id": 6,
+            "labelC": "[STARRING]\nEric_Idle",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 4
+        },
+        {
+            "from": 5,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 1
+        },
+        {
+            "from": 4,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 5
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 3
+        }
+    ]
+}

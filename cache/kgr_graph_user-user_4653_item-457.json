@@ -1,0 +1,186 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4653",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Fugitive, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[MUSICCOMPOSER]\nJames_Newton_Howard",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Dave",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Grand Canyon",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Vacation",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Sixth Sense, The",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Outbreak",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[DISTRIBUTOR]\nWarner_Bros._Pictures",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Any Given Sunday",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Perfect Storm, The",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Bridges of Madison County, The",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "GoodFellas",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "Conspiracy Theory",
+            "group": 4
+        },
+        {
+            "id": 14,
+            "labelC": "[PRODUCER]\nArnold_Kopelson",
+            "group": 3
+        },
+        {
+            "id": 15,
+            "labelC": "Mad City",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 14,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 15
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 15,
+            "to": 14
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 13,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 13
+        }
+    ]
+}

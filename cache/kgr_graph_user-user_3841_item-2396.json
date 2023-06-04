@@ -1,0 +1,193 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3841",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Shakespeare in Love",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nMiramax",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Sugarland Express, The",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Airport 1975",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Scent of a Woman",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Harvey",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Airport",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[DISTRIBUTOR]\nUniversal_Studios",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "[STARRING]\nJudi_Dench",
+            "group": 3
+        },
+        {
+            "id": 10,
+            "labelC": "Chasing Amy",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Armageddon",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Mystery Men",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "My Life So Far",
+            "group": 4
+        },
+        {
+            "id": 14,
+            "labelC": "[STARRING]\nBen_Affleck",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 14,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 7,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 13,
+            "to": 9
+        },
+        {
+            "from": 10,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 5,
+            "to": 8
+        },
+        {
+            "from": 9,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 11,
+            "to": 9
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 12,
+            "to": 9
+        },
+        {
+            "from": 10,
+            "to": 14
+        },
+        {
+            "from": 0,
+            "to": 13
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 8
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Jennifer 8" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_3841 -> Nashville
+	"Death Wish" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"[DISTRIBUTOR]
+Paramount_Pictures" -> Election
+	Freeway -> "[STARRING]
+Reese_Witherspoon"
+	"[STARRING]
+Matthew_Broderick" -> Election
+	Fear -> "[STARRING]
+Matthew_Broderick"
+	user_3841 -> Payback
+	user_3841 -> Freeway
+	"[STUDIO]
+MTV_Films" -> Election
+	user_3841 -> Glory
+	Nashville -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Dead Again" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	Pleasantville -> "[STARRING]
+Matthew_Broderick"
+	Glory -> "[STARRING]
+Reese_Witherspoon"
+	user_3841 -> "Jennifer 8"
+	user_3841 -> Fear
+	"[STARRING]
+Reese_Witherspoon" -> Election
+	user_3841 -> Pleasantville
+	Freeway -> "[STARRING]
+Matthew_Broderick"
+	"Barry Lyndon" -> "[STUDIO]
+MTV_Films"
+	user_3841 -> "Death Wish"
+	Fear -> "[STARRING]
+Reese_Witherspoon"
+	Glory -> "[STARRING]
+Matthew_Broderick"
+	Payback -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_3841 -> "Barry Lyndon"
+	Pleasantville -> "[STARRING]
+Reese_Witherspoon"
+	user_3841 -> "Dead Again"
+}

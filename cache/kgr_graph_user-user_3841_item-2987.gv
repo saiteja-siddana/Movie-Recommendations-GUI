@@ -1,0 +1,52 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[STUDIO]
+Amblin_Entertainment" -> "Who Framed Roger Rabbit?"
+	user_3841 -> "Outrageous Fortune"
+	"Escape to Witch Mountain" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_3841 -> Arachnophobia
+	user_3841 -> "Sister Act"
+	"Sister Act" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Young Sherlock Holmes" -> "[STUDIO]
+Touchstone_Pictures"
+	user_3841 -> "Abyss, The"
+	"Sister Act" -> "[STUDIO]
+Amblin_Entertainment"
+	"[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures" -> "Who Framed Roger Rabbit?"
+	user_3841 -> "Young Sherlock Holmes"
+	user_3841 -> "Forrest Gump"
+	"Forrest Gump" -> "[MUSICCOMPOSER]
+Alan_Silvestri"
+	user_3841 -> "Escape to Witch Mountain"
+	Arachnophobia -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Mask of Zorro, The" -> "[STUDIO]
+Touchstone_Pictures"
+	"Sister Act" -> "[STUDIO]
+Touchstone_Pictures"
+	Arachnophobia -> "[STUDIO]
+Touchstone_Pictures"
+	"Outrageous Fortune" -> "[STUDIO]
+Touchstone_Pictures"
+	"Dangerous Minds" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"[STUDIO]
+Touchstone_Pictures" -> "Who Framed Roger Rabbit?"
+	"Abyss, The" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	Arachnophobia -> "[STUDIO]
+Amblin_Entertainment"
+	user_3841 -> "Dangerous Minds"
+	user_3841 -> "Mask of Zorro, The"
+	"Outrageous Fortune" -> "[STUDIO]
+Amblin_Entertainment"
+	"Mask of Zorro, The" -> "[STUDIO]
+Amblin_Entertainment"
+	"[MUSICCOMPOSER]
+Alan_Silvestri" -> "Who Framed Roger Rabbit?"
+	"Young Sherlock Holmes" -> "[STUDIO]
+Amblin_Entertainment"
+}

@@ -1,0 +1,49 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Thing, The" -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+	"[MUSICCOMPOSER]
+Hans_Zimmer" -> Gladiator
+	"I'll Do Anything" -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	"Thin Red Line, The" -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	user_3841 -> "Thing, The"
+	"Halloween III - Season of the Witch" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	user_3841 -> "Rock, The"
+	"Torn Curtain" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"Rock, The" -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	user_3841 -> "I'll Do Anything"
+	user_3841 -> "Thin Red Line, The"
+	"[DISTRIBUTOR]
+Universal_Pictures" -> Gladiator
+	"House of Dracula" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"Halloween III - Season of the Witch" -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+	"Thing, The" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	user_3841 -> "Halloween III - Season of the Witch"
+	"Ghost of Frankenstein, The" -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+	user_3841 -> "True Romance"
+	user_3841 -> "House of Dracula"
+	"League of Their Own, A" -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	"True Romance" -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	"[DISTRIBUTOR]
+DreamWorks_Pictures" -> Gladiator
+	user_3841 -> "Torn Curtain"
+	"Ghost of Frankenstein, The" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	user_3841 -> "Ghost of Frankenstein, The"
+	"Torn Curtain" -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+	user_3841 -> "League of Their Own, A"
+	"House of Dracula" -> "[DISTRIBUTOR]
+DreamWorks_Pictures"
+}

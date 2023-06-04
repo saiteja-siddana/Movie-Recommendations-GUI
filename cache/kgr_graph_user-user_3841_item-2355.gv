@@ -1,0 +1,53 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Honey, I Shrunk the Kids" -> "[STUDIO]
+Walt_Disney_Pictures"
+	user_3841 -> "Apple Dumpling Gang, The"
+	"Apple Dumpling Gang, The" -> "[STUDIO]
+Walt_Disney_Pictures"
+	"Escape to Witch Mountain" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_3841 -> Arachnophobia
+	user_3841 -> "Sister Act"
+	user_3841 -> "Honey, I Shrunk the Kids"
+	"Sister Act" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_3841 -> Jumanji
+	"Swiss Family Robinson" -> "[STUDIO]
+Pixar"
+	"Apple Dumpling Gang, The" -> "[STUDIO]
+Pixar"
+	user_3841 -> "Abyss, The"
+	"Hot Lead and Cold Feet" -> "[STUDIO]
+Pixar"
+	"[STARRING]
+Hayden_Panettiere" -> "Bug's Life, A"
+	user_3841 -> "Escape to Witch Mountain"
+	Arachnophobia -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"[STUDIO]
+Pixar" -> "Bug's Life, A"
+	"Hot Lead and Cold Feet" -> "[STUDIO]
+Walt_Disney_Pictures"
+	"Dangerous Minds" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Swiss Family Robinson" -> "[STUDIO]
+Walt_Disney_Pictures"
+	user_3841 -> "Hot Lead and Cold Feet"
+	"Escape to Witch Mountain" -> "[STUDIO]
+Pixar"
+	"[STUDIO]
+Walt_Disney_Pictures" -> "Bug's Life, A"
+	"Abyss, The" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_3841 -> "Dangerous Minds"
+	"Honey, I Shrunk the Kids" -> "[STUDIO]
+Pixar"
+	user_3841 -> "Swiss Family Robinson"
+	Jumanji -> "[STARRING]
+Hayden_Panettiere"
+	"Escape to Witch Mountain" -> "[STUDIO]
+Walt_Disney_Pictures"
+	"[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures" -> "Bug's Life, A"
+}

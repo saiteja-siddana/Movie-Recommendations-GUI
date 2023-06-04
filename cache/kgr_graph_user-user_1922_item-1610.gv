@@ -1,0 +1,52 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[STARRING]
+Sean_Connery" -> "Hunt for Red October, The"
+	"Indiana Jones and the Last Crusade" -> "[STARRING]
+Sean_Connery"
+	user_1922 -> "Time Bandits"
+	"Event Horizon" -> "[STARRING]
+Sean_Connery"
+	"[STARRING]
+Sam_Neill" -> "Hunt for Red October, The"
+	"Glengarry Glen Ross" -> "[STARRING]
+Sean_Connery"
+	"Charlotte's Web" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	Backdraft -> "[STARRING]
+Sean_Connery"
+	"Time Bandits" -> "[STARRING]
+Sean_Connery"
+	user_1922 -> "Glengarry Glen Ross"
+	user_1922 -> "Indiana Jones and the Last Crusade"
+	user_1922 -> "Charlotte's Web"
+	user_1922 -> Grease
+	"Glengarry Glen Ross" -> "[STARRING]
+Sam_Neill"
+	"Event Horizon" -> "[STARRING]
+Sam_Neill"
+	"[DISTRIBUTOR]
+Paramount_Pictures" -> "Hunt for Red October, The"
+	user_1922 -> Backdraft
+	user_1922 -> Barbarella
+	Sabrina -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Indiana Jones and the Last Crusade" -> "[STARRING]
+Sam_Neill"
+	"[STARRING]
+Scott_Glenn" -> "Hunt for Red October, The"
+	user_1922 -> Sabrina
+	"Event Horizon" -> "[STARRING]
+Scott_Glenn"
+	Barbarella -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	Grease -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_1922 -> "Event Horizon"
+	"Time Bandits" -> "[STARRING]
+Sam_Neill"
+	Backdraft -> "[STARRING]
+Sam_Neill"
+	"Event Horizon" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+}

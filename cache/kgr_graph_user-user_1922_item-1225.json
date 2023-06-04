@@ -1,0 +1,193 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_1922",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Amadeus",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nOrion_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "F/X",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Bull Durham",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Purple Rose of Cairo, The",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Desperately Seeking Susan",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Silence of the Lambs, The",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[STARRING]\nCharles_Kay",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Howard the Duck",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Animal House",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Ed Wood",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "[STARRING]\nSimon_Callow",
+            "group": 3
+        },
+        {
+            "id": 13,
+            "labelC": "[STARRING]\nRoy_Dotrice",
+            "group": 3
+        },
+        {
+            "id": 14,
+            "labelC": "[STARRING]\nTom_Hulce",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 9,
+            "to": 13
+        },
+        {
+            "from": 14,
+            "to": 1
+        },
+        {
+            "from": 11,
+            "to": 12
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 9,
+            "to": 14
+        },
+        {
+            "from": 10,
+            "to": 12
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 12,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 12
+        },
+        {
+            "from": 11,
+            "to": 13
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 10,
+            "to": 13
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 13,
+            "to": 1
+        }
+    ]
+}

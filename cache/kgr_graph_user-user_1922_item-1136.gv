@@ -1,0 +1,20 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Fish Called Wanda, A" -> "[STARRING]
+Michael_Palin"
+	"Fish Called Wanda, A" -> "[STARRING]
+John_Cleese"
+	"[STARRING]
+Graham_Chapman" -> "Monty Python and the Holy Grail"
+	"[STARRING]
+Eric_Idle" -> "Monty Python and the Holy Grail"
+	"[STARRING]
+John_Cleese" -> "Monty Python and the Holy Grail"
+	"Fish Called Wanda, A" -> "[STARRING]
+Graham_Chapman"
+	"[STARRING]
+Michael_Palin" -> "Monty Python and the Holy Grail"
+	"Fish Called Wanda, A" -> "[STARRING]
+Eric_Idle"
+	user_1922 -> "Fish Called Wanda, A"
+}

@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[STARRING]
+Bruce_Willis" -> "Twelve Monkeys"
+	user_3841 -> "Whole Nine Yards, The"
+	"Star Trek VI - The Undiscovered Country" -> "[STARRING]
+Bruce_Willis"
+	Harvey -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3841 -> "Scent of a Woman"
+	user_3841 -> "Shakespeare in Love"
+	user_3841 -> "Sugarland Express, The"
+	"Die Hard 2" -> "[STARRING]
+Bruce_Willis"
+	"Whole Nine Yards, The" -> "[STARRING]
+Bruce_Willis"
+	user_3841 -> Harvey
+	user_3841 -> "Die Hard 2"
+	"[STARRING]
+Christopher_Plummer" -> "Twelve Monkeys"
+	"Scent of a Woman" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"True Romance" -> "[STARRING]
+Bruce_Willis"
+	"Shakespeare in Love" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3841 -> "Star Trek VI - The Undiscovered Country"
+	"Whole Nine Yards, The" -> "[STARRING]
+Christopher_Plummer"
+	user_3841 -> "True Romance"
+	user_3841 -> "Airport 1975"
+	user_3841 -> "Color of Night"
+	"[DISTRIBUTOR]
+Universal_Studios" -> "Twelve Monkeys"
+	"Airport 1975" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Color of Night" -> "[STARRING]
+Bruce_Willis"
+	"Sugarland Express, The" -> "[DISTRIBUTOR]
+Universal_Studios"
+}

@@ -1,0 +1,198 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3841",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Election",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nParamount_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Nashville",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Payback",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Jennifer 8",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Death Wish",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Dead Again",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[STARRING]\nMatthew_Broderick",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Pleasantville",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Glory",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Fear",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Freeway",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "[STARRING]\nReese_Witherspoon",
+            "group": 3
+        },
+        {
+            "id": 14,
+            "labelC": "[STUDIO]\nMTV_Films",
+            "group": 3
+        },
+        {
+            "id": 15,
+            "labelC": "Barry Lyndon",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 12,
+            "to": 13
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 14,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 13
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 13,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 15,
+            "to": 14
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 11,
+            "to": 13
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 15
+        },
+        {
+            "from": 9,
+            "to": 13
+        },
+        {
+            "from": 0,
+            "to": 7
+        }
+    ]
+}

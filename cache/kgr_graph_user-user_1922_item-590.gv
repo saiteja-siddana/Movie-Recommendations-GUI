@@ -1,0 +1,42 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_1922 -> "Bull Durham"
+	"Body Heat" -> "[MUSICCOMPOSER]
+John_Barry_(composer)"
+	"Purple Rose of Cairo, The" -> "[DISTRIBUTOR]
+Orion_Pictures"
+	user_1922 -> "Howard the Duck"
+	"[MUSICCOMPOSER]
+John_Barry_(composer)" -> "Dances with Wolves"
+	"[DISTRIBUTOR]
+Orion_Pictures" -> "Dances with Wolves"
+	user_1922 -> "Desperately Seeking Susan"
+	user_1922 -> "Jagged Edge"
+	user_1922 -> Outbreak
+	user_1922 -> "Silence of the Lambs, The"
+	user_1922 -> "Somewhere in Time"
+	"F/X" -> "[DISTRIBUTOR]
+Orion_Pictures"
+	Outbreak -> "[EDITING]
+Neil_Travis"
+	"Bull Durham" -> "[DISTRIBUTOR]
+Orion_Pictures"
+	user_1922 -> "Purple Rose of Cairo, The"
+	"Peggy Sue Got Married" -> "[MUSICCOMPOSER]
+John_Barry_(composer)"
+	"Somewhere in Time" -> "[MUSICCOMPOSER]
+John_Barry_(composer)"
+	"Jagged Edge" -> "[MUSICCOMPOSER]
+John_Barry_(composer)"
+	user_1922 -> "Peggy Sue Got Married"
+	user_1922 -> "Body Heat"
+	"Desperately Seeking Susan" -> "[DISTRIBUTOR]
+Orion_Pictures"
+	user_1922 -> "F/X"
+	"[EDITING]
+Neil_Travis" -> "Dances with Wolves"
+	"Silence of the Lambs, The" -> "[DISTRIBUTOR]
+Orion_Pictures"
+	"Howard the Duck" -> "[MUSICCOMPOSER]
+John_Barry_(composer)"
+}

@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[STARRING]
+Rick_Moranis" -> Ghostbusters
+	user_1922 -> "League of Their Own, A"
+	"Zero Effect" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	Dave -> "[STARRING]
+Bill_Murray"
+	user_1922 -> "American Pop"
+	user_1922 -> "Galaxy Quest"
+	"It Happened One Night" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	Stripes -> "[STARRING]
+Bill_Murray"
+	user_1922 -> Stripes
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> Ghostbusters
+	Dave -> "[STARRING]
+Rick_Moranis"
+	"Jagged Edge" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[STARRING]
+Bill_Murray" -> Ghostbusters
+	user_1922 -> "Jagged Edge"
+	user_1922 -> Dave
+	user_1922 -> "Zero Effect"
+	user_1922 -> "Honey, I Shrunk the Kids"
+	"Honey, I Shrunk the Kids" -> "[STARRING]
+Bill_Murray"
+	"Ed Wood" -> "[STARRING]
+Bill_Murray"
+	user_1922 -> "Ed Wood"
+	"Galaxy Quest" -> "[STARRING]
+Bill_Murray"
+	user_1922 -> "It Happened One Night"
+	"American Pop" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"League of Their Own, A" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+}

@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	Arachnophobia -> "[STUDIO]
+Spyglass_Entertainment"
+	"Escape to Witch Mountain" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_3841 -> Arachnophobia
+	user_3841 -> "Sister Act"
+	user_3841 -> "Romy and Michele's High School Reunion"
+	"Fugitive, The" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	"Sister Act" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Primal Fear" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	user_3841 -> "Abyss, The"
+	user_3841 -> "Primal Fear"
+	"[STUDIO]
+Spyglass_Entertainment" -> "Sixth Sense, The"
+	user_3841 -> "Escape to Witch Mountain"
+	Arachnophobia -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures" -> "Sixth Sense, The"
+	"Dangerous Minds" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	Outbreak -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	user_3841 -> "Fugitive, The"
+	"Just Cause" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	user_3841 -> "Just Cause"
+	"Abyss, The" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_3841 -> "Dangerous Minds"
+	"[MUSICCOMPOSER]
+James_Newton_Howard" -> "Sixth Sense, The"
+	user_3841 -> Outbreak
+	"Romy and Michele's High School Reunion" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+}

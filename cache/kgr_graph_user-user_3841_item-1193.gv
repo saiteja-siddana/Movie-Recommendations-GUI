@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_3841 -> "Fatal Beauty"
+	"Raven, The" -> "[STARRING]
+Jack_Nicholson"
+	user_3841 -> "Fistful of Dollars, A"
+	user_3841 -> "Terms of Endearment"
+	user_3841 -> Heartburn
+	"[STARRING]
+Louise_Fletcher" -> "One Flew Over the Cuckoo's Nest"
+	user_3841 -> "Five Easy Pieces"
+	Heartburn -> "[STARRING]
+Jack_Nicholson"
+	"Audrey Rose" -> "[DISTRIBUTOR]
+United_Artists"
+	"Death Wish" -> "[STARRING]
+Jack_Nicholson"
+	"Fistful of Dollars, A" -> "[DISTRIBUTOR]
+United_Artists"
+	"Five Easy Pieces" -> "[STARRING]
+Jack_Nicholson"
+	user_3841 -> "Killing, The"
+	"Killing, The" -> "[DISTRIBUTOR]
+United_Artists"
+	user_3841 -> "Big Country, The"
+	user_3841 -> "Death Wish"
+	"Big Country, The" -> "[DISTRIBUTOR]
+United_Artists"
+	"Fatal Beauty" -> "[DISTRIBUTOR]
+United_Artists"
+	"[STARRING]
+Jack_Nicholson" -> "One Flew Over the Cuckoo's Nest"
+	"[DISTRIBUTOR]
+United_Artists" -> "One Flew Over the Cuckoo's Nest"
+	user_3841 -> "Audrey Rose"
+	user_3841 -> "Raven, The"
+	"Terms of Endearment" -> "[STARRING]
+Jack_Nicholson"
+	"Death Wish" -> "[STARRING]
+Louise_Fletcher"
+}

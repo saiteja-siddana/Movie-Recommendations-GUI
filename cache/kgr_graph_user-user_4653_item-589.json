@@ -1,0 +1,147 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_4653",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Terminator 2: Judgment Day",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nTriStar_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "L.A. Story",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Philadelphia",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Glory",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Devil in a Blue Dress",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Birdy",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[DIRECTOR]\nJames_Cameron",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Titanic",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "True Lies",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "[CINEMATOGRAPHY]\nAdam_Greenberg_(cinematographer)",
+            "group": 3
+        },
+        {
+            "id": 12,
+            "labelC": "Dave",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 12,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 11,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 12
+        }
+    ]
+}

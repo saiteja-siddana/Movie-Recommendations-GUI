@@ -1,0 +1,85 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Say Anything..." -> "[STARRING]
+John_Malkovich"
+	"[STARRING]
+John_Cusack" -> "Being John Malkovich"
+	user_1922 -> "Big Lebowski, The"
+	user_1922 -> "There's Something About Mary"
+	"Grifters, The" -> "[STARRING]
+John_Malkovich"
+	user_1922 -> "Big Chill, The"
+	"My Best Friend's Wedding" -> "[STARRING]
+Orson_Bean"
+	"There's Something About Mary" -> "[STARRING]
+Catherine_Keener"
+	"There's Something About Mary" -> "[STARRING]
+John_Cusack"
+	"My Best Friend's Wedding" -> "[STARRING]
+Mary_Kay_Place"
+	"Grifters, The" -> "[STARRING]
+Catherine_Keener"
+	"Say Anything..." -> "[STARRING]
+Mary_Kay_Place"
+	"Grifters, The" -> "[STARRING]
+John_Cusack"
+	"My Best Friend's Wedding" -> "[STARRING]
+Cameron_Diaz"
+	"Big Chill, The" -> "[STARRING]
+Catherine_Keener"
+	"Big Chill, The" -> "[STARRING]
+John_Cusack"
+	"Say Anything..." -> "[STARRING]
+Orson_Bean"
+	"Say Anything..." -> "[STARRING]
+Cameron_Diaz"
+	"[STARRING]
+Catherine_Keener" -> "Being John Malkovich"
+	"[STARRING]
+Orson_Bean" -> "Being John Malkovich"
+	user_1922 -> "Grifters, The"
+	"Big Chill, The" -> "[STARRING]
+John_Malkovich"
+	"My Best Friend's Wedding" -> "[STARRING]
+John_Malkovich"
+	"There's Something About Mary" -> "[STARRING]
+Mary_Kay_Place"
+	"Grifters, The" -> "[STARRING]
+Orson_Bean"
+	user_1922 -> "Say Anything..."
+	"[STARRING]
+Cameron_Diaz" -> "Being John Malkovich"
+	"There's Something About Mary" -> "[STARRING]
+John_Malkovich"
+	"Grifters, The" -> "[STARRING]
+Mary_Kay_Place"
+	"There's Something About Mary" -> "[STARRING]
+Orson_Bean"
+	"My Best Friend's Wedding" -> "[STARRING]
+Catherine_Keener"
+	"There's Something About Mary" -> "[STARRING]
+Cameron_Diaz"
+	"Big Chill, The" -> "[STARRING]
+Mary_Kay_Place"
+	"[STARRING]
+Mary_Kay_Place" -> "Being John Malkovich"
+	"Say Anything..." -> "[STARRING]
+Catherine_Keener"
+	"My Best Friend's Wedding" -> "[STARRING]
+John_Cusack"
+	"Grifters, The" -> "[STARRING]
+Cameron_Diaz"
+	"Big Lebowski, The" -> "[MUSICCOMPOSER]
+Carter_Burwell"
+	"Say Anything..." -> "[STARRING]
+John_Cusack"
+	"Big Chill, The" -> "[STARRING]
+Orson_Bean"
+	"[STARRING]
+John_Malkovich" -> "Being John Malkovich"
+	"Big Chill, The" -> "[STARRING]
+Cameron_Diaz"
+	user_1922 -> "My Best Friend's Wedding"
+	"[MUSICCOMPOSER]
+Carter_Burwell" -> "Being John Malkovich"
+}

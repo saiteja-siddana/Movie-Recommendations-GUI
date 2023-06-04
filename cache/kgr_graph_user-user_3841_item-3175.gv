@@ -1,0 +1,85 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[STARRING]
+Tim_Allen" -> "Galaxy Quest"
+	user_3841 -> "Die Hard"
+	user_3841 -> Copycat
+	"Ghostbusters II" -> "[STARRING]
+Daryl_Mitchell_(actor)"
+	"[STARRING]
+Sam_Rockwell" -> "Galaxy Quest"
+	user_3841 -> "Bob Roberts"
+	"Bob Roberts" -> "[STARRING]
+Daryl_Mitchell_(actor)"
+	"Die Hard" -> "[STARRING]
+Alan_Rickman"
+	Copycat -> "[STARRING]
+Alan_Rickman"
+	"Robin Hood - Prince of Thieves" -> "[STARRING]
+Sigourney_Weaver"
+	Copycat -> "[STARRING]
+Sam_Rockwell"
+	"Die Hard" -> "[STARRING]
+Sam_Rockwell"
+	"Bob Roberts" -> "[STARRING]
+Tim_Allen"
+	"Ghostbusters II" -> "[STARRING]
+Tony_Shalhoub"
+	"[STARRING]
+Alan_Rickman" -> "Galaxy Quest"
+	"[STARRING]
+Daryl_Mitchell_(actor)" -> "Galaxy Quest"
+	Copycat -> "[STARRING]
+Daryl_Mitchell_(actor)"
+	"Robin Hood - Prince of Thieves" -> "[STARRING]
+Sam_Rockwell"
+	"Die Hard" -> "[STARRING]
+Tim_Allen"
+	"[STARRING]
+Sigourney_Weaver" -> "Galaxy Quest"
+	"Bob Roberts" -> "[STARRING]
+Sam_Rockwell"
+	"Ghostbusters II" -> "[STARRING]
+Sigourney_Weaver"
+	Copycat -> "[STARRING]
+Tim_Allen"
+	user_3841 -> "Ghostbusters II"
+	Copycat -> "[STARRING]
+Tony_Shalhoub"
+	"Die Hard" -> "[STARRING]
+Daryl_Mitchell_(actor)"
+	"Dangerous Minds" -> "[STUDIO]
+ Productions"
+	user_3841 -> "Robin Hood - Prince of Thieves"
+	"Robin Hood - Prince of Thieves" -> "[STARRING]
+Tony_Shalhoub"
+	"Robin Hood - Prince of Thieves" -> "[STARRING]
+Tim_Allen"
+	"Ghostbusters II" -> "[STARRING]
+Sam_Rockwell"
+	user_3841 -> "Dangerous Minds"
+	"Bob Roberts" -> "[STARRING]
+Sigourney_Weaver"
+	"[STARRING]
+Tony_Shalhoub" -> "Galaxy Quest"
+	"[STUDIO]
+ Productions" -> "Galaxy Quest"
+	"Ghostbusters II" -> "[STARRING]
+Alan_Rickman"
+	"Robin Hood - Prince of Thieves" -> "[STARRING]
+Daryl_Mitchell_(actor)"
+	"Bob Roberts" -> "[STARRING]
+Tony_Shalhoub"
+	"Die Hard" -> "[STARRING]
+Tony_Shalhoub"
+	"Die Hard" -> "[STARRING]
+Sigourney_Weaver"
+	"Ghostbusters II" -> "[STARRING]
+Tim_Allen"
+	"Bob Roberts" -> "[STARRING]
+Alan_Rickman"
+	Copycat -> "[STARRING]
+Sigourney_Weaver"
+	"Robin Hood - Prince of Thieves" -> "[STARRING]
+Alan_Rickman"
+}

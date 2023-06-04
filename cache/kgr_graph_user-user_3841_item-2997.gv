@@ -1,0 +1,85 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Killing Fields, The" -> "[STARRING]
+Orson_Bean"
+	"Killing Fields, The" -> "[STARRING]
+Catherine_Keener"
+	user_3841 -> "Buffy the Vampire Slayer"
+	user_3841 -> "Bob Roberts"
+	"Bob Roberts" -> "[STARRING]
+John_Malkovich"
+	"Of Mice and Men" -> "[STARRING]
+John_Malkovich"
+	"[STARRING]
+Catherine_Keener" -> "Being John Malkovich"
+	"Jennifer 8" -> "[STARRING]
+Cameron_Diaz"
+	"Big Chill, The" -> "[STARRING]
+Mary_Kay_Place"
+	"Of Mice and Men" -> "[STARRING]
+Cameron_Diaz"
+	"Jennifer 8" -> "[STARRING]
+John_Malkovich"
+	"[STARRING]
+John_Malkovich" -> "Being John Malkovich"
+	"Of Mice and Men" -> "[STARRING]
+Mary_Kay_Place"
+	"Buffy the Vampire Slayer" -> "[MUSICCOMPOSER]
+Carter_Burwell"
+	user_3841 -> "Big Chill, The"
+	"Jennifer 8" -> "[STARRING]
+Catherine_Keener"
+	"Bob Roberts" -> "[STARRING]
+Cameron_Diaz"
+	"Killing Fields, The" -> "[STARRING]
+Mary_Kay_Place"
+	"Bob Roberts" -> "[STARRING]
+Catherine_Keener"
+	user_3841 -> "Jennifer 8"
+	"Jennifer 8" -> "[STARRING]
+John_Cusack"
+	"[STARRING]
+John_Cusack" -> "Being John Malkovich"
+	"Of Mice and Men" -> "[STARRING]
+Orson_Bean"
+	"[STARRING]
+Mary_Kay_Place" -> "Being John Malkovich"
+	"Of Mice and Men" -> "[STARRING]
+John_Cusack"
+	"[MUSICCOMPOSER]
+Carter_Burwell" -> "Being John Malkovich"
+	"Bob Roberts" -> "[STARRING]
+John_Cusack"
+	"[STARRING]
+Cameron_Diaz" -> "Being John Malkovich"
+	"Bob Roberts" -> "[STARRING]
+Orson_Bean"
+	"Of Mice and Men" -> "[STARRING]
+Catherine_Keener"
+	"Big Chill, The" -> "[STARRING]
+Cameron_Diaz"
+	"Jennifer 8" -> "[STARRING]
+Mary_Kay_Place"
+	"Killing Fields, The" -> "[STARRING]
+John_Malkovich"
+	"Killing Fields, The" -> "[STARRING]
+Cameron_Diaz"
+	"Bob Roberts" -> "[STARRING]
+Mary_Kay_Place"
+	"Big Chill, The" -> "[STARRING]
+John_Cusack"
+	"[STARRING]
+Orson_Bean" -> "Being John Malkovich"
+	user_3841 -> "Killing Fields, The"
+	"Big Chill, The" -> "[STARRING]
+John_Malkovich"
+	"Big Chill, The" -> "[STARRING]
+Orson_Bean"
+	"Big Chill, The" -> "[STARRING]
+Catherine_Keener"
+	"Jennifer 8" -> "[STARRING]
+Orson_Bean"
+	"Killing Fields, The" -> "[STARRING]
+John_Cusack"
+	user_3841 -> "Of Mice and Men"
+}

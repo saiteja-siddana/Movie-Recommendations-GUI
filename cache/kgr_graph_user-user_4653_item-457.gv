@@ -1,0 +1,42 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[PRODUCER]
+Arnold_Kopelson" -> "Fugitive, The"
+	user_4653 -> "Grand Canyon"
+	user_4653 -> "Any Given Sunday"
+	user_4653 -> "Mad City"
+	user_4653 -> "Sixth Sense, The"
+	GoodFellas -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"Sixth Sense, The" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	Dave -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	user_4653 -> Vacation
+	"[MUSICCOMPOSER]
+James_Newton_Howard" -> "Fugitive, The"
+	"Perfect Storm, The" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"Grand Canyon" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	"Mad City" -> "[PRODUCER]
+Arnold_Kopelson"
+	"[DISTRIBUTOR]
+Warner_Bros._Pictures" -> "Fugitive, The"
+	Vacation -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	"Conspiracy Theory" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_4653 -> "Bridges of Madison County, The"
+	"Any Given Sunday" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_4653 -> "Perfect Storm, The"
+	user_4653 -> GoodFellas
+	Outbreak -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	user_4653 -> Dave
+	user_4653 -> Outbreak
+	"Bridges of Madison County, The" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_4653 -> "Conspiracy Theory"
+}

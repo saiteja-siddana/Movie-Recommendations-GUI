@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_3841 -> Arachnophobia
+	Harvey -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Long Goodbye, The" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_3841 -> "Scent of a Woman"
+	user_3841 -> "Shakespeare in Love"
+	user_3841 -> "Sugarland Express, The"
+	user_3841 -> "Raiders of the Lost Ark"
+	"[STUDIO]
+Amblin_Entertainment" -> "E.T. the Extra-Terrestrial"
+	user_3841 -> Harvey
+	"[DISTRIBUTOR]
+Universal_Studios" -> "E.T. the Extra-Terrestrial"
+	"Scent of a Woman" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"[MUSICCOMPOSER]
+John_Williams" -> "E.T. the Extra-Terrestrial"
+	"Saving Private Ryan" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Shakespeare in Love" -> "[DISTRIBUTOR]
+Universal_Studios"
+	Arachnophobia -> "[STUDIO]
+Amblin_Entertainment"
+	user_3841 -> "Airport 1975"
+	user_3841 -> "Saving Private Ryan"
+	user_3841 -> "Towering Inferno, The"
+	user_3841 -> "Long Goodbye, The"
+	"Raiders of the Lost Ark" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Airport 1975" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Sugarland Express, The" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Towering Inferno, The" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Sugarland Express, The" -> "[DISTRIBUTOR]
+Universal_Studios"
+}

@@ -1,0 +1,151 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_1922",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Stand by Me",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nColumbia_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "American Pop",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Zero Effect",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "League of Their Own, A",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Jagged Edge",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "It Happened One Night",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[EDITING]\nRobert_Leighton_(film_editor)",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Bull Durham",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "When Harry Met Sally...",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Misery",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Princess Bride, The",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 5,
+            "to": 2
+        }
+    ]
+}

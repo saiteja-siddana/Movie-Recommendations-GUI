@@ -1,0 +1,177 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3841",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Sixth Sense, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nWalt_Disney_Studios_Motion_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Arachnophobia",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Abyss, The",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Sister Act",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Dangerous Minds",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Escape to Witch Mountain",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[MUSICCOMPOSER]\nJames_Newton_Howard",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Primal Fear",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Just Cause",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Fugitive, The",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Outbreak",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "Romy and Michele's High School Reunion",
+            "group": 4
+        },
+        {
+            "id": 14,
+            "labelC": "[STUDIO]\nSpyglass_Entertainment",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 3,
+            "to": 14
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 13
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 14,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 13,
+            "to": 8
+        }
+    ]
+}

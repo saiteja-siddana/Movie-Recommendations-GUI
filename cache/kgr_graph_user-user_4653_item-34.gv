@@ -1,0 +1,36 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4653 -> "General's Daughter, The"
+	"General's Daughter, The" -> "[STARRING]
+James_Cromwell"
+	"[STARRING]
+James_Cromwell" -> Babe
+	"Animal House" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"For Love of the Game" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_4653 -> "For Love of the Game"
+	"[STUDIO]
+Kennedy_Miller_Mitchell" -> Babe
+	"[DISTRIBUTOR]
+Universal_Studios" -> Babe
+	"How to Make an American Quilt" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_4653 -> "How to Make an American Quilt"
+	user_4653 -> "Man on the Moon"
+	"Star Trek - First Contact" -> "[STARRING]
+James_Cromwell"
+	"Star Trek - First Contact" -> "[STARRING]
+Magda_Szubanski"
+	user_4653 -> "Star Trek - First Contact"
+	user_4653 -> "Animal House"
+	"Man on the Moon" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"[STARRING]
+Magda_Szubanski" -> Babe
+	user_4653 -> "Erin Brockovich"
+	"General's Daughter, The" -> "[STARRING]
+Magda_Szubanski"
+}

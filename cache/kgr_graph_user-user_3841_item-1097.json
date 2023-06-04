@@ -1,0 +1,177 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3841",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "E.T. the Extra-Terrestrial",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nUniversal_Studios",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Sugarland Express, The",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Shakespeare in Love",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Airport 1975",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Scent of a Woman",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Harvey",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[MUSICCOMPOSER]\nJohn_Williams",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Saving Private Ryan",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Towering Inferno, The",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Long Goodbye, The",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Raiders of the Lost Ark",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "[STUDIO]\nAmblin_Entertainment",
+            "group": 3
+        },
+        {
+            "id": 14,
+            "labelC": "Arachnophobia",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 14
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 13,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 14,
+            "to": 13
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 3,
+            "to": 2
+        }
+    ]
+}
