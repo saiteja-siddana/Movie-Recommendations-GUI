@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <script src="https://cpettitt.github.io/project/graphlib-dot/v0.4.10/graphlib-dot.min.js"></script>
+    <script src="https://cpettitt.github.io/project/dagre-d3/v0.1.5/dagre-d3.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+
+    <title>Movie Recommendation</title>
+
+</head>
+
+<style>
+
+body{
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+
+
+header {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 1px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	
+}
+
+h1 {
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+button{
+  background-color:#008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.network{
+  padding-top: 0px;
+}
+
+.Users{
+  width: auto;
+}
+
+.Recs{
+  width:auto;
+}
+
+</style>
+
+
+<header>
+    <div class="overlay">
+        <h1>Movie Recommendation System</h1>
+    </div>
+</header>
+<br>
+
+  <body>
+    <div class="row">
+        
+        <div class="col-md-2"> 
+            <select class="Users" id="Users" onchange="Getrecs(value);">
+              <option value="none" selected disabled hidden> Select a user </option>
+              {% for user in users_available %}
+              <option value="{% url 'movie_recommendations_app:home' user=user id=forloop.counter %}" >User {{user}}</option>
+              {% endfor %}
+          </select> 
+        </div>
+        
+        <div class="col-md-8">   
+          <select class="Recs" id="Recs" onchange="Getgraph(value);">
+            <option value="none" > Recommended Movies for user</option>
+            {% for m,recs in result1%}
+                  <option value="{% url 'movie_recommendations_app:graphs' user=user rec=recs %}">{{m}}</option>	
+						{% endfor %}
+          </select>
+            <div class="network" id="mynetwork"></div>   
+        </div> 
+        
+        <div class="col-md-1">
+          <form action="{% url 'movie_recommendations_app:base' %}">
+            <button type="submit">HOME</button>
+         </form>
+        </div>
+    </div>
+  </body>
+
+  
+    {% block content %}
+    {% endblock %}
+    
+    <script type="text/javascript">
+    function Getrecs(value){
+      var dropdown = document.getElementById("Users");
+      location.href=value;
+      dropdown.selectedIndex=value;
+    }
+    function Getgraph(value){
+      var dropdown = document.getElementById("Recs");
+      location.href=value;
+      dropdown.selectedIndex=value;
+    }
+    </script>
+
+<script type="text/javascript">
+    var dataJSON = JSON.parse('{{ dataJSON | escapejs }}');
+    //var dataNode = document.getElementById('alldata');
+    //dataNode.innerHTML+=Object.values("{{data.nodes}}");
+    //dataNode.innerHTML+="{{ data.nodes }}"
+    var nodess = dataJSON.nodes;
+  var edgess = dataJSON.edges;
+
+  // legend
+  var mynetwork = document.getElementById("mynetwork");
+  // var x = -mynetwork.clientWidth / 2 + 50;
+  // var y = -mynetwork.clientHeight / 2 + 50;
+  // var step = 70;
+  var x = mynetwork.clientWidth - (mynetwork.clientWidth / 3);
+  var y = -mynetwork.clientHeight + 120;
+  var step = 80;
+  var fx = 16;
+
+  var nodes = new vis.DataSet(nodess);
+   // create an array with edges
+  var edges = new vis.DataSet(edgess);
+
+  // create a network
+  var container = document.getElementById("mynetwork");
+  var data = {
+    nodes: nodes,
+    edges: edges,
+  };
+  var options = {
+    width:"700",
+    height:"400",
+    nodes: {
+      shape: "dot",
+      size: 24,
+      scaling: {
+        min: 16,
+        max: 32,
+      },
+      font: {
+        size: 18,
+      },
+    },    
+    physics: {
+      forceAtlas2Based: {
+        gravitationalConstant: -300,
+        centralGravity: 0.05,
+        springLength: 80,
+        springConstant: 0.6,
+      },
+      maxVelocity: 146,
+      solver: "forceAtlas2Based",
+      timestep: 0.1,
+      stabilization: { iterations: 300 },
+    },
+    interaction: {
+      hover:true,
+          dragNodes: true,
+          zoomView: true,
+          dragView: true 
+        }
+  };
+  var network = new vis.Network(container, data, options);
+
+  network.on("hoverNode", function (params) {
+    if (params.node > 9999){
+      // console.log("legend node");
+    }else{
+      showConnectedEdgeLabels(network, params.node, nodes, edges);
+    }
+  });
+
+  network.on("blurNode", function (params) {
+      nodess.forEach(function(node){
+        nodes.update({id: node.id, label:''})
+          })
+  });
+
+  function showConnectedEdgeLabels(network, nodeId){
+    var item = nodes.get(nodeId);
+    nodes.update({id:item.id, label:item.labelC});
+    var connectedEdges = network.getConnectedEdges(nodeId);
+    var items = edges.get(connectedEdges); 
+    $.each(items, function(key, value){
+      // console.log(key, value);
+      var item = nodes.get(value.to);
+      nodes.update({id:item.id, label:item.labelC});
+      var item = nodes.get(value.from);
+      nodes.update({id:item.id, label:item.labelC});
+    });
+  }
+ 
+</script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+</html>

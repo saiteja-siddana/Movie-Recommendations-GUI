@@ -1,0 +1,175 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<script type="text/javascript">
+  var dd = document.getElementById('Users');
+      for(var i=1; i<dd.options.length;i++){
+        if(dd.options[i].value == "/home/"+"{{user}}"+"/"+i){
+          dd.options[i].selected = true;
+          break;			
+        }
+      }
+    var dd2 = document.getElementById("Recs");
+    dd2.remove(0)
+    var option = document.createElement("option");
+    option.text = "Recommended movies for user " + "{{user}}";
+    option.value = "{% url 'movie_recommendations_app:home' user=user id=1 %}"
+    dd2.add(option,dd2[0])
+    for(var i=0; i<dd2.options.length;i++){
+      if(dd2.options[i].value == "/rec/" + "{{user}}" + "/" + "{{rec}}"){
+        dd2.options[i].selected = true;
+        break;
+      }
+    }
+</script>
+
+<script type="text/javascript">
+    var dataJSON = JSON.parse('{{ data | escapejs }}');
+    //var dataNode = document.getElementById('alldata');
+    //dataNode.innerHTML+=Object.values("{{data.nodes}}");
+    //dataNode.innerHTML+="{{ data.nodes }}"
+    var nodess = dataJSON.nodes;
+  var edgess = dataJSON.edges;
+
+  // legend
+  var mynetwork = document.getElementById("mynetwork");
+  mynetwork.innerHTML+=dataJSON;
+  // var x = -mynetwork.clientWidth / 2 + 50;
+  // var y = -mynetwork.clientHeight / 2 + 50;
+  // var step = 70;
+  var x = mynetwork.clientWidth - (mynetwork.clientWidth / 3);
+  var y = -mynetwork.clientHeight + 120;
+  var step = 80;
+  var fx = 16;
+  var legends = []
+  legends.push({
+    id: 10000,
+    x: x,
+    y: y,
+    label: "User",
+    group: 1,
+    value: 1,
+    fixed: true,
+    physics: false,
+    font: {
+      size:fx
+    }
+  });
+  legends.push({
+    id: 10001,
+    x: x + 100,
+    y: y,
+    label: "Recommendation",
+    group: 2,
+    value: 1,
+    fixed: true,
+    physics: false,
+    font: {
+      size:fx
+    }
+  });
+  legends.push({
+    id: 10002,
+    x: x,
+    y: y + step,
+    label: "Attribute",
+    group: 3,
+    value: 1,
+    fixed: true,
+    physics: false,
+    font: {
+      size:fx
+    }
+  });
+  legends.push({
+    id: 10003,
+    x: x + 100,
+    y: y + step,
+    label: "Rated Movies",
+    group: 4,
+    value: 1,
+    fixed: true,
+    physics: false,
+    font: {
+      size:fx
+    }
+  });
+
+  var nodes = new vis.DataSet(nodess.concat(legends));
+   // create an array with edges
+  var edges = new vis.DataSet(edgess);
+
+  // create a network
+  var container = document.getElementById("mynetwork");
+  var data = {
+    nodes: nodes,
+    edges: edges,
+  };
+  var options = {
+    width:"700",
+    height:"400",
+    nodes: {
+      shape: "dot",
+      size: 24,
+      scaling: {
+        min: 16,
+        max: 32,
+      },
+      font: {
+        size: 18,
+      },
+    },    
+    physics: {
+      forceAtlas2Based: {
+        gravitationalConstant: -300,
+        centralGravity: 0.05,
+        springLength: 80,
+        springConstant: 0.6,
+      },
+      maxVelocity: 146,
+      solver: "forceAtlas2Based",
+      timestep: 0.1,
+      stabilization: { iterations: 300 },
+    },
+    interaction: {
+      hover:true,
+          dragNodes: true,
+          zoomView: true,
+          dragView: true 
+        }
+  };
+  var network = new vis.Network(container, data, options);
+
+  network.on("hoverNode", function (params) {
+    if (params.node > 9999){
+      // console.log("legend node");
+    }else{
+      showConnectedEdgeLabels(network, params.node, nodes, edges);
+    }
+  });
+
+  network.on("blurNode", function (params) {
+      nodess.forEach(function(node){
+        nodes.update({id: node.id, label:''})
+          })
+  });
+
+  function showConnectedEdgeLabels(network, nodeId){
+    var item = nodes.get(nodeId);
+    nodes.update({id:item.id, label:item.labelC});
+    var connectedEdges = network.getConnectedEdges(nodeId);
+    var items = edges.get(connectedEdges); 
+    $.each(items, function(key, value){
+      // console.log(key, value);
+      var item = nodes.get(value.to);
+      nodes.update({id:item.id, label:item.labelC});
+      var item = nodes.get(value.from);
+      nodes.update({id:item.id, label:item.labelC});
+    });
+  }
+ 
+</script>
+
+
+{% endblock %}

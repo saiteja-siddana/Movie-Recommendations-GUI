@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <script src="https://cpettitt.github.io/project/graphlib-dot/v0.4.10/graphlib-dot.min.js"></script>
+    <script src="https://cpettitt.github.io/project/dagre-d3/v0.1.5/dagre-d3.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+
+  
+ 
+<script type="text/javascript">
+    var dd = document.getElementById('Users');
+      for(var i=1; i<dd.options.length;i++){
+        if(dd.options[i].value == "/home/"+"{{user}}"+"/"+i){
+          dd.options[i].selected = true;
+          break;			
+        }
+      }
+    var dd2 = document.getElementById("Recs");
+    dd2.remove(0)
+    dd2.innerHTML+="<option id=0 selected disabled hidden>Recommended movies for user " + "{{user}}" +" </option>"
+</script>
+	
+				
+{% endblock %}
