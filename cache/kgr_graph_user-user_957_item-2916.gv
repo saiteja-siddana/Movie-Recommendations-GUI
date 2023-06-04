@@ -1,0 +1,50 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_957 -> "Man for All Seasons, A"
+	"Ulee's Gold" -> "[STARRING]
+Bryan_Cranston"
+	"[STARRING]
+Kate_Beckinsale" -> "Total Recall"
+	"Ulee's Gold" -> "[STARRING]
+Kate_Beckinsale"
+	user_957 -> "Erin Brockovich"
+	"I Dreamed of Africa" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> "Deer Hunter, The"
+	"Deer Hunter, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	Gandhi -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> "Brokedown Palace"
+	"Brokedown Palace" -> "[STARRING]
+Colin_Farrell"
+	user_957 -> "I Dreamed of Africa"
+	user_957 -> Gandhi
+	"Ulee's Gold" -> "[STARRING]
+Colin_Farrell"
+	"[STARRING]
+Jessica_Biel" -> "Total Recall"
+	"[STARRING]
+Colin_Farrell" -> "Total Recall"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Total Recall"
+	"[STARRING]
+Bill_Nighy" -> "Total Recall"
+	"[STARRING]
+Bryan_Cranston" -> "Total Recall"
+	"Ulee's Gold" -> "[STARRING]
+Bill_Nighy"
+	"Brokedown Palace" -> "[STARRING]
+Bryan_Cranston"
+	"Brokedown Palace" -> "[STARRING]
+Jessica_Biel"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Man for All Seasons, A" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Brokedown Palace" -> "[STARRING]
+Bill_Nighy"
+	user_957 -> "Ulee's Gold"
+	"Ulee's Gold" -> "[STARRING]
+Jessica_Biel"
+}

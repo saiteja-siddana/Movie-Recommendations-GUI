@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_957 -> "Mission - Impossible 2"
+	"Schindler's List" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_957 -> "Searching for Bobby Fischer"
+	user_957 -> "Schindler's List"
+	"Indiana Jones and the Last Crusade" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_957 -> Shaft
+	user_957 -> "Roger & Me"
+	Shaft -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"[DISTRIBUTOR]
+Paramount_Pictures" -> "Raiders of the Lost Ark"
+	user_957 -> JFK
+	"[MUSICCOMPOSER]
+John_Williams" -> "Raiders of the Lost Ark"
+	user_957 -> "Indiana Jones and the Last Crusade"
+	user_957 -> "Simple Plan, A"
+	"[DIRECTOR]
+Steven_Spielberg" -> "Raiders of the Lost Ark"
+	"Searching for Bobby Fischer" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Simple Plan, A" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Patriot, The" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_957 -> "Patriot, The"
+	"Star Wars - Episode IV - A New Hope" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Indiana Jones and the Last Crusade" -> "[DIRECTOR]
+Steven_Spielberg"
+	JFK -> "[MUSICCOMPOSER]
+John_Williams"
+	"Roger & Me" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Mission - Impossible 2" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_957 -> "Star Wars - Episode IV - A New Hope"
+}

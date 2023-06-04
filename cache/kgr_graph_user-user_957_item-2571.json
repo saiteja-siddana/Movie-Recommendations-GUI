@@ -1,0 +1,112 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_957",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Matrix, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nWarner_Bros._Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Space Cowboys",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Hamlet",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "GoodFellas",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "[STUDIO]\nVillage_Roadshow_Pictures",
+            "group": 3
+        },
+        {
+            "id": 7,
+            "labelC": "Three Kings",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[STUDIO]\nbal",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "[STUDIO]\nSilver_Pictures",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 7,
+            "to": 9
+        },
+        {
+            "from": 7,
+            "to": 8
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 6,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 7,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 5
+        }
+    ]
+}

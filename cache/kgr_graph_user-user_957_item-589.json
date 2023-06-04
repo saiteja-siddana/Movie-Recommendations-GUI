@@ -1,0 +1,138 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_957",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Terminator 2: Judgment Day",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nTriStar_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Rudy",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "As Good As It Gets",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Glory",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Donnie Brasco",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Philadelphia",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[DIRECTOR]\nJames_Cameron",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Aliens",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Titanic",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "[PRODUCER]\nJames_Cameron",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 10,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 11,
+            "to": 1
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 6,
+            "to": 2
+        }
+    ]
+}

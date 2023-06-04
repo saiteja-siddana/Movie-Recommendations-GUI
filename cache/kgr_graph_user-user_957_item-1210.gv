@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Schindler's List" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_957 -> "Schindler's List"
+	"Indiana Jones and the Last Crusade" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Courage Under Fire" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"All About Eve" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_957 -> Aliens
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> "Star Wars - Episode VI - Return of the Jedi"
+	"[MUSICCOMPOSER]
+John_Williams" -> "Star Wars - Episode VI - Return of the Jedi"
+	"[STARRING]
+Carrie_Fisher" -> "Star Wars - Episode VI - Return of the Jedi"
+	user_957 -> "Beach, The"
+	Aliens -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Star Wars - Episode IV - A New Hope" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_957 -> JFK
+	user_957 -> "Indiana Jones and the Last Crusade"
+	user_957 -> "Courage Under Fire"
+	"Patriot, The" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_957 -> "Patriot, The"
+	"Star Wars - Episode IV - A New Hope" -> "[MUSICCOMPOSER]
+John_Williams"
+	JFK -> "[MUSICCOMPOSER]
+John_Williams"
+	user_957 -> "All About Eve"
+	"Beach, The" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_957 -> "When Harry Met Sally..."
+	"When Harry Met Sally..." -> "[STARRING]
+Carrie_Fisher"
+	user_957 -> "Star Wars - Episode IV - A New Hope"
+}

@@ -1,0 +1,125 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_957",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Forrest Gump",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nParamount_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Roger & Me",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Shaft",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Searching for Bobby Fischer",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Simple Plan, A",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Mission: Impossible 2",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[EDITING]\nArthur_Schmidt_(film_editor)",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Primary Colors",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "What Lies Beneath",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        }
+    ]
+}

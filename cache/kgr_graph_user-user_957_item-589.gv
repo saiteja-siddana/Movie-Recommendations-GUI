@@ -1,0 +1,32 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_957 -> Titanic
+	user_957 -> "As Good As It Gets"
+	user_957 -> Rudy
+	Glory -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	"[DISTRIBUTOR]
+TriStar_Pictures" -> "Terminator 2 - Judgment Day"
+	Titanic -> "[PRODUCER]
+James_Cameron"
+	user_957 -> Glory
+	"As Good As It Gets" -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	Rudy -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	user_957 -> Philadelphia
+	Aliens -> "[DIRECTOR]
+James_Cameron"
+	Philadelphia -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	user_957 -> "Donnie Brasco"
+	"[PRODUCER]
+James_Cameron" -> "Terminator 2 - Judgment Day"
+	"[DIRECTOR]
+James_Cameron" -> "Terminator 2 - Judgment Day"
+	user_957 -> Aliens
+	Titanic -> "[DIRECTOR]
+James_Cameron"
+	"Donnie Brasco" -> "[DISTRIBUTOR]
+TriStar_Pictures"
+}

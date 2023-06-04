@@ -1,0 +1,147 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_957",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "2001: A Space Odyssey",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nMetro-Goldwyn-Mayer",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Network",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Mr. Holland's Opus",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Autumn in New York",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Thin Man, The",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Blue Sky",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[DIRECTOR]\nStanley_Kubrick",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Spartacus",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "[EDITING]\nRay_Lovejoy",
+            "group": 3
+        },
+        {
+            "id": 12,
+            "labelC": "Aliens",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 12,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 11,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 0,
+            "to": 12
+        }
+    ]
+}

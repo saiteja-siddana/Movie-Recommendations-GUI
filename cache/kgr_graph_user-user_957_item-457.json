@@ -1,0 +1,164 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_957",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Fugitive, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[MUSICCOMPOSER]\nJames_Newton_Howard",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Roger & Me",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Dinosaur",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Primal Fear",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Snow Falling on Cedars",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Prince of Tides, The",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[DISTRIBUTOR]\nWarner_Bros._Pictures",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Space Cowboys",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Hamlet",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "GoodFellas",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "[CINEMATOGRAPHY]\nMichael_Chapman_(cinematographer)",
+            "group": 3
+        },
+        {
+            "id": 13,
+            "labelC": "Raging Bull",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 13
+        },
+        {
+            "from": 13,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 5,
+            "to": 12
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 12,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 10
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_957 -> "Man for All Seasons, A"
+	user_957 -> "Erin Brockovich"
+	"When Harry Met Sally..." -> "[DIRECTOR]
+Rob_Reiner"
+	user_957 -> "Princess Bride, The"
+	"I Dreamed of Africa" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> "Deer Hunter, The"
+	user_957 -> "Few Good Men, A"
+	user_957 -> "Best in Show"
+	"Deer Hunter, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"American President, The" -> "[EDITING]
+Robert_Leighton_(film_editor)"
+	"[EDITING]
+Robert_Leighton_(film_editor)" -> "Stand by Me"
+	Gandhi -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> "I Dreamed of Africa"
+	"[DIRECTOR]
+Rob_Reiner" -> "Stand by Me"
+	user_957 -> Gandhi
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Stand by Me"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> "American President, The"
+	"When Harry Met Sally..." -> "[EDITING]
+Robert_Leighton_(film_editor)"
+	"Best in Show" -> "[EDITING]
+Robert_Leighton_(film_editor)"
+	"Few Good Men, A" -> "[EDITING]
+Robert_Leighton_(film_editor)"
+	"Man for All Seasons, A" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> "When Harry Met Sally..."
+	"Princess Bride, The" -> "[EDITING]
+Robert_Leighton_(film_editor)"
+}

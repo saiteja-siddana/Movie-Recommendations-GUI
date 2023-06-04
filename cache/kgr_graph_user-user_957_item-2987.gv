@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Toy Story 2" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	Beloved -> "[STUDIO]
+Amblin_Entertainment"
+	user_957 -> "Schindler's List"
+	"Schindler's List" -> "[STUDIO]
+Touchstone_Pictures"
+	"Mr. Holland's Opus" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_957 -> "Toy Story 2"
+	user_957 -> "Old Yeller"
+	"Schindler's List" -> "[STUDIO]
+Amblin_Entertainment"
+	user_957 -> "10 Things I Hate About You"
+	"[STUDIO]
+Amblin_Entertainment" -> "Who Framed Roger Rabbit?"
+	"[STUDIO]
+Touchstone_Pictures" -> "Who Framed Roger Rabbit?"
+	"High Fidelity" -> "[STUDIO]
+Amblin_Entertainment"
+	"What's Love Got to Do with It?" -> "[STUDIO]
+Amblin_Entertainment"
+	user_957 -> Dinosaur
+	user_957 -> Beloved
+	"Crimson Tide" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures" -> "Who Framed Roger Rabbit?"
+	user_957 -> "High Fidelity"
+	user_957 -> "What's Love Got to Do with It?"
+	user_957 -> "Crimson Tide"
+	"Old Yeller" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	Dinosaur -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_957 -> "Mr. Holland's Opus"
+	"10 Things I Hate About You" -> "[STUDIO]
+Amblin_Entertainment"
+}

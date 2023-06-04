@@ -1,0 +1,63 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Toy Story 2" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Mr. Holland's Opus" -> "[STUDIO]
+Spyglass_Entertainment"
+	user_957 -> "Quiz Show"
+	Duets -> "[STUDIO]
+The_Kennedy/Marshall_Company"
+	user_957 -> Duets
+	"Quiz Show" -> "[STUDIO]
+The_Kennedy/Marshall_Company"
+	"Crimson Tide" -> "[STUDIO]
+The_Kennedy/Marshall_Company"
+	"Mr. Holland's Opus" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_957 -> "Toy Story 2"
+	user_957 -> "Old Yeller"
+	"Snow Falling on Cedars" -> "[STUDIO]
+The_Kennedy/Marshall_Company"
+	"Mr. Holland's Opus" -> "[STUDIO]
+Barry_Mendel_Productions"
+	"Mr. Holland's Opus" -> "[STUDIO]
+The_Kennedy/Marshall_Company"
+	"Snow Falling on Cedars" -> "[STUDIO]
+Barry_Mendel_Productions"
+	"[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures" -> "Sixth Sense, The"
+	"Crimson Tide" -> "[STUDIO]
+Spyglass_Entertainment"
+	"Quiz Show" -> "[STUDIO]
+Barry_Mendel_Productions"
+	Duets -> "[STUDIO]
+Spyglass_Entertainment"
+	"[STUDIO]
+Barry_Mendel_Productions" -> "Sixth Sense, The"
+	"[STUDIO]
+Hollywood_Pictures" -> "Sixth Sense, The"
+	"Crimson Tide" -> "[STUDIO]
+Barry_Mendel_Productions"
+	user_957 -> Dinosaur
+	"Quiz Show" -> "[STUDIO]
+Spyglass_Entertainment"
+	Duets -> "[STUDIO]
+Barry_Mendel_Productions"
+	"Crimson Tide" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"[STUDIO]
+The_Kennedy/Marshall_Company" -> "Sixth Sense, The"
+	"[STUDIO]
+Spyglass_Entertainment" -> "Sixth Sense, The"
+	"Snow Falling on Cedars" -> "[STUDIO]
+Spyglass_Entertainment"
+	user_957 -> "Snow Falling on Cedars"
+	"Mr. Holland's Opus" -> "[STUDIO]
+Hollywood_Pictures"
+	user_957 -> "Crimson Tide"
+	"Old Yeller" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	Dinosaur -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_957 -> "Mr. Holland's Opus"
+}

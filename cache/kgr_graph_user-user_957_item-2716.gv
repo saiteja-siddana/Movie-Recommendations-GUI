@@ -1,0 +1,34 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_957 -> "Man for All Seasons, A"
+	user_957 -> "Erin Brockovich"
+	"I Dreamed of Africa" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> "Deer Hunter, The"
+	user_957 -> "Grifters, The"
+	"Deer Hunter, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[MUSICCOMPOSER]
+Elmer_Bernstein" -> Ghostbusters
+	user_957 -> "To Kill a Mockingbird"
+	"To Kill a Mockingbird" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	Gandhi -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> Ghostbusters
+	user_957 -> "I Dreamed of Africa"
+	"Grifters, The" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	user_957 -> Gandhi
+	"Keeping the Faith" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Age of Innocence, The" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	"Man for All Seasons, A" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> "Age of Innocence, The"
+	user_957 -> "Keeping the Faith"
+}

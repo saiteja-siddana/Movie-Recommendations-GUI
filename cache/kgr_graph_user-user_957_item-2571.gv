@@ -1,0 +1,27 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_957 -> "Three Kings"
+	"Three Kings" -> "[STUDIO]
+Silver_Pictures"
+	"Three Kings" -> "[STUDIO]
+bal"
+	"[STUDIO]
+bal" -> "Matrix, The"
+	Hamlet -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	GoodFellas -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"[STUDIO]
+Village_Roadshow_Pictures" -> "Matrix, The"
+	user_957 -> "Space Cowboys"
+	"[DISTRIBUTOR]
+Warner_Bros._Pictures" -> "Matrix, The"
+	"Space Cowboys" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"[STUDIO]
+Silver_Pictures" -> "Matrix, The"
+	user_957 -> Hamlet
+	"Three Kings" -> "[STUDIO]
+Village_Roadshow_Pictures"
+	user_957 -> GoodFellas
+}
