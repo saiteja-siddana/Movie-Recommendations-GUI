@@ -1,0 +1,48 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_4918 -> "Full Metal Jacket"
+	Ghostbusters -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Donnie Brasco" -> "[STARRING]
+Carrie_Fisher"
+	"Deconstructing Harry" -> "[STARRING]
+Billy_Crystal"
+	"[STARRING]
+Carrie_Fisher" -> "When Harry Met Sally..."
+	"Star Wars - Episode VI - Return of the Jedi" -> "[STARRING]
+Billy_Crystal"
+	"Terminator, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	Starman -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Princess Bride, The" -> "[STARRING]
+Bruno_Kirby"
+	user_4918 -> "Star Wars - Episode VI - Return of the Jedi"
+	"Star Wars - Episode VI - Return of the Jedi" -> "[STARRING]
+Carrie_Fisher"
+	"Princess Bride, The" -> "[STARRING]
+Carrie_Fisher"
+	user_4918 -> Ghostbusters
+	"Men in Black" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4918 -> Starman
+	user_4918 -> "Terminator, The"
+	"Full Metal Jacket" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[STARRING]
+Billy_Crystal" -> "When Harry Met Sally..."
+	"Deconstructing Harry" -> "[STARRING]
+Carrie_Fisher"
+	"Donnie Brasco" -> "[STARRING]
+Billy_Crystal"
+	user_4918 -> "Donnie Brasco"
+	user_4918 -> "Princess Bride, The"
+	"Princess Bride, The" -> "[STARRING]
+Billy_Crystal"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "When Harry Met Sally..."
+	"[STARRING]
+Bruno_Kirby" -> "When Harry Met Sally..."
+	user_4918 -> "Men in Black"
+	user_4918 -> "Deconstructing Harry"
+}

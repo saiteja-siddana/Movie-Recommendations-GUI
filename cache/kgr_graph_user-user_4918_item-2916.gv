@@ -1,0 +1,33 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Total Recall"
+	user_4918 -> "Full Metal Jacket"
+	Ghostbusters -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	Antz -> "[MUSICCOMPOSER]
+Harry_Gregson-Williams"
+	"[MUSICCOMPOSER]
+Harry_Gregson-Williams" -> "Total Recall"
+	"Terminator, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	Starman -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4918 -> Ghostbusters
+	"Men in Black" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"True Romance" -> "[EDITING]
+Christian_Wagner"
+	user_4918 -> Starman
+	user_4918 -> "Terminator, The"
+	"Full Metal Jacket" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4918 -> Antz
+	"[EDITING]
+Christian_Wagner" -> "Total Recall"
+	user_4918 -> "True Romance"
+	user_4918 -> "Men in Black"
+	"Bad Boys" -> "[EDITING]
+Christian_Wagner"
+	user_4918 -> "Bad Boys"
+}
