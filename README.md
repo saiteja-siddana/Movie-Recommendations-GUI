@@ -2,14 +2,16 @@
 User Interface for movie recommendations. 
 
 ## Demo
-1. Once the user is selected from the leftmost dropdown, all the movies recommended to that user will be shown in the 2nd dropdown. As shown in the below Images 1,2
-    ![My Image](images/Demo_4.png "Image 1")
-    ![My Image](images/Demo_3.png "Image 1")
-2. By selecting each movie, a fun interactive graph will be displayed explaining why this particular movie is recommended to that user on a high level
-3. Blue node is the user, Yellow node is the recommende movie, Green nodes are some of the movies watched and rated by that user. 
-4. Red nodes are some of the common attributes of recommended movie and movies watched by the user, which are factored in while generating recommendations 
-    ![My Image](images/Demo_1.png "Image 3")
-    ![My Image](images/Demo_2.png "Image 4")
+1. Home Page just displays some of the users and movies watched by those users in a graph format. Yellow nodes are users, Blue nodes are movies
+    ![My Image](images/Demo_5.png "Image 1")
+2. Once the user is selected from the leftmost dropdown, all the movies recommended to that user will be shown in the 2nd dropdown
+    ![My Image](images/Demo_4.png "Image 2")
+3. By selecting each movie, a fun interactive graph will be displayed explaining why this particular movie is recommended to that user on a high level
+    ![My Image](images/Demo_6.png "Image 3")
+4. Blue node is the user, Yellow node is the recommended movie, Green nodes are some of the movies watched and rated by that user. 
+5. Red nodes are some of the common attributes of recommended movie and movies watched by the user, which are factored in while generating recommendations 
+    ![My Image](images/Demo_1.png "Image 4")
+    ![My Image](images/Demo_2.png "Image 5")
 
 ## Requirements
 * Python 3.7
