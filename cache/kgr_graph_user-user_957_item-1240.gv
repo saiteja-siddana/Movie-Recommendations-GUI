@@ -1,50 +1,50 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
+	user_957 -> "Howards End"
+	"[DISTRIBUTOR]
+Warner_Bros._Pictures" -> "Terminator, The"
+	user_957 -> Hamlet
+	"Howards End" -> "[STARRING]
+Moon_Bloodgood"
+	"Henry V" -> "[STARRING]
+Moon_Bloodgood"
+	user_957 -> "I Dreamed of Africa"
 	user_957 -> "Man for All Seasons, A"
-	user_957 -> "Erin Brockovich"
-	"Erin Brockovich" -> "[DISTRIBUTOR]
+	"[STARRING]
+Moon_Bloodgood" -> "Terminator, The"
+	"I Dreamed of Africa" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> Shaft
+	"Deer Hunter, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Man for All Seasons, A" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	Gandhi -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"I Dreamed of Africa" -> "[DISTRIBUTOR]
 Warner_Bros._Pictures"
 	Shaft -> "[STARRING]
 Common_(rapper)"
-	"I Dreamed of Africa" -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	"Howards End" -> "[STARRING]
+	Shaft -> "[STARRING]
 Moon_Bloodgood"
 	Hamlet -> "[STARRING]
 Moon_Bloodgood"
-	user_957 -> Shaft
-	user_957 -> "Deer Hunter, The"
-	"Deer Hunter, The" -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	"Henry V" -> "[STARRING]
-Moon_Bloodgood"
-	"[STARRING]
-Moon_Bloodgood" -> "Terminator, The"
-	Gandhi -> "[DISTRIBUTOR]
-Warner_Bros._Pictures"
-	"Deer Hunter, The" -> "[DISTRIBUTOR]
-Warner_Bros._Pictures"
-	"[DISTRIBUTOR]
-Warner_Bros._Pictures" -> "Terminator, The"
-	Gandhi -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	user_957 -> "Howards End"
-	user_957 -> "I Dreamed of Africa"
-	"[DISTRIBUTOR]
-Columbia_Pictures" -> "Terminator, The"
-	user_957 -> Gandhi
-	user_957 -> "Henry V"
-	"[STARRING]
-Common_(rapper)" -> "Terminator, The"
-	"I Dreamed of Africa" -> "[DISTRIBUTOR]
-Warner_Bros._Pictures"
 	"Erin Brockovich" -> "[DISTRIBUTOR]
 Columbia_Pictures"
+	user_957 -> "Deer Hunter, The"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Terminator, The"
+	"Deer Hunter, The" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_957 -> "Henry V"
 	"Man for All Seasons, A" -> "[DISTRIBUTOR]
 Warner_Bros._Pictures"
-	"Man for All Seasons, A" -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	user_957 -> Hamlet
-	Shaft -> "[STARRING]
-Moon_Bloodgood"
+	user_957 -> Gandhi
+	"[STARRING]
+Common_(rapper)" -> "Terminator, The"
+	Gandhi -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_957 -> "Erin Brockovich"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
 }

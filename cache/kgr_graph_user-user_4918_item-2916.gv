@@ -3,31 +3,31 @@ digraph finite_state_machine {
 	"[DISTRIBUTOR]
 Columbia_Pictures" -> "Total Recall"
 	user_4918 -> "Full Metal Jacket"
-	Ghostbusters -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	Antz -> "[MUSICCOMPOSER]
-Harry_Gregson-Williams"
-	"[MUSICCOMPOSER]
-Harry_Gregson-Williams" -> "Total Recall"
-	"Terminator, The" -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	Starman -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	user_4918 -> Ghostbusters
-	"Men in Black" -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	"True Romance" -> "[EDITING]
-Christian_Wagner"
-	user_4918 -> Starman
 	user_4918 -> "Terminator, The"
-	"Full Metal Jacket" -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	user_4918 -> Antz
 	"[EDITING]
 Christian_Wagner" -> "Total Recall"
-	user_4918 -> "True Romance"
-	user_4918 -> "Men in Black"
+	"Full Metal Jacket" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4918 -> "Bad Boys"
+	Starman -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Men in Black" -> "[DISTRIBUTOR]
+Columbia_Pictures"
 	"Bad Boys" -> "[EDITING]
 Christian_Wagner"
-	user_4918 -> "Bad Boys"
+	"[MUSICCOMPOSER]
+Harry_Gregson-Williams" -> "Total Recall"
+	user_4918 -> "Men in Black"
+	user_4918 -> Starman
+	user_4918 -> Ghostbusters
+	user_4918 -> "True Romance"
+	"Terminator, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4918 -> Antz
+	"True Romance" -> "[EDITING]
+Christian_Wagner"
+	Antz -> "[MUSICCOMPOSER]
+Harry_Gregson-Williams"
+	Ghostbusters -> "[DISTRIBUTOR]
+Columbia_Pictures"
 }

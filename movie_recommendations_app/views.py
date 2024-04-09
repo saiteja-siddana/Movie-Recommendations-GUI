@@ -16,9 +16,9 @@ os.environ["PATH"] += os.pathsep + r"C:\Users\Sai Teja\Anaconda3\Library\bin\gra
 DIR = os.path.dirname(__file__)
  
 
-file_path1 = os.path.join(DIR,'data/recommendations.json')
-file_path2 = os.path.join(DIR,'data/item_mapping.json')
-file_path3 = os.path.join(DIR,'data/attribute_explanation.json')
+file_path1 = os.path.join(DIR,'data', 'recommendations.json')
+file_path2 = os.path.join(DIR,'data','item_mapping.json')
+file_path3 = os.path.join(DIR,'data','attribute_explanation.json')
 
 rec_json = json.load(open(file_path1))
 users = rec_json.keys()
@@ -69,7 +69,7 @@ def graph(user,rec):
 
     # ### GraphVIZ
     if len(exp['matched_movies']) > 0:
-        f = Digraph('finite_state_machine', filename=f'cache/kgr_graph_user-{user}_item-{recI}.gv', format='png')
+        f = Digraph('finite_state_machine', filename=os.path.join('cache',f'kgr_graph_user-{user}_item-{recI}.gv'), format='png')
         # f = Digraph('finite_state_machine', filename='kgr_graph.gv')
         # f.attr(rankdir='LR', size='8,5')
 
@@ -90,7 +90,7 @@ def graph(user,rec):
     newNodes = {n: { 'id': i, 'labelC': str(n), 'group': nodesDict[n]} 
                             for i, n in enumerate(nodesDict)}
     if len(exp['matched_movies']) > 0:
-        with open(f'cache/kgr_graph_user-{user}_item-{recI}.json', 'w') as fjson:
+        with open(os.path.join('cache',f'kgr_graph_user-{user}_item-{recI}.json'), 'w') as fjson:
             json.dump({
                 'nodes': [v for n,v in newNodes.items()],
                 'edges': [{"from": newNodes[u]['id'], "to": newNodes[v]['id']} for u,v in set(edges)]
@@ -101,9 +101,8 @@ def graph(user,rec):
 #kgr_graph_user-user_957_item-356.gv
 #file_path = os.path.join(DIR,'../cache/kgr_graph_user-user_957_item-356.gv')
 #graph = pydot.graph_from_dot_file(file_path)
-fp1 = os.path.join(DIR,'..')
-l = '/cache/kgr_graph_user-user_957_item-356.gv'
-s = Source.from_file(fp1+l).source
+fp1 = os.path.join(DIR,'..','cache', 'kgr_graph_user-user_957_item-356.gv')
+s = Source.from_file(fp1).source
 fp2 = os.path.join(DIR,'full_kg.json')
 f = open(fp2,"r")
 data = json.load(f)
@@ -130,14 +129,14 @@ def home(request,user,id):
 
     for i in rec_json[user]:
         l = str(user) + "_item-" + str(i) + ".gv.png"
-        check = r"cache\kgr_graph_user-user_" + l
-        filepath = "/cache/kgr_graph_user-user_" + l
+        check = os.path.join("cache", f"kgr_graph_user-user_{l}")
+        filepath = os.path.join("cache", f"kgr_graph_user-user_{l}") 
         if os.path.exists(check)==False:
             graph(user,i)
         #fp = os.path.join(DIR,r'..\cache\kgr_graph_user-user_'+str(user)+'_item-'+str(i)+'.json')
         k = str(user) + "_item-" + str(i) + ".json"
-        check = r"cache\kgr_graph_user-user_" + k
-        fp = "../cache/kgr_graph_user-user_"+k
+        check = os.path.join("cache", f"kgr_graph_user-user_{k}")
+        fp = os.path.join("..", "cache", f"kgr_graph_user-user_{k}")
         if os.path.exists(check)==False:
             datajson.append({})
         else:
@@ -171,15 +170,15 @@ def graphs(request,user,rec):
     recs=[]
     for i in rec_json[user]:
         k = str(user) + "_item-" + str(i) + ".json"
-        check = r"cache\kgr_graph_user-user_" + k
-        fp = "../cache/kgr_graph_user-user_"+k
+        check = os.path.join("cache", f"kgr_graph_user-user_{k}")
+        fp = os.path.join("..", "cache", f"kgr_graph_user-user_{k}")
         if os.path.exists(check)==True:
             data1.append(id2movie(i))
             recs.append(i)
     result1 = zip(data1,recs)
     k = str(user) + "_item-" + str(rec) + ".json"
-    check = r"cache\kgr_graph_user-user_" + k
-    fp = "../cache/kgr_graph_user-user_"+k
+    check = os.path.join("cache", f"kgr_graph_user-user_{k}")
+    fp = os.path.join("..", "cache", f"kgr_graph_user-user_{k}")
     if os.path.exists(check)==False:
         data = {}
     else:

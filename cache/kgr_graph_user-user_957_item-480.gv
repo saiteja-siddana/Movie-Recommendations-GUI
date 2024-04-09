@@ -1,41 +1,41 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_957 -> "Erin Brockovich"
-	"[MUSICCOMPOSER]
-John_Williams" -> "Jurassic Park"
-	"Schindler's List" -> "[MUSICCOMPOSER]
-John_Williams"
-	"[DIRECTOR]
-Steven_Spielberg" -> "Jurassic Park"
-	user_957 -> "Schindler's List"
-	"Indiana Jones and the Last Crusade" -> "[MUSICCOMPOSER]
-John_Williams"
-	user_957 -> "Twelve Monkeys"
-	user_957 -> "Deer Hunter, The"
-	"Deer Hunter, The" -> "[DISTRIBUTOR]
-Universal_Studios"
-	user_957 -> "To Kill a Mockingbird"
-	"Twelve Monkeys" -> "[DISTRIBUTOR]
-Universal_Studios"
-	user_957 -> JFK
-	"[DISTRIBUTOR]
-Universal_Studios" -> "Jurassic Park"
-	user_957 -> Babe
-	user_957 -> "Indiana Jones and the Last Crusade"
 	"Erin Brockovich" -> "[DISTRIBUTOR]
 Universal_Studios"
-	"Patriot, The" -> "[MUSICCOMPOSER]
+	user_957 -> "Schindler's List"
+	user_957 -> "To Kill a Mockingbird"
+	"To Kill a Mockingbird" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Star Wars - Episode IV - A New Hope" -> "[MUSICCOMPOSER]
+John_Williams"
+	"[DISTRIBUTOR]
+Universal_Studios" -> "Jurassic Park"
+	user_957 -> "Indiana Jones and the Last Crusade"
+	"Schindler's List" -> "[MUSICCOMPOSER]
 John_Williams"
 	Babe -> "[DISTRIBUTOR]
 Universal_Studios"
-	user_957 -> "Patriot, The"
-	"Star Wars - Episode IV - A New Hope" -> "[MUSICCOMPOSER]
+	user_957 -> Babe
+	"Patriot, The" -> "[MUSICCOMPOSER]
 John_Williams"
-	"Indiana Jones and the Last Crusade" -> "[DIRECTOR]
-Steven_Spielberg"
+	"Twelve Monkeys" -> "[DISTRIBUTOR]
+Universal_Studios"
 	JFK -> "[MUSICCOMPOSER]
 John_Williams"
-	user_957 -> "Star Wars - Episode IV - A New Hope"
-	"To Kill a Mockingbird" -> "[DISTRIBUTOR]
+	"Indiana Jones and the Last Crusade" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_957 -> "Deer Hunter, The"
+	"Deer Hunter, The" -> "[DISTRIBUTOR]
 Universal_Studios"
+	"[DIRECTOR]
+Steven_Spielberg" -> "Jurassic Park"
+	user_957 -> "Twelve Monkeys"
+	user_957 -> "Patriot, The"
+	user_957 -> "Star Wars - Episode IV - A New Hope"
+	"Indiana Jones and the Last Crusade" -> "[DIRECTOR]
+Steven_Spielberg"
+	user_957 -> JFK
+	"[MUSICCOMPOSER]
+John_Williams" -> "Jurassic Park"
+	user_957 -> "Erin Brockovich"
 }

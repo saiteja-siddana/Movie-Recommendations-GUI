@@ -1,25 +1,25 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	"Body Heat" -> "[DISTRIBUTOR]
-Warner_Bros."
-	user_1922 -> "True Romance"
-	"[DISTRIBUTOR]
-Warner_Bros." -> Casablanca
-	"[PRODUCER]
-Hal_B._Wallis" -> Casablanca
-	"Barefoot in the Park" -> "[PRODUCER]
-Hal_B._Wallis"
-	user_1922 -> "Body Heat"
-	user_1922 -> Sphere
-	"True Romance" -> "[DISTRIBUTOR]
-Warner_Bros."
-	user_1922 -> "Barefoot in the Park"
-	Dave -> "[DISTRIBUTOR]
-Warner_Bros."
-	user_1922 -> Dave
 	"Lethal Weapon" -> "[DISTRIBUTOR]
 Warner_Bros."
+	"Body Heat" -> "[DISTRIBUTOR]
+Warner_Bros."
+	"Barefoot in the Park" -> "[PRODUCER]
+Hal_B._Wallis"
+	user_1922 -> "Barefoot in the Park"
 	user_1922 -> "Lethal Weapon"
+	Dave -> "[DISTRIBUTOR]
+Warner_Bros."
+	"[PRODUCER]
+Hal_B._Wallis" -> Casablanca
+	"True Romance" -> "[DISTRIBUTOR]
+Warner_Bros."
 	Sphere -> "[DISTRIBUTOR]
 Warner_Bros."
+	user_1922 -> Sphere
+	"[DISTRIBUTOR]
+Warner_Bros." -> Casablanca
+	user_1922 -> "True Romance"
+	user_1922 -> "Body Heat"
+	user_1922 -> Dave
 }

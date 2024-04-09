@@ -1,0 +1,125 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3436",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Groundhog Day",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nColumbia_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Stand by Me",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Ghostbusters",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Cell, The",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Cat Ballou",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[CINEMATOGRAPHY]\nJohn_Bailey_(cinematographer)",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Big Chill, The",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Out-of-Towners, The",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 9
+        }
+    ]
+}

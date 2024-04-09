@@ -1,41 +1,41 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
+	"Saving Private Ryan" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Back to the Future Part II" -> "[MUSICCOMPOSER]
+Alan_Silvestri"
+	"[DIRECTOR]
+Robert_Zemeckis" -> "Forrest Gump"
+	"Star Trek - Insurrection" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_4918 -> "Raiders of the Lost Ark"
+	Predator -> "[MUSICCOMPOSER]
+Alan_Silvestri"
+	user_4918 -> "Saving Private Ryan"
+	"[MUSICCOMPOSER]
+Alan_Silvestri" -> "Forrest Gump"
+	user_4918 -> Predator
+	"Who Framed Roger Rabbit?" -> "[MUSICCOMPOSER]
+Alan_Silvestri"
+	"Romancing the Stone" -> "[DIRECTOR]
+Robert_Zemeckis"
+	Coneheads -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_4918 -> Coneheads
+	user_4918 -> "Back to the Future Part II"
+	Eraser -> "[MUSICCOMPOSER]
+Alan_Silvestri"
+	user_4918 -> "Star Trek - Insurrection"
+	"Raiders of the Lost Ark" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_4918 -> "Who Framed Roger Rabbit?"
+	user_4918 -> Eraser
 	Clue -> "[DISTRIBUTOR]
 Paramount_Pictures"
 	"Romancing the Stone" -> "[MUSICCOMPOSER]
 Alan_Silvestri"
-	"[DIRECTOR]
-Robert_Zemeckis" -> "Forrest Gump"
-	"Saving Private Ryan" -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	"Romancing the Stone" -> "[DIRECTOR]
-Robert_Zemeckis"
-	user_4918 -> Eraser
-	user_4918 -> "Back to the Future Part II"
-	user_4918 -> Predator
-	Predator -> "[MUSICCOMPOSER]
-Alan_Silvestri"
-	user_4918 -> "Saving Private Ryan"
-	Coneheads -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	user_4918 -> "Romancing the Stone"
 	"[DISTRIBUTOR]
 Paramount_Pictures" -> "Forrest Gump"
-	user_4918 -> Coneheads
-	user_4918 -> "Who Framed Roger Rabbit?"
-	Eraser -> "[MUSICCOMPOSER]
-Alan_Silvestri"
 	user_4918 -> Clue
-	"Who Framed Roger Rabbit?" -> "[MUSICCOMPOSER]
-Alan_Silvestri"
-	"Star Trek - Insurrection" -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	"Back to the Future Part II" -> "[MUSICCOMPOSER]
-Alan_Silvestri"
-	"Raiders of the Lost Ark" -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	user_4918 -> "Raiders of the Lost Ark"
-	"[MUSICCOMPOSER]
-Alan_Silvestri" -> "Forrest Gump"
-	user_4918 -> "Star Trek - Insurrection"
+	user_4918 -> "Romancing the Stone"
 }

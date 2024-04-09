@@ -1,0 +1,43 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"English Patient, The" -> "[PRODUCER]
+Saul_Zaentz"
+	user_3436 -> "Great Escape, The"
+	"English Patient, The" -> "[PRODUCER]
+Michael_Douglas"
+	"Hang 'em High" -> "[DISTRIBUTOR]
+United_Artists"
+	"Out of Africa" -> "[EDITING]
+Richard_Chew"
+	Ghostbusters -> "[EDITING]
+Richard_Chew"
+	"[EDITING]
+Sheldon_Kahn" -> "One Flew Over the Cuckoo's Nest"
+	"[EDITING]
+Richard_Chew" -> "One Flew Over the Cuckoo's Nest"
+	user_3436 -> "Hang 'em High"
+	"[PRODUCER]
+Saul_Zaentz" -> "One Flew Over the Cuckoo's Nest"
+	"Apocalypse Now" -> "[DISTRIBUTOR]
+United_Artists"
+	user_3436 -> Ghostbusters
+	user_3436 -> "African Queen, The"
+	"Out of Africa" -> "[EDITING]
+Sheldon_Kahn"
+	Ghostbusters -> "[EDITING]
+Sheldon_Kahn"
+	"Great Escape, The" -> "[DISTRIBUTOR]
+United_Artists"
+	"[DISTRIBUTOR]
+United_Artists" -> "One Flew Over the Cuckoo's Nest"
+	user_3436 -> "Out of Africa"
+	user_3436 -> "English Patient, The"
+	user_3436 -> "For a Few Dollars More"
+	"African Queen, The" -> "[DISTRIBUTOR]
+United_Artists"
+	"For a Few Dollars More" -> "[DISTRIBUTOR]
+United_Artists"
+	"[PRODUCER]
+Michael_Douglas" -> "One Flew Over the Cuckoo's Nest"
+	user_3436 -> "Apocalypse Now"
+}

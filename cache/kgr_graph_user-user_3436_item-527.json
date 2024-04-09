@@ -1,0 +1,164 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3436",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Schindler's List",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nUniversal_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "End of Days",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Gladiator",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Invisible Man, The",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Midnight Run",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "High Plains Drifter",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[EDITING]\nMichael_Kahn_(film_editor)",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Arachnophobia",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Saving Private Ryan",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Fatal Attraction",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "Raiders of the Lost Ark",
+            "group": 4
+        },
+        {
+            "id": 13,
+            "labelC": "Close Encounters of the Third Kind",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 12,
+            "to": 8
+        },
+        {
+            "from": 13,
+            "to": 8
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 13
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 10,
+            "to": 8
+        }
+    ]
+}

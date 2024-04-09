@@ -60,7 +60,7 @@ def cache_exp(user, rec):
 
     # ### GraphVIZ
     if len(exp['matched_movies']) > 0:
-        f = Digraph('finite_state_machine', filename=f'cache/kgr_graph_user-{user}_item-{recI}.gv', format='png')
+        f = Digraph('finite_state_machine', filename=os.path.join('cache',f'kgr_graph_user-{user}_item-{recI}.gv'), format='png')
         # f = Digraph('finite_state_machine', filename='kgr_graph.gv')
         # f.attr(rankdir='LR', size='8,5')
 

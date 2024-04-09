@@ -1,42 +1,42 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_1922 -> "True Romance"
-	"Good Will Hunting" -> "[MUSICCOMPOSER]
-Danny_Elfman"
-	user_1922 -> "Good Will Hunting"
-	"League of Their Own, A" -> "[STARRING]
-Michael_Keaton"
-	user_1922 -> "League of Their Own, A"
-	"Lethal Weapon" -> "[DISTRIBUTOR]
-Warner_Bros."
-	user_1922 -> "Lethal Weapon"
-	user_1922 -> "Black Beauty"
-	"[MUSICCOMPOSER]
-Danny_Elfman" -> Beetlejuice
-	user_1922 -> Sphere
-	"Nightmare Before Christmas, The" -> "[MUSICCOMPOSER]
-Danny_Elfman"
-	user_1922 -> Dave
-	"Mars Attacks!" -> "[MUSICCOMPOSER]
-Danny_Elfman"
-	user_1922 -> "Mars Attacks!"
-	user_1922 -> "Mission - Impossible"
-	"Mission - Impossible" -> "[MUSICCOMPOSER]
-Danny_Elfman"
-	"[DISTRIBUTOR]
-Warner_Bros." -> Beetlejuice
-	user_1922 -> "Nightmare Before Christmas, The"
-	Sphere -> "[DISTRIBUTOR]
-Warner_Bros."
-	"Body Heat" -> "[DISTRIBUTOR]
-Warner_Bros."
 	"Black Beauty" -> "[MUSICCOMPOSER]
 Danny_Elfman"
-	user_1922 -> "Body Heat"
+	Dave -> "[DISTRIBUTOR]
+Warner_Bros."
+	user_1922 -> Sphere
 	"True Romance" -> "[DISTRIBUTOR]
 Warner_Bros."
-	Dave -> "[DISTRIBUTOR]
+	user_1922 -> Dave
+	Sphere -> "[DISTRIBUTOR]
+Warner_Bros."
+	"[DISTRIBUTOR]
+Warner_Bros." -> Beetlejuice
+	user_1922 -> "Black Beauty"
+	"Lethal Weapon" -> "[DISTRIBUTOR]
+Warner_Bros."
+	user_1922 -> "Mars Attacks!"
+	"Nightmare Before Christmas, The" -> "[MUSICCOMPOSER]
+Danny_Elfman"
+	"Body Heat" -> "[DISTRIBUTOR]
 Warner_Bros."
 	"[STARRING]
 Michael_Keaton" -> Beetlejuice
+	"Good Will Hunting" -> "[MUSICCOMPOSER]
+Danny_Elfman"
+	user_1922 -> "Lethal Weapon"
+	"Mission - Impossible" -> "[MUSICCOMPOSER]
+Danny_Elfman"
+	user_1922 -> "League of Their Own, A"
+	"Mars Attacks!" -> "[MUSICCOMPOSER]
+Danny_Elfman"
+	user_1922 -> "True Romance"
+	user_1922 -> "Nightmare Before Christmas, The"
+	user_1922 -> "Mission - Impossible"
+	"[MUSICCOMPOSER]
+Danny_Elfman" -> Beetlejuice
+	user_1922 -> "Good Will Hunting"
+	"League of Their Own, A" -> "[STARRING]
+Michael_Keaton"
+	user_1922 -> "Body Heat"
 }

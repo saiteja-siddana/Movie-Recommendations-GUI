@@ -1,0 +1,25 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_3436 -> "Stand by Me"
+	user_3436 -> "Dr. Strangelove or - How I Learned to Stop Worrying and Love the Bomb"
+	user_3436 -> "Cat Ballou"
+	user_3436 -> "Cell, The"
+	"[CINEMATOGRAPHY]
+Paul_Cameron_(cinematographer)" -> "Total Recall"
+	Ghostbusters -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Cat Ballou" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Cell, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Dr. Strangelove or - How I Learned to Stop Worrying and Love the Bomb" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"Stand by Me" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_3436 -> Ghostbusters
+	user_3436 -> "Gone in 60 Seconds"
+	"Gone in 60 Seconds" -> "[CINEMATOGRAPHY]
+Paul_Cameron_(cinematographer)"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Total Recall"
+}

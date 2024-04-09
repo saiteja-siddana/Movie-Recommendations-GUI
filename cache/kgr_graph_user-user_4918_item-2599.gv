@@ -1,39 +1,39 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	Clue -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	user_4918 -> "Flight of the Navigator"
 	"Saving Private Ryan" -> "[DISTRIBUTOR]
 Paramount_Pictures"
 	"Ferris Bueller's Day Off" -> "[STARRING]
 Reese_Witherspoon"
-	"Flight of the Navigator" -> "[CINEMATOGRAPHY]
-James_Glennon"
-	"Ferris Bueller's Day Off" -> "[STARRING]
-Matthew_Broderick"
-	"[STARRING]
-Matthew_Broderick" -> Election
-	Glory -> "[STARRING]
-Matthew_Broderick"
-	user_4918 -> "Saving Private Ryan"
-	Coneheads -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	user_4918 -> Glory
 	"[CINEMATOGRAPHY]
 James_Glennon" -> Election
-	user_4918 -> Coneheads
-	"[DISTRIBUTOR]
-Paramount_Pictures" -> Election
-	user_4918 -> Clue
-	user_4918 -> "Ferris Bueller's Day Off"
 	"Star Trek - Insurrection" -> "[DISTRIBUTOR]
 Paramount_Pictures"
+	user_4918 -> "Raiders of the Lost Ark"
+	user_4918 -> "Flight of the Navigator"
+	user_4918 -> "Saving Private Ryan"
 	Glory -> "[STARRING]
-Reese_Witherspoon"
+Matthew_Broderick"
+	"Flight of the Navigator" -> "[CINEMATOGRAPHY]
+James_Glennon"
 	"[STARRING]
 Reese_Witherspoon" -> Election
+	"[DISTRIBUTOR]
+Paramount_Pictures" -> Election
+	Coneheads -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_4918 -> Coneheads
+	user_4918 -> Glory
+	user_4918 -> "Star Trek - Insurrection"
 	"Raiders of the Lost Ark" -> "[DISTRIBUTOR]
 Paramount_Pictures"
-	user_4918 -> "Raiders of the Lost Ark"
-	user_4918 -> "Star Trek - Insurrection"
+	user_4918 -> "Ferris Bueller's Day Off"
+	Glory -> "[STARRING]
+Reese_Witherspoon"
+	Clue -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"[STARRING]
+Matthew_Broderick" -> Election
+	"Ferris Bueller's Day Off" -> "[STARRING]
+Matthew_Broderick"
+	user_4918 -> Clue
 }

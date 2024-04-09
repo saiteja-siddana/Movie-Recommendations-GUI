@@ -1,0 +1,51 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_3436 -> Shane
+	user_3436 -> "Saving Private Ryan"
+	user_3436 -> "High Plains Drifter"
+	"[STARRING]
+Robert_Duvall" -> "Godfather - Part II, The"
+	"[STARRING]
+Al_Pacino" -> "Godfather - Part II, The"
+	"Runaway Bride" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_3436 -> "Midnight Run"
+	Shane -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Apocalypse Now" -> "[STARRING]
+Robert_De_Niro"
+	"Midnight Run" -> "[STARRING]
+Al_Pacino"
+	"Midnight Run" -> "[STARRING]
+Robert_Duvall"
+	"High Plains Drifter" -> "[STARRING]
+Al_Pacino"
+	"Star Trek - The Motion Picture" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"High Plains Drifter" -> "[STARRING]
+Robert_Duvall"
+	user_3436 -> "Runaway Bride"
+	user_3436 -> "Sleepy Hollow"
+	"Apocalypse Now" -> "[STARRING]
+Al_Pacino"
+	"Midnight Run" -> "[STARRING]
+Talia_Shire"
+	"Sleepy Hollow" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Apocalypse Now" -> "[STARRING]
+Robert_Duvall"
+	"Saving Private Ryan" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"High Plains Drifter" -> "[STARRING]
+Talia_Shire"
+	"[STARRING]
+Talia_Shire" -> "Godfather - Part II, The"
+	"[STARRING]
+Robert_De_Niro" -> "Godfather - Part II, The"
+	"Apocalypse Now" -> "[STARRING]
+Talia_Shire"
+	"[DISTRIBUTOR]
+Paramount_Pictures" -> "Godfather - Part II, The"
+	user_3436 -> "Apocalypse Now"
+	user_3436 -> "Star Trek - The Motion Picture"
+}

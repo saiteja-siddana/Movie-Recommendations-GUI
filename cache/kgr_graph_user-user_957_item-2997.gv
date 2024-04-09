@@ -1,32 +1,32 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	"[STUDIO]
-Gramercy_Pictures" -> "Being John Malkovich"
-	user_957 -> "Waking the Dead"
+	"Waking the Dead" -> "[STUDIO]
+Gramercy_Pictures"
 	"[STUDIO]
 ell Pictures" -> "Being John Malkovich"
-	"[STUDIO]
-Propaganda_Films" -> "Being John Malkovich"
+	"Waking the Dead" -> "[STUDIO]
+ell Pictures"
 	"Nurse Betty" -> "[STUDIO]
 Propaganda_Films"
-	"Waking the Dead" -> "[STUDIO]
-Propaganda_Films"
-	"Waking the Dead" -> "[DISTRIBUTOR]
+	"Nurse Betty" -> "[STUDIO]
+Gramercy_Pictures"
+	user_957 -> "Nurse Betty"
+	"[STUDIO]
+Gramercy_Pictures" -> "Being John Malkovich"
+	user_957 -> "Map of the World, A"
+	"Map of the World, A" -> "[DISTRIBUTOR]
 USA_Films"
+	"[STUDIO]
+Propaganda_Films" -> "Being John Malkovich"
+	user_957 -> "Waking the Dead"
 	"Nurse Betty" -> "[DISTRIBUTOR]
 USA_Films"
 	"[DISTRIBUTOR]
 USA_Films" -> "Being John Malkovich"
-	user_957 -> "Nurse Betty"
-	"Map of the World, A" -> "[DISTRIBUTOR]
+	"Waking the Dead" -> "[STUDIO]
+Propaganda_Films"
+	"Nurse Betty" -> "[STUDIO]
+ell Pictures"
+	"Waking the Dead" -> "[DISTRIBUTOR]
 USA_Films"
-	"Nurse Betty" -> "[STUDIO]
-Gramercy_Pictures"
-	"Waking the Dead" -> "[STUDIO]
-ell Pictures"
-	user_957 -> "Map of the World, A"
-	"Waking the Dead" -> "[STUDIO]
-Gramercy_Pictures"
-	"Nurse Betty" -> "[STUDIO]
-ell Pictures"
 }

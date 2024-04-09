@@ -1,0 +1,73 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3436",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Usual Suspects, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[CINEMATOGRAPHY]\nNewton_Thomas_Sigel",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "X-Men",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Three Kings",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "[MUSICCOMPOSER]\nJohn_Ottman",
+            "group": 3
+        },
+        {
+            "id": 6,
+            "labelC": "Lake Placid",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 6,
+            "to": 5
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 0,
+            "to": 3
+        }
+    ]
+}

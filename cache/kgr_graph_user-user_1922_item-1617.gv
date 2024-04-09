@@ -1,42 +1,42 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_1922 -> "True Romance"
-	user_1922 -> "Star Trek - First Contact"
-	"Lethal Weapon" -> "[DISTRIBUTOR]
-Warner_Bros."
-	user_1922 -> "Lethal Weapon"
-	"[DISTRIBUTOR]
-Warner_Bros." -> "L.A. Confidential"
-	user_1922 -> Sphere
-	user_1922 -> "Star Trek - The Motion Picture"
-	"Star Trek - The Motion Picture" -> "[MUSICCOMPOSER]
-Jerry_Goldsmith"
-	user_1922 -> Dave
-	"[MUSICCOMPOSER]
-Jerry_Goldsmith" -> "L.A. Confidential"
-	"[STUDIO]
-Regency_Enterprises" -> "L.A. Confidential"
-	Alien -> "[MUSICCOMPOSER]
-Jerry_Goldsmith"
-	user_1922 -> "Logan's Run"
-	"Logan's Run" -> "[MUSICCOMPOSER]
-Jerry_Goldsmith"
-	"Natural Born Killers" -> "[STUDIO]
-Regency_Enterprises"
-	user_1922 -> "Natural Born Killers"
-	Sphere -> "[DISTRIBUTOR]
-Warner_Bros."
-	"Body Heat" -> "[DISTRIBUTOR]
-Warner_Bros."
 	"Star Trek - First Contact" -> "[MUSICCOMPOSER]
 Jerry_Goldsmith"
-	user_1922 -> "Body Heat"
-	"True Romance" -> "[DISTRIBUTOR]
-Warner_Bros."
+	"Logan's Run" -> "[MUSICCOMPOSER]
+Jerry_Goldsmith"
+	Alien -> "[MUSICCOMPOSER]
+Jerry_Goldsmith"
 	Dave -> "[DISTRIBUTOR]
 Warner_Bros."
+	"True Romance" -> "[DISTRIBUTOR]
+Warner_Bros."
+	user_1922 -> Dave
+	Sphere -> "[DISTRIBUTOR]
+Warner_Bros."
+	"[STUDIO]
+Regency_Enterprises" -> "L.A. Confidential"
+	"Natural Born Killers" -> "[STUDIO]
+Regency_Enterprises"
+	"Lethal Weapon" -> "[DISTRIBUTOR]
+Warner_Bros."
 	user_1922 -> "Escape from the Planet of the Apes"
+	"Body Heat" -> "[DISTRIBUTOR]
+Warner_Bros."
+	user_1922 -> "Star Trek - The Motion Picture"
+	user_1922 -> "Star Trek - First Contact"
+	user_1922 -> "Lethal Weapon"
+	user_1922 -> "Logan's Run"
 	"Escape from the Planet of the Apes" -> "[MUSICCOMPOSER]
 Jerry_Goldsmith"
 	user_1922 -> Alien
+	"Star Trek - The Motion Picture" -> "[MUSICCOMPOSER]
+Jerry_Goldsmith"
+	user_1922 -> "True Romance"
+	"[DISTRIBUTOR]
+Warner_Bros." -> "L.A. Confidential"
+	user_1922 -> "Natural Born Killers"
+	"[MUSICCOMPOSER]
+Jerry_Goldsmith" -> "L.A. Confidential"
+	user_1922 -> Sphere
+	user_1922 -> "Body Heat"
 }

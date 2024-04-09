@@ -1,0 +1,22 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_3436 -> "Mighty, The"
+	"[WRITER]
+Quentin_Tarantino" -> "Pulp Fiction"
+	"Down in the Delta" -> "[DISTRIBUTOR]
+Miramax_Films"
+	"[DISTRIBUTOR]
+Miramax_Films" -> "Pulp Fiction"
+	user_3436 -> "Cider House Rules, The"
+	"Mighty, The" -> "[DISTRIBUTOR]
+Miramax_Films"
+	"Cider House Rules, The" -> "[DISTRIBUTOR]
+Miramax_Films"
+	"Crimson Tide" -> "[WRITER]
+Quentin_Tarantino"
+	user_3436 -> "English Patient, The"
+	user_3436 -> "Crimson Tide"
+	user_3436 -> "Down in the Delta"
+	"English Patient, The" -> "[DISTRIBUTOR]
+Miramax_Films"
+}

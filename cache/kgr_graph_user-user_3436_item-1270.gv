@@ -1,0 +1,41 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[DISTRIBUTOR]
+Universal_Studios" -> "Back to the Future"
+	"Bone Collector, The" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Bone Collector, The"
+	Arachnophobia -> "[STUDIO]
+Amblin_Entertainment"
+	"Goonies, The" -> "[STUDIO]
+Amblin_Entertainment"
+	user_3436 -> "Goonies, The"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Little Rascals, The"
+	user_3436 -> "Reality Bites"
+	user_3436 -> "Who Framed Roger Rabbit?"
+	"Abbott and Costello Meet Frankenstein" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Abbott and Costello Meet Frankenstein"
+	"Reality Bites" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Little Rascals, The" -> "[STUDIO]
+Amblin_Entertainment"
+	"[CINEMATOGRAPHY]
+Dean_Cundey" -> "Back to the Future"
+	"Who Framed Roger Rabbit?" -> "[CINEMATOGRAPHY]
+Dean_Cundey"
+	user_3436 -> "Mickey Blue Eyes"
+	user_3436 -> "Erin Brockovich"
+	"Who Framed Roger Rabbit?" -> "[STUDIO]
+Amblin_Entertainment"
+	"Small Soldiers" -> "[STUDIO]
+Amblin_Entertainment"
+	"[STUDIO]
+Amblin_Entertainment" -> "Back to the Future"
+	"Mickey Blue Eyes" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Small Soldiers"
+	user_3436 -> Arachnophobia
+}

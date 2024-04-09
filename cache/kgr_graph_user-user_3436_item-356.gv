@@ -1,0 +1,25 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Runaway Bride" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	Shane -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_3436 -> "Saving Private Ryan"
+	user_3436 -> "Runaway Bride"
+	"Saving Private Ryan" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_3436 -> "Sleepy Hollow"
+	"Sleepy Hollow" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"[EDITING]
+Arthur_Schmidt_(film_editor)" -> "Forrest Gump"
+	"[DISTRIBUTOR]
+Paramount_Pictures" -> "Forrest Gump"
+	user_3436 -> "Who Framed Roger Rabbit?"
+	user_3436 -> Shane
+	"Who Framed Roger Rabbit?" -> "[EDITING]
+Arthur_Schmidt_(film_editor)"
+	"Star Trek - The Motion Picture" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_3436 -> "Star Trek - The Motion Picture"
+}

@@ -1,11 +1,33 @@
 # Movielens+KG Graph Visualization UI
+User Interface for movie recommendations. 
+
+## Demo
+1. Once the user is selected from the leftmost dropdown, all the movies recommended to that user will be shown in the 2nd dropdown. As shown in the below Images 1,2
+    <p align="center">
+    <img src="images/Demo_4.png" alt="Image 1" style="width: 45%; margin-right: 10px;"/>
+    <img src="images/Demo_3.png" alt="Image 2" style="width: 45%;"/>
+    </p>
+2. By selecting each movie, a fun interactive graph will be displayed explaining why this particular movie is recommended to that user on a high level
+3. Blue node is the user, Yellow node is the recommende movie, Green nodes are some of the movies watched and rated by that user. 
+4. Red nodes are some of the common attributes of recommended movie and movies watched by the user, which are factored in while generating recommendations 
+    <p align="center">
+    <img src="images/Demo_1.png" alt="Image 3" style="width: 45%; margin-right: 10px;"/>
+    <img src="images/Demo_2.png" alt="Image 4" style="width: 45%;"/>
+    </p>
 
 ## Requirements
 * Python 3.7
 * graphviz
+    ```
+    brew install graphviz
+    ```
+    Make sure that graphviz executables are in your system's PATH environment variable
 * pydot
 * matplotlib
 * Django
+    ```
+    pip install django
+    ```
 
 ## How to run
 1. Clone the repo or download as .zip and extract.
@@ -45,16 +67,16 @@
     * File: movie_recommendations_file\templates\base.html
     * Lines: 165-166
         ```
-        width:"700",
-        height:"400",
+        width:"100%",
+        height:"700",
         ```
     * Lines: 164-196 (To manage options of whole graph like nodes, size, physics etc)
 2. User,Rec Graph
     * File: movie_recommendations_app\templates\graph.html
     * Lines: 110-111
         ```
-        width:"700",
-        height:"400",
+        width:"100%",
+        height:"700",
         ```
     * Lines: 109-141 (To manage options of whole graph like nodes, size, physics etc)
 
@@ -68,9 +90,9 @@
 * Used in file: movie_recommendations_app\views.py
 * Lines: 19-21
 ```
-file_path1 = os.path.join(DIR,'data/recommendations.json')
-file_path2 = os.path.join(DIR,'data/item_mapping.json')
-file_path3 = os.path.join(DIR,'data/attribute_explanation.json')
+file_path1 = os.path.join(DIR,'data', 'recommendations.json')
+file_path2 = os.path.join(DIR,'data','item_mapping.json')
+file_path3 = os.path.join(DIR,'data','attribute_explanation.json')
 ```
 
 ### Main graph's json file.
@@ -88,5 +110,5 @@ file_path3 = os.path.join(DIR,'data/attribute_explanation.json')
 * Lines: 180-181
 ```
     k = str(user) + "_item-" + str(rec) + ".json"
-    check = r"cache\kgr_graph_user-user_" + k
+    check = os.path.join("cache", f"kgr_graph_user-user_{k}")
 ```

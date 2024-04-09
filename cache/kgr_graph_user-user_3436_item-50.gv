@@ -1,0 +1,16 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"Lake Placid" -> "[MUSICCOMPOSER]
+John_Ottman"
+	"X-Men" -> "[CINEMATOGRAPHY]
+Newton_Thomas_Sigel"
+	"[CINEMATOGRAPHY]
+Newton_Thomas_Sigel" -> "Usual Suspects, The"
+	"[MUSICCOMPOSER]
+John_Ottman" -> "Usual Suspects, The"
+	user_3436 -> "Lake Placid"
+	"Three Kings" -> "[CINEMATOGRAPHY]
+Newton_Thomas_Sigel"
+	user_3436 -> "Three Kings"
+	user_3436 -> "X-Men"
+}

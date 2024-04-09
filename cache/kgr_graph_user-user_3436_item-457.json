@@ -1,0 +1,147 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3436",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Fugitive, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nWarner_Bros._Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Perfect Storm, The",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Mars Attacks!",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Terminator, The",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Space Cowboys",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Matrix, The",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[MUSICCOMPOSER]\nJames_Newton_Howard",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Runaway Bride",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Sixth Sense, The",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "[PRODUCER]\nArnold_Kopelson",
+            "group": 3
+        },
+        {
+            "id": 12,
+            "labelC": "Platoon",
+            "group": 4
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 12,
+            "to": 11
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 12
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 11,
+            "to": 1
+        },
+        {
+            "from": 4,
+            "to": 2
+        }
+    ]
+}

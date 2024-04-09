@@ -1,28 +1,28 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	"Breakfast Club, The" -> "[CINEMATOGRAPHY]
-Thomas_Del_Ruth"
-	"[DISTRIBUTOR]
-Columbia_Pictures" -> "Stand by Me"
+	user_4918 -> Ghostbusters
 	"Full Metal Jacket" -> "[DISTRIBUTOR]
 Columbia_Pictures"
-	user_4918 -> "Breakfast Club, The"
-	user_4918 -> "Full Metal Jacket"
-	Ghostbusters -> "[DISTRIBUTOR]
-Columbia_Pictures"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Stand by Me"
 	user_4918 -> "Men in Black"
-	"[CINEMATOGRAPHY]
-Thomas_Del_Ruth" -> "Stand by Me"
-	user_4918 -> Ghostbusters
-	user_4918 -> "Mighty Ducks, The"
+	"Terminator, The" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_4918 -> Starman
+	Starman -> "[DISTRIBUTOR]
+Columbia_Pictures"
 	"Men in Black" -> "[DISTRIBUTOR]
 Columbia_Pictures"
 	"Mighty Ducks, The" -> "[CINEMATOGRAPHY]
 Thomas_Del_Ruth"
-	user_4918 -> Starman
-	"Terminator, The" -> "[DISTRIBUTOR]
-Columbia_Pictures"
+	user_4918 -> "Breakfast Club, The"
+	user_4918 -> "Full Metal Jacket"
+	user_4918 -> "Mighty Ducks, The"
+	"Breakfast Club, The" -> "[CINEMATOGRAPHY]
+Thomas_Del_Ruth"
 	user_4918 -> "Terminator, The"
-	Starman -> "[DISTRIBUTOR]
+	Ghostbusters -> "[DISTRIBUTOR]
 Columbia_Pictures"
+	"[CINEMATOGRAPHY]
+Thomas_Del_Ruth" -> "Stand by Me"
 }

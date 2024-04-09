@@ -1,25 +1,25 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_4918 -> Robocop
-	"[DISTRIBUTOR]
-Orion_Pictures" -> "Silence of the Lambs, The"
 	Robocop -> "[DISTRIBUTOR]
 Orion_Pictures"
-	user_4918 -> "Dances with Wolves"
-	user_4918 -> "Ferris Bueller's Day Off"
-	user_4918 -> Amadeus
-	"Robocop 2" -> "[DISTRIBUTOR]
+	"[DISTRIBUTOR]
+Orion_Pictures" -> "Silence of the Lambs, The"
+	user_4918 -> Robocop
+	Amadeus -> "[DISTRIBUTOR]
 Orion_Pictures"
 	user_4918 -> "Sixth Sense, The"
-	"Sixth Sense, The" -> "[CINEMATOGRAPHY]
-Tak_Fujimoto"
-	user_4918 -> "Robocop 2"
-	"Dances with Wolves" -> "[DISTRIBUTOR]
-Orion_Pictures"
-	Amadeus -> "[DISTRIBUTOR]
+	user_4918 -> "Dances with Wolves"
+	"Robocop 2" -> "[DISTRIBUTOR]
 Orion_Pictures"
 	"[CINEMATOGRAPHY]
 Tak_Fujimoto" -> "Silence of the Lambs, The"
 	"Ferris Bueller's Day Off" -> "[CINEMATOGRAPHY]
 Tak_Fujimoto"
+	user_4918 -> "Robocop 2"
+	user_4918 -> "Ferris Bueller's Day Off"
+	"Sixth Sense, The" -> "[CINEMATOGRAPHY]
+Tak_Fujimoto"
+	user_4918 -> Amadeus
+	"Dances with Wolves" -> "[DISTRIBUTOR]
+Orion_Pictures"
 }

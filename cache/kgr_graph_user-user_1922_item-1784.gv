@@ -1,42 +1,42 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_1922 -> "Mrs. Winterbourne"
-	user_1922 -> "True Romance"
-	"League of Their Own, A" -> "[MUSICCOMPOSER]
-Hans_Zimmer"
-	"True Romance" -> "[MUSICCOMPOSER]
-Hans_Zimmer"
-	user_1922 -> "Smilla's Sense of Snow"
-	user_1922 -> "League of Their Own, A"
-	"Smilla's Sense of Snow" -> "[MUSICCOMPOSER]
-Hans_Zimmer"
-	"Godfather - Part II, The" -> "[EDITING]
-Richard_Marks"
-	"[DISTRIBUTOR]
-TriStar_Pictures" -> "As Good As It Gets"
-	"Peggy Sue Got Married" -> "[DISTRIBUTOR]
-TriStar_Pictures"
-	user_1922 -> "My Best Friend's Wedding"
-	user_1922 -> "Godfather - Part II, The"
-	"Mrs. Winterbourne" -> "[DISTRIBUTOR]
-TriStar_Pictures"
-	"[EDITING]
-Richard_Marks" -> "As Good As It Gets"
-	user_1922 -> "Jerry Maguire"
-	"Pacific Heights" -> "[MUSICCOMPOSER]
-Hans_Zimmer"
-	"Jerry Maguire" -> "[DISTRIBUTOR]
-TriStar_Pictures"
-	user_1922 -> Backdraft
-	"[MUSICCOMPOSER]
-Hans_Zimmer" -> "As Good As It Gets"
-	Backdraft -> "[MUSICCOMPOSER]
-Hans_Zimmer"
-	user_1922 -> "Peggy Sue Got Married"
-	user_1922 -> "Pacific Heights"
-	"My Best Friend's Wedding" -> "[DISTRIBUTOR]
-TriStar_Pictures"
 	"Seventh Sign, The" -> "[DISTRIBUTOR]
 TriStar_Pictures"
+	user_1922 -> "Peggy Sue Got Married"
+	"Pacific Heights" -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	"Peggy Sue Got Married" -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	"True Romance" -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	"League of Their Own, A" -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	"[DISTRIBUTOR]
+TriStar_Pictures" -> "As Good As It Gets"
+	user_1922 -> "Pacific Heights"
+	"Smilla's Sense of Snow" -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	"Mrs. Winterbourne" -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	"Godfather - Part II, The" -> "[EDITING]
+Richard_Marks"
+	"[MUSICCOMPOSER]
+Hans_Zimmer" -> "As Good As It Gets"
+	user_1922 -> "My Best Friend's Wedding"
+	user_1922 -> "League of Their Own, A"
+	"[EDITING]
+Richard_Marks" -> "As Good As It Gets"
+	Backdraft -> "[MUSICCOMPOSER]
+Hans_Zimmer"
+	user_1922 -> Backdraft
+	user_1922 -> "True Romance"
+	"My Best Friend's Wedding" -> "[DISTRIBUTOR]
+TriStar_Pictures"
 	user_1922 -> "Seventh Sign, The"
+	user_1922 -> "Smilla's Sense of Snow"
+	user_1922 -> "Godfather - Part II, The"
+	"Jerry Maguire" -> "[DISTRIBUTOR]
+TriStar_Pictures"
+	user_1922 -> "Jerry Maguire"
+	user_1922 -> "Mrs. Winterbourne"
 }

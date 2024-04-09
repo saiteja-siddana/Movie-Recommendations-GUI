@@ -1,0 +1,33 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_3436 -> "Sixth Sense, The"
+	user_3436 -> "Perfect Storm, The"
+	"[MUSICCOMPOSER]
+James_Newton_Howard" -> "Fugitive, The"
+	"Terminator, The" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"Runaway Bride" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	Platoon -> "[PRODUCER]
+Arnold_Kopelson"
+	"Space Cowboys" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_3436 -> "Terminator, The"
+	"Sixth Sense, The" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	user_3436 -> "Matrix, The"
+	"[DISTRIBUTOR]
+Warner_Bros._Pictures" -> "Fugitive, The"
+	user_3436 -> "Space Cowboys"
+	user_3436 -> Platoon
+	"Matrix, The" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	"Perfect Storm, The" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_3436 -> "Runaway Bride"
+	user_3436 -> "Mars Attacks!"
+	"[PRODUCER]
+Arnold_Kopelson" -> "Fugitive, The"
+	"Mars Attacks!" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+}

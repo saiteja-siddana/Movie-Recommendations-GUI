@@ -1,33 +1,33 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	"[DISTRIBUTOR]
-Warner_Bros." -> "Blade Runner"
-	user_957 -> Gladiator
-	"Mildred Pierce" -> "[DISTRIBUTOR]
-Warner_Bros."
-	Gladiator -> "[DIRECTOR]
-Ridley_Scott"
-	user_957 -> "Deer Hunter, The"
-	user_957 -> Alien
-	"[DIRECTOR]
-Ridley_Scott" -> "Blade Runner"
-	Heat -> "[DISTRIBUTOR]
-Warner_Bros."
-	"[PRODUCER]
-Michael_Deeley" -> "Blade Runner"
-	user_957 -> "Iron Giant, The"
-	"L.A. Confidential" -> "[DISTRIBUTOR]
-Warner_Bros."
-	user_957 -> JFK
-	Alien -> "[DIRECTOR]
-Ridley_Scott"
-	user_957 -> Heat
-	user_957 -> "Mildred Pierce"
-	"Iron Giant, The" -> "[DISTRIBUTOR]
-Warner_Bros."
 	JFK -> "[DISTRIBUTOR]
 Warner_Bros."
+	user_957 -> "Mildred Pierce"
+	user_957 -> "Iron Giant, The"
+	user_957 -> Gladiator
+	user_957 -> Heat
+	"[DISTRIBUTOR]
+Warner_Bros." -> "Blade Runner"
+	"Iron Giant, The" -> "[DISTRIBUTOR]
+Warner_Bros."
+	"[DIRECTOR]
+Ridley_Scott" -> "Blade Runner"
+	"Mildred Pierce" -> "[DISTRIBUTOR]
+Warner_Bros."
+	Heat -> "[DISTRIBUTOR]
+Warner_Bros."
 	user_957 -> "L.A. Confidential"
+	user_957 -> "Deer Hunter, The"
+	Gladiator -> "[DIRECTOR]
+Ridley_Scott"
+	user_957 -> JFK
+	user_957 -> Alien
+	"[PRODUCER]
+Michael_Deeley" -> "Blade Runner"
 	"Deer Hunter, The" -> "[PRODUCER]
 Michael_Deeley"
+	"L.A. Confidential" -> "[DISTRIBUTOR]
+Warner_Bros."
+	Alien -> "[DIRECTOR]
+Ridley_Scott"
 }

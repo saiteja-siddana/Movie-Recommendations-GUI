@@ -1,0 +1,42 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[MUSICCOMPOSER]
+John_Williams" -> "Jurassic Park"
+	user_3436 -> "Saving Private Ryan"
+	"Bone Collector, The" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Bone Collector, The"
+	"Saving Private Ryan" -> "[MUSICCOMPOSER]
+John_Williams"
+	"[DISTRIBUTOR]
+Universal_Studios" -> "Jurassic Park"
+	Arachnophobia -> "[EDITING]
+Michael_Kahn_(film_editor)"
+	user_3436 -> "Star Wars - Episode V - The Empire Strikes Back"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Reality Bites"
+	"Raiders of the Lost Ark" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Close Encounters of the Third Kind" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Abbott and Costello Meet Frankenstein" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"[EDITING]
+Michael_Kahn_(film_editor)" -> "Jurassic Park"
+	"Star Wars - Episode V - The Empire Strikes Back" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_3436 -> "Raiders of the Lost Ark"
+	"Seven Years in Tibet" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_3436 -> "Abbott and Costello Meet Frankenstein"
+	"Reality Bites" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Mickey Blue Eyes"
+	user_3436 -> "Erin Brockovich"
+	"Mickey Blue Eyes" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Seven Years in Tibet"
+	user_3436 -> "Close Encounters of the Third Kind"
+	user_3436 -> Arachnophobia
+}

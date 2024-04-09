@@ -1,41 +1,41 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
+	"Rules of Engagement" -> "[STARRING]
+Vincent_D'Onofrio"
+	"Wonder Boys" -> "[STARRING]
+Vincent_D'Onofrio"
+	"Six Degrees of Separation" -> "[STARRING]
+Vincent_D'Onofrio"
+	"[STARRING]
+Vincent_D'Onofrio" -> "Men in Black"
+	user_957 -> "I Dreamed of Africa"
 	user_957 -> "Man for All Seasons, A"
-	user_957 -> "Erin Brockovich"
+	user_957 -> "Rules of Engagement"
 	"I Dreamed of Africa" -> "[DISTRIBUTOR]
 Columbia_Pictures"
 	JFK -> "[STARRING]
-Vincent_D'Onofrio"
-	user_957 -> "Deer Hunter, The"
-	"Wonder Boys" -> "[STARRING]
-Vincent_D'Onofrio"
+Linda_Fiorentino"
 	"Deer Hunter, The" -> "[DISTRIBUTOR]
 Columbia_Pictures"
 	user_957 -> "Wonder Boys"
-	Gandhi -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	user_957 -> "Space Cowboys"
-	user_957 -> "I Dreamed of Africa"
-	user_957 -> Gandhi
-	user_957 -> JFK
-	JFK -> "[STARRING]
-Linda_Fiorentino"
-	"[STARRING]
-Linda_Fiorentino" -> "Men in Black"
-	"Six Degrees of Separation" -> "[STARRING]
-Vincent_D'Onofrio"
-	user_957 -> "Rules of Engagement"
-	"Space Cowboys" -> "[STARRING]
-Vincent_D'Onofrio"
-	"[DISTRIBUTOR]
-Columbia_Pictures" -> "Men in Black"
-	"Erin Brockovich" -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	"Rules of Engagement" -> "[STARRING]
-Vincent_D'Onofrio"
-	user_957 -> "Six Degrees of Separation"
-	"[STARRING]
-Vincent_D'Onofrio" -> "Men in Black"
 	"Man for All Seasons, A" -> "[DISTRIBUTOR]
 Columbia_Pictures"
+	user_957 -> "Space Cowboys"
+	Gandhi -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	JFK -> "[STARRING]
+Vincent_D'Onofrio"
+	user_957 -> "Six Degrees of Separation"
+	"Erin Brockovich" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	user_957 -> "Deer Hunter, The"
+	user_957 -> Gandhi
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Men in Black"
+	user_957 -> JFK
+	user_957 -> "Erin Brockovich"
+	"[STARRING]
+Linda_Fiorentino" -> "Men in Black"
+	"Space Cowboys" -> "[STARRING]
+Vincent_D'Onofrio"
 }

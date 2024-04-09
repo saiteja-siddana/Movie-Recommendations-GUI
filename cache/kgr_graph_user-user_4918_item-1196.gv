@@ -1,41 +1,41 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	"[STUDIO]
-Lucasfilm" -> "Star Wars - Episode V - The Empire Strikes Back"
+	"X-Files - Fight the Future, The" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_4918 -> "Star Wars - Episode IV - A New Hope"
+	"Conan the Barbarian" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_4918 -> "Conan the Barbarian"
 	Cocoon -> "[DISTRIBUTOR]
 20th_Century_Fox"
+	user_4918 -> "Princess Bride, The"
+	user_4918 -> "Raiders of the Lost Ark"
+	user_4918 -> "Saving Private Ryan"
+	user_4918 -> "Indiana Jones and the Last Crusade"
+	"[STUDIO]
+Lucasfilm" -> "Star Wars - Episode V - The Empire Strikes Back"
 	"Raiders of the Lost Ark" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Star Wars - Episode IV - A New Hope" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"[MUSICCOMPOSER]
+John_Williams" -> "Star Wars - Episode V - The Empire Strikes Back"
+	user_4918 -> "Superman II"
+	"Star Wars - Episode IV - A New Hope" -> "[MUSICCOMPOSER]
 John_Williams"
 	"Indiana Jones and the Last Crusade" -> "[STUDIO]
 Lucasfilm"
-	"Star Wars - Episode IV - A New Hope" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	"Star Wars - Episode IV - A New Hope" -> "[MUSICCOMPOSER]
-John_Williams"
-	user_4918 -> "E.T. the Extra-Terrestrial"
-	"Saving Private Ryan" -> "[MUSICCOMPOSER]
-John_Williams"
-	user_4918 -> "Indiana Jones and the Last Crusade"
-	user_4918 -> "Conan the Barbarian"
-	user_4918 -> Cocoon
-	"Conan the Barbarian" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	user_4918 -> "Saving Private Ryan"
-	"[MUSICCOMPOSER]
-John_Williams" -> "Star Wars - Episode V - The Empire Strikes Back"
-	"X-Files - Fight the Future, The" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	"Princess Bride, The" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	"Superman II" -> "[MUSICCOMPOSER]
-John_Williams"
-	user_4918 -> "Princess Bride, The"
-	user_4918 -> "X-Files - Fight the Future, The"
-	"[DISTRIBUTOR]
-20th_Century_Fox" -> "Star Wars - Episode V - The Empire Strikes Back"
-	user_4918 -> "Star Wars - Episode IV - A New Hope"
 	"E.T. the Extra-Terrestrial" -> "[MUSICCOMPOSER]
 John_Williams"
-	user_4918 -> "Superman II"
-	user_4918 -> "Raiders of the Lost Ark"
+	user_4918 -> Cocoon
+	user_4918 -> "X-Files - Fight the Future, The"
+	"Superman II" -> "[MUSICCOMPOSER]
+John_Williams"
+	"Saving Private Ryan" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_4918 -> "E.T. the Extra-Terrestrial"
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> "Star Wars - Episode V - The Empire Strikes Back"
+	"Princess Bride, The" -> "[DISTRIBUTOR]
+20th_Century_Fox"
 }

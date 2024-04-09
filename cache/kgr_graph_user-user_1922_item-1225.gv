@@ -1,51 +1,51 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_1922 -> "Bull Durham"
-	"Howard the Duck" -> "[STARRING]
+	"Animal House" -> "[STARRING]
 Roy_Dotrice"
-	"[STARRING]
-Tom_Hulce" -> Amadeus
-	"Ed Wood" -> "[STARRING]
-Simon_Callow"
-	"Purple Rose of Cairo, The" -> "[DISTRIBUTOR]
-Orion_Pictures"
-	user_1922 -> "Howard the Duck"
-	"Howard the Duck" -> "[STARRING]
-Tom_Hulce"
+	user_1922 -> "Bull Durham"
 	"Animal House" -> "[STARRING]
 Simon_Callow"
-	"[DISTRIBUTOR]
-Orion_Pictures" -> Amadeus
-	user_1922 -> "Desperately Seeking Susan"
-	user_1922 -> "Silence of the Lambs, The"
-	"Ed Wood" -> "[STARRING]
-Charles_Kay"
 	"[STARRING]
-Simon_Callow" -> Amadeus
-	"F/X" -> "[DISTRIBUTOR]
-Orion_Pictures"
+Tom_Hulce" -> Amadeus
 	"Bull Durham" -> "[DISTRIBUTOR]
 Orion_Pictures"
 	"Howard the Duck" -> "[STARRING]
-Simon_Callow"
-	"Ed Wood" -> "[STARRING]
 Roy_Dotrice"
-	"Howard the Duck" -> "[STARRING]
-Charles_Kay"
 	user_1922 -> "Purple Rose of Cairo, The"
-	"Animal House" -> "[STARRING]
-Roy_Dotrice"
-	user_1922 -> "Animal House"
-	user_1922 -> "Ed Wood"
-	"Animal House" -> "[STARRING]
-Charles_Kay"
+	"Howard the Duck" -> "[STARRING]
+Tom_Hulce"
+	"Howard the Duck" -> "[STARRING]
+Simon_Callow"
+	user_1922 -> "Silence of the Lambs, The"
+	"F/X" -> "[DISTRIBUTOR]
+Orion_Pictures"
 	"Desperately Seeking Susan" -> "[DISTRIBUTOR]
 Orion_Pictures"
-	user_1922 -> "F/X"
-	"[STARRING]
-Charles_Kay" -> Amadeus
-	"Silence of the Lambs, The" -> "[DISTRIBUTOR]
-Orion_Pictures"
+	"Animal House" -> "[STARRING]
+Charles_Kay"
 	"[STARRING]
 Roy_Dotrice" -> Amadeus
+	user_1922 -> "Howard the Duck"
+	"Howard the Duck" -> "[STARRING]
+Charles_Kay"
+	"Ed Wood" -> "[STARRING]
+Roy_Dotrice"
+	user_1922 -> "F/X"
+	"Ed Wood" -> "[STARRING]
+Simon_Callow"
+	"[DISTRIBUTOR]
+Orion_Pictures" -> Amadeus
+	"[STARRING]
+Charles_Kay" -> Amadeus
+	"[STARRING]
+Simon_Callow" -> Amadeus
+	"Ed Wood" -> "[STARRING]
+Charles_Kay"
+	user_1922 -> "Animal House"
+	user_1922 -> "Ed Wood"
+	"Purple Rose of Cairo, The" -> "[DISTRIBUTOR]
+Orion_Pictures"
+	"Silence of the Lambs, The" -> "[DISTRIBUTOR]
+Orion_Pictures"
+	user_1922 -> "Desperately Seeking Susan"
 }

@@ -1,0 +1,193 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3436",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Godfather: Part II, The",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nParamount_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Shane",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Sleepy Hollow",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Star Trek: The Motion Picture",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Runaway Bride",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Saving Private Ryan",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[STARRING]\nAl_Pacino",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Apocalypse Now",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Midnight Run",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "High Plains Drifter",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "[STARRING]\nRobert_Duvall",
+            "group": 3
+        },
+        {
+            "id": 13,
+            "labelC": "[STARRING]\nTalia_Shire",
+            "group": 3
+        },
+        {
+            "id": 14,
+            "labelC": "[STARRING]\nRobert_De_Niro",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 12,
+            "to": 1
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 14
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 12
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 11,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 13
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 12
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 11,
+            "to": 13
+        },
+        {
+            "from": 13,
+            "to": 1
+        },
+        {
+            "from": 14,
+            "to": 1
+        },
+        {
+            "from": 9,
+            "to": 13
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 0,
+            "to": 5
+        }
+    ]
+}

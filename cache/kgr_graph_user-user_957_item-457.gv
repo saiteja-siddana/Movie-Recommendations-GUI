@@ -1,38 +1,38 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_957 -> "Raging Bull"
+	"[DISTRIBUTOR]
+Warner_Bros._Pictures" -> "Fugitive, The"
+	user_957 -> "Primal Fear"
+	user_957 -> "Snow Falling on Cedars"
+	user_957 -> Hamlet
 	"Raging Bull" -> "[CINEMATOGRAPHY]
 Michael_Chapman_(cinematographer)"
+	"[CINEMATOGRAPHY]
+Michael_Chapman_(cinematographer)" -> "Fugitive, The"
+	"[MUSICCOMPOSER]
+James_Newton_Howard" -> "Fugitive, The"
 	user_957 -> "Prince of Tides, The"
 	user_957 -> "Roger & Me"
 	"Primal Fear" -> "[CINEMATOGRAPHY]
 Michael_Chapman_(cinematographer)"
-	"[MUSICCOMPOSER]
-James_Newton_Howard" -> "Fugitive, The"
-	user_957 -> "Space Cowboys"
-	user_957 -> GoodFellas
-	"Snow Falling on Cedars" -> "[MUSICCOMPOSER]
-James_Newton_Howard"
-	"Roger & Me" -> "[MUSICCOMPOSER]
-James_Newton_Howard"
-	"[DISTRIBUTOR]
-Warner_Bros._Pictures" -> "Fugitive, The"
 	GoodFellas -> "[DISTRIBUTOR]
 Warner_Bros._Pictures"
-	"Primal Fear" -> "[MUSICCOMPOSER]
-James_Newton_Howard"
-	"Space Cowboys" -> "[DISTRIBUTOR]
+	user_957 -> "Space Cowboys"
+	user_957 -> "Raging Bull"
+	Hamlet -> "[DISTRIBUTOR]
 Warner_Bros._Pictures"
-	user_957 -> Dinosaur
-	Dinosaur -> "[MUSICCOMPOSER]
+	"Roger & Me" -> "[MUSICCOMPOSER]
 James_Newton_Howard"
 	"Prince of Tides, The" -> "[MUSICCOMPOSER]
 James_Newton_Howard"
-	Hamlet -> "[DISTRIBUTOR]
+	user_957 -> GoodFellas
+	"Space Cowboys" -> "[DISTRIBUTOR]
 Warner_Bros._Pictures"
-	user_957 -> "Snow Falling on Cedars"
-	"[CINEMATOGRAPHY]
-Michael_Chapman_(cinematographer)" -> "Fugitive, The"
-	user_957 -> "Primal Fear"
-	user_957 -> Hamlet
+	Dinosaur -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	"Primal Fear" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	"Snow Falling on Cedars" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	user_957 -> Dinosaur
 }

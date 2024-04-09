@@ -1,25 +1,25 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	"Mad Max" -> "[STUDIO]
-Kennedy_Miller_Mitchell"
+	"[STUDIO]
+Kennedy_Miller_Mitchell" -> Babe
+	"Conan the Barbarian" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"[DISTRIBUTOR]
+Universal_Studios" -> Babe
+	user_4918 -> "E.T. the Extra-Terrestrial"
+	user_4918 -> "Conan the Barbarian"
+	user_4918 -> "Nutty Professor, The"
+	user_4918 -> "Dark Crystal, The"
+	"E.T. the Extra-Terrestrial" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_4918 -> "Animal House"
+	"Animal House" -> "[DISTRIBUTOR]
+Universal_Studios"
 	"Nutty Professor, The" -> "[DISTRIBUTOR]
 Universal_Studios"
 	"Dark Crystal, The" -> "[DISTRIBUTOR]
 Universal_Studios"
-	user_4918 -> "E.T. the Extra-Terrestrial"
-	user_4918 -> "Dark Crystal, The"
-	"Animal House" -> "[DISTRIBUTOR]
-Universal_Studios"
-	user_4918 -> "Animal House"
-	user_4918 -> "Conan the Barbarian"
-	"Conan the Barbarian" -> "[DISTRIBUTOR]
-Universal_Studios"
+	"Mad Max" -> "[STUDIO]
+Kennedy_Miller_Mitchell"
 	user_4918 -> "Mad Max"
-	"[DISTRIBUTOR]
-Universal_Studios" -> Babe
-	user_4918 -> "Nutty Professor, The"
-	"E.T. the Extra-Terrestrial" -> "[DISTRIBUTOR]
-Universal_Studios"
-	"[STUDIO]
-Kennedy_Miller_Mitchell" -> Babe
 }

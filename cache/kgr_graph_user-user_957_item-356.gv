@@ -1,28 +1,28 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	"Simple Plan, A" -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	user_957 -> "Mission - Impossible 2"
-	"[EDITING]
-Arthur_Schmidt_(film_editor)" -> "Forrest Gump"
-	"Mission - Impossible 2" -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	user_957 -> "Roger & Me"
-	"What Lies Beneath" -> "[EDITING]
-Arthur_Schmidt_(film_editor)"
-	user_957 -> "Searching for Bobby Fischer"
-	user_957 -> "Primary Colors"
-	"Primary Colors" -> "[EDITING]
-Arthur_Schmidt_(film_editor)"
-	Shaft -> "[DISTRIBUTOR]
+	"Searching for Bobby Fischer" -> "[DISTRIBUTOR]
 Paramount_Pictures"
 	user_957 -> "What Lies Beneath"
-	user_957 -> "Simple Plan, A"
+	user_957 -> "Roger & Me"
+	"[EDITING]
+Arthur_Schmidt_(film_editor)" -> "Forrest Gump"
+	user_957 -> "Mission - Impossible 2"
+	"Primary Colors" -> "[EDITING]
+Arthur_Schmidt_(film_editor)"
+	user_957 -> "Primary Colors"
 	"Roger & Me" -> "[DISTRIBUTOR]
 Paramount_Pictures"
 	user_957 -> Shaft
-	"Searching for Bobby Fischer" -> "[DISTRIBUTOR]
+	"What Lies Beneath" -> "[EDITING]
+Arthur_Schmidt_(film_editor)"
+	user_957 -> "Searching for Bobby Fischer"
+	Shaft -> "[DISTRIBUTOR]
 Paramount_Pictures"
+	user_957 -> "Simple Plan, A"
 	"[DISTRIBUTOR]
 Paramount_Pictures" -> "Forrest Gump"
+	"Mission - Impossible 2" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Simple Plan, A" -> "[DISTRIBUTOR]
+Paramount_Pictures"
 }

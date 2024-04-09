@@ -1,0 +1,213 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3436",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Shakespeare in Love",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nMiramax",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Mickey Blue Eyes",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Reality Bites",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Faculty, The",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Abbott and Costello Meet Frankenstein",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Bone Collector, The",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[DISTRIBUTOR]\nUniversal_Studios",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "[PRODUCER]\nDavid_Parfitt",
+            "group": 3
+        },
+        {
+            "id": 10,
+            "labelC": "Cider House Rules, The",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Mighty, The",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "[PRODUCER]\nMarc_Norman",
+            "group": 3
+        },
+        {
+            "id": 13,
+            "labelC": "[PRODUCER]\nHarvey_Weinstein",
+            "group": 3
+        },
+        {
+            "id": 14,
+            "labelC": "[PRODUCER]\nDonna_Gigliotti",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 10,
+            "to": 13
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 7,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 13,
+            "to": 1
+        },
+        {
+            "from": 10,
+            "to": 12
+        },
+        {
+            "from": 10,
+            "to": 14
+        },
+        {
+            "from": 5,
+            "to": 9
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 11,
+            "to": 13
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 9,
+            "to": 1
+        },
+        {
+            "from": 11,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 5
+        },
+        {
+            "from": 6,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 9
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 5,
+            "to": 13
+        },
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 5,
+            "to": 12
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 3,
+            "to": 8
+        },
+        {
+            "from": 11,
+            "to": 9
+        },
+        {
+            "from": 12,
+            "to": 1
+        },
+        {
+            "from": 14,
+            "to": 1
+        }
+    ]
+}

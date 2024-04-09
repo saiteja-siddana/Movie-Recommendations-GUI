@@ -1,76 +1,76 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
 	"Lethal Weapon 2" -> "[STARRING]
-Robert_De_Niro"
-	"Godfather - Part II, The" -> "[STARRING]
-Lorraine_Bracco"
-	Awakenings -> "[STARRING]
 Joe_Pesci"
-	"Lethal Weapon 2" -> "[STARRING]
-Joe_Pesci"
-	"Lethal Weapon 2" -> "[STARRING]
-Ray_Liotta"
-	Awakenings -> "[STARRING]
-Ray_Liotta"
-	"Wag the Dog" -> "[STARRING]
-Paul_Sorvino"
-	"Godfather - Part II, The" -> "[STARRING]
-Joe_Pesci"
-	"[STARRING]
-Lorraine_Bracco" -> GoodFellas
-	"Wag the Dog" -> "[STARRING]
-Robert_De_Niro"
-	"Lethal Weapon 2" -> "[STARRING]
-Paul_Sorvino"
-	"Mars Attacks!" -> "[DISTRIBUTOR]
-Warner_Bros._Pictures"
 	"[STARRING]
 Paul_Sorvino" -> GoodFellas
+	Awakenings -> "[STARRING]
+Robert_De_Niro"
+	"Lethal Weapon 2" -> "[STARRING]
+Paul_Sorvino"
 	"Wag the Dog" -> "[STARRING]
 Ray_Liotta"
-	"Godfather - Part II, The" -> "[STARRING]
-Paul_Sorvino"
-	user_1922 -> "Lethal Weapon 2"
+	"Lethal Weapon 2" -> "[STARRING]
+Lorraine_Bracco"
 	user_1922 -> Awakenings
-	user_1922 -> "Godfather - Part II, The"
-	Backdraft -> "[STARRING]
-Joe_Pesci"
-	Backdraft -> "[STARRING]
-Robert_De_Niro"
+	"Godfather - Part II, The" -> "[STARRING]
+Ray_Liotta"
 	"[STARRING]
 Robert_De_Niro" -> GoodFellas
+	"[DISTRIBUTOR]
+Warner_Bros._Pictures" -> GoodFellas
 	user_1922 -> Outbreak
-	Backdraft -> "[STARRING]
-Lorraine_Bracco"
-	"[STARRING]
-Joe_Pesci" -> GoodFellas
-	Awakenings -> "[STARRING]
+	"Wag the Dog" -> "[STARRING]
 Robert_De_Niro"
+	Awakenings -> "[STARRING]
+Joe_Pesci"
+	"Godfather - Part II, The" -> "[STARRING]
+Robert_De_Niro"
+	Awakenings -> "[STARRING]
+Lorraine_Bracco"
 	user_1922 -> "Mars Attacks!"
-	user_1922 -> Backdraft
-	user_1922 -> "Wag the Dog"
+	Awakenings -> "[STARRING]
+Paul_Sorvino"
+	"Godfather - Part II, The" -> "[STARRING]
+Joe_Pesci"
+	"Wag the Dog" -> "[STARRING]
+Joe_Pesci"
 	Backdraft -> "[STARRING]
+Ray_Liotta"
+	"Godfather - Part II, The" -> "[STARRING]
+Lorraine_Bracco"
+	"Wag the Dog" -> "[STARRING]
 Paul_Sorvino"
 	"Wag the Dog" -> "[STARRING]
 Lorraine_Bracco"
-	Awakenings -> "[STARRING]
+	"[STARRING]
+Lorraine_Bracco" -> GoodFellas
+	"Godfather - Part II, The" -> "[STARRING]
 Paul_Sorvino"
 	Outbreak -> "[DISTRIBUTOR]
 Warner_Bros._Pictures"
-	"Wag the Dog" -> "[STARRING]
-Joe_Pesci"
 	Backdraft -> "[STARRING]
+Robert_De_Niro"
+	"Mars Attacks!" -> "[DISTRIBUTOR]
+Warner_Bros._Pictures"
+	user_1922 -> Backdraft
+	"Lethal Weapon 2" -> "[STARRING]
+Ray_Liotta"
+	user_1922 -> "Wag the Dog"
+	user_1922 -> "Lethal Weapon 2"
+	Backdraft -> "[STARRING]
+Joe_Pesci"
+	"[STARRING]
+Joe_Pesci" -> GoodFellas
+	"Lethal Weapon 2" -> "[STARRING]
+Robert_De_Niro"
+	Backdraft -> "[STARRING]
+Lorraine_Bracco"
+	Awakenings -> "[STARRING]
 Ray_Liotta"
 	"[STARRING]
 Ray_Liotta" -> GoodFellas
-	"[DISTRIBUTOR]
-Warner_Bros._Pictures" -> GoodFellas
-	Awakenings -> "[STARRING]
-Lorraine_Bracco"
-	"Godfather - Part II, The" -> "[STARRING]
-Robert_De_Niro"
-	"Lethal Weapon 2" -> "[STARRING]
-Lorraine_Bracco"
-	"Godfather - Part II, The" -> "[STARRING]
-Ray_Liotta"
+	Backdraft -> "[STARRING]
+Paul_Sorvino"
+	user_1922 -> "Godfather - Part II, The"
 }

@@ -1,0 +1,39 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_3436 -> "Renaissance Man"
+	user_3436 -> "Apple Dumpling Gang Rides Again, The"
+	user_3436 -> "Operation Dumbo Drop"
+	"Apple Dumpling Gang, The" -> "[STUDIO]
+Walt_Disney_Pictures"
+	user_3436 -> "Starship Troopers"
+	"Apple Dumpling Gang Rides Again, The" -> "[STUDIO]
+Walt_Disney_Pictures"
+	"[STUDIO]
+Pixar" -> "Bug's Life, A"
+	"[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures" -> "Bug's Life, A"
+	"Apple Dumpling Gang, The" -> "[STUDIO]
+Pixar"
+	"Who Framed Roger Rabbit?" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_3436 -> "Who Framed Roger Rabbit?"
+	Rushmore -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Apple Dumpling Gang Rides Again, The" -> "[STUDIO]
+Pixar"
+	user_3436 -> Rushmore
+	"[STUDIO]
+Walt_Disney_Pictures" -> "Bug's Life, A"
+	"Renaissance Man" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	user_3436 -> "Apple Dumpling Gang, The"
+	"Operation Dumbo Drop" -> "[STUDIO]
+Walt_Disney_Pictures"
+	Arachnophobia -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Starship Troopers" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"Operation Dumbo Drop" -> "[STUDIO]
+Pixar"
+	user_3436 -> Arachnophobia
+}

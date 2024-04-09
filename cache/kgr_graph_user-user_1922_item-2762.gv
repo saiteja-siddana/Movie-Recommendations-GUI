@@ -1,41 +1,41 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	"[STARRING]
-Bruce_Willis" -> "Sixth Sense, The"
-	user_1922 -> Tron
-	"My Best Friend's Wedding" -> "[MUSICCOMPOSER]
-James_Newton_Howard"
-	Dave -> "[MUSICCOMPOSER]
-James_Newton_Howard"
-	user_1922 -> "Pretty Woman"
-	user_1922 -> Outbreak
-	"[DISTRIBUTOR]
-Walt_Disney_Studios_Motion_Pictures" -> "Sixth Sense, The"
-	user_1922 -> Dave
-	"Die Hard" -> "[STARRING]
-Bruce_Willis"
+	user_1922 -> "Runaway Bride"
+	Tron -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
 	"Runaway Bride" -> "[MUSICCOMPOSER]
 James_Newton_Howard"
-	"Pretty Woman" -> "[DISTRIBUTOR]
+	user_1922 -> "Beauty and the Beast"
+	user_1922 -> Tron
+	"Beauty and the Beast" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"[STARRING]
+Bruce_Willis" -> "Sixth Sense, The"
+	user_1922 -> Dave
+	user_1922 -> "Die Hard"
+	user_1922 -> Outbreak
+	"Pretty Woman" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	"My Best Friend's Wedding" -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	"Nightmare Before Christmas, The" -> "[DISTRIBUTOR]
 Walt_Disney_Studios_Motion_Pictures"
 	"Ruthless People" -> "[DISTRIBUTOR]
 Walt_Disney_Studios_Motion_Pictures"
-	user_1922 -> "Nightmare Before Christmas, The"
-	"Beauty and the Beast" -> "[DISTRIBUTOR]
-Walt_Disney_Studios_Motion_Pictures"
-	user_1922 -> "Beauty and the Beast"
-	"Nightmare Before Christmas, The" -> "[DISTRIBUTOR]
-Walt_Disney_Studios_Motion_Pictures"
-	Outbreak -> "[MUSICCOMPOSER]
-James_Newton_Howard"
-	user_1922 -> "Runaway Bride"
-	"Pretty Woman" -> "[MUSICCOMPOSER]
-James_Newton_Howard"
-	user_1922 -> "Ruthless People"
 	"[MUSICCOMPOSER]
 James_Newton_Howard" -> "Sixth Sense, The"
-	Tron -> "[DISTRIBUTOR]
-Walt_Disney_Studios_Motion_Pictures"
-	user_1922 -> "Die Hard"
+	Dave -> "[MUSICCOMPOSER]
+James_Newton_Howard"
 	user_1922 -> "My Best Friend's Wedding"
+	"Die Hard" -> "[STARRING]
+Bruce_Willis"
+	user_1922 -> "Nightmare Before Christmas, The"
+	"Pretty Woman" -> "[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures"
+	"[DISTRIBUTOR]
+Walt_Disney_Studios_Motion_Pictures" -> "Sixth Sense, The"
+	Outbreak -> "[MUSICCOMPOSER]
+James_Newton_Howard"
+	user_1922 -> "Ruthless People"
+	user_1922 -> "Pretty Woman"
 }

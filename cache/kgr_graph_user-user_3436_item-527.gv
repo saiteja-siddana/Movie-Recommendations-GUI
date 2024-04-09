@@ -1,0 +1,37 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	user_3436 -> "Invisible Man, The"
+	user_3436 -> "Saving Private Ryan"
+	user_3436 -> "High Plains Drifter"
+	"Fatal Attraction" -> "[EDITING]
+Michael_Kahn_(film_editor)"
+	"Raiders of the Lost Ark" -> "[EDITING]
+Michael_Kahn_(film_editor)"
+	"Close Encounters of the Third Kind" -> "[EDITING]
+Michael_Kahn_(film_editor)"
+	Arachnophobia -> "[EDITING]
+Michael_Kahn_(film_editor)"
+	user_3436 -> "Midnight Run"
+	user_3436 -> Gladiator
+	"[EDITING]
+Michael_Kahn_(film_editor)" -> "Schindler's List"
+	user_3436 -> "End of Days"
+	Gladiator -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"End of Days" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"Midnight Run" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"High Plains Drifter" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	user_3436 -> "Fatal Attraction"
+	user_3436 -> "Raiders of the Lost Ark"
+	"Invisible Man, The" -> "[DISTRIBUTOR]
+Universal_Pictures"
+	"[DISTRIBUTOR]
+Universal_Pictures" -> "Schindler's List"
+	user_3436 -> "Close Encounters of the Third Kind"
+	user_3436 -> Arachnophobia
+	"Saving Private Ryan" -> "[EDITING]
+Michael_Kahn_(film_editor)"
+}

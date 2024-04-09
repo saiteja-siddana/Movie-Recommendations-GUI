@@ -1,0 +1,159 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "labelC": "user_3436",
+            "group": 1
+        },
+        {
+            "id": 1,
+            "labelC": "Bug's Life, A",
+            "group": 2
+        },
+        {
+            "id": 2,
+            "labelC": "[DISTRIBUTOR]\nWalt_Disney_Studios_Motion_Pictures",
+            "group": 3
+        },
+        {
+            "id": 3,
+            "labelC": "Renaissance Man",
+            "group": 4
+        },
+        {
+            "id": 4,
+            "labelC": "Starship Troopers",
+            "group": 4
+        },
+        {
+            "id": 5,
+            "labelC": "Arachnophobia",
+            "group": 4
+        },
+        {
+            "id": 6,
+            "labelC": "Who Framed Roger Rabbit?",
+            "group": 4
+        },
+        {
+            "id": 7,
+            "labelC": "Rushmore",
+            "group": 4
+        },
+        {
+            "id": 8,
+            "labelC": "[STUDIO]\nWalt_Disney_Pictures",
+            "group": 3
+        },
+        {
+            "id": 9,
+            "labelC": "Operation Dumbo Drop",
+            "group": 4
+        },
+        {
+            "id": 10,
+            "labelC": "Apple Dumpling Gang, The",
+            "group": 4
+        },
+        {
+            "id": 11,
+            "labelC": "Apple Dumpling Gang Rides Again, The",
+            "group": 4
+        },
+        {
+            "id": 12,
+            "labelC": "[STUDIO]\nPixar",
+            "group": 3
+        }
+    ],
+    "edges": [
+        {
+            "from": 0,
+            "to": 3
+        },
+        {
+            "from": 0,
+            "to": 11
+        },
+        {
+            "from": 0,
+            "to": 9
+        },
+        {
+            "from": 10,
+            "to": 8
+        },
+        {
+            "from": 0,
+            "to": 4
+        },
+        {
+            "from": 11,
+            "to": 8
+        },
+        {
+            "from": 12,
+            "to": 1
+        },
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 10,
+            "to": 12
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 6
+        },
+        {
+            "from": 7,
+            "to": 2
+        },
+        {
+            "from": 11,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 7
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 0,
+            "to": 10
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 5,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 2
+        },
+        {
+            "from": 9,
+            "to": 12
+        },
+        {
+            "from": 0,
+            "to": 5
+        }
+    ]
+}

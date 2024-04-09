@@ -1,41 +1,41 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	Cocoon -> "[DISTRIBUTOR]
+	"X-Files - Fight the Future, The" -> "[DISTRIBUTOR]
 20th_Century_Fox"
-	user_4918 -> Speed
-	user_4918 -> Payback
-	user_4918 -> "13th Warrior, The"
-	"Star Wars - Episode IV - A New Hope" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	Glory -> "[EDITING]
-John_Wright_(film_editor)"
-	Payback -> "[EDITING]
-John_Wright_(film_editor)"
-	Speed -> "[EDITING]
-John_Wright_(film_editor)"
-	"[EDITING]
-John_Wright_(film_editor)" -> "X-Men"
-	user_4918 -> "Conan the Barbarian"
-	user_4918 -> Cocoon
+	user_4918 -> "Star Wars - Episode IV - A New Hope"
 	"Conan the Barbarian" -> "[DISTRIBUTOR]
 20th_Century_Fox"
+	user_4918 -> "Conan the Barbarian"
+	Cocoon -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> "X-Men"
+	user_4918 -> "Princess Bride, The"
+	"[EDITING]
+John_Wright_(film_editor)" -> "X-Men"
 	"[EDITING]
 Steven_Rosenblum" -> "X-Men"
 	"Hunt for Red October, The" -> "[EDITING]
 John_Wright_(film_editor)"
-	user_4918 -> "Hunt for Red October, The"
-	user_4918 -> Glory
-	"X-Files - Fight the Future, The" -> "[DISTRIBUTOR]
+	"Star Wars - Episode IV - A New Hope" -> "[DISTRIBUTOR]
 20th_Century_Fox"
+	user_4918 -> Speed
+	user_4918 -> Payback
+	user_4918 -> Glory
+	Glory -> "[EDITING]
+John_Wright_(film_editor)"
+	Speed -> "[EDITING]
+John_Wright_(film_editor)"
+	user_4918 -> Cocoon
+	user_4918 -> "X-Files - Fight the Future, The"
+	"13th Warrior, The" -> "[EDITING]
+John_Wright_(film_editor)"
+	user_4918 -> "13th Warrior, The"
+	Payback -> "[EDITING]
+John_Wright_(film_editor)"
 	"Princess Bride, The" -> "[DISTRIBUTOR]
 20th_Century_Fox"
 	Payback -> "[EDITING]
 Steven_Rosenblum"
-	user_4918 -> "Princess Bride, The"
-	"[DISTRIBUTOR]
-20th_Century_Fox" -> "X-Men"
-	user_4918 -> "X-Files - Fight the Future, The"
-	user_4918 -> "Star Wars - Episode IV - A New Hope"
-	"13th Warrior, The" -> "[EDITING]
-John_Wright_(film_editor)"
+	user_4918 -> "Hunt for Red October, The"
 }

@@ -1,24 +1,24 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_4918 -> "Princess Bride, The"
+	"X-Files - Fight the Future, The" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> "Butch Cassidy and the Sundance Kid"
+	user_4918 -> "Star Wars - Episode IV - A New Hope"
 	"Conan the Barbarian" -> "[DISTRIBUTOR]
 20th_Century_Fox"
+	user_4918 -> "Conan the Barbarian"
 	"[WRITER]
 William_Goldman" -> "Butch Cassidy and the Sundance Kid"
 	Cocoon -> "[DISTRIBUTOR]
 20th_Century_Fox"
-	user_4918 -> "X-Files - Fight the Future, The"
-	user_4918 -> "Star Wars - Episode IV - A New Hope"
-	"Star Wars - Episode IV - A New Hope" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	user_4918 -> "Conan the Barbarian"
-	"X-Files - Fight the Future, The" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	user_4918 -> Cocoon
-	"Princess Bride, The" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	"[DISTRIBUTOR]
-20th_Century_Fox" -> "Butch Cassidy and the Sundance Kid"
 	"Princess Bride, The" -> "[WRITER]
 William_Goldman"
+	"Princess Bride, The" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	user_4918 -> "Princess Bride, The"
+	user_4918 -> Cocoon
+	user_4918 -> "X-Files - Fight the Future, The"
+	"Star Wars - Episode IV - A New Hope" -> "[DISTRIBUTOR]
+20th_Century_Fox"
 }

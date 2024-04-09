@@ -1,44 +1,44 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
+	Network -> "[DISTRIBUTOR]
+United_Artists"
 	Anaconda -> "[CINEMATOGRAPHY]
-Bill_Butler_(cinematographer)"
-	Grease -> "[CINEMATOGRAPHY]
+Haskell_Wexler"
+	"Logan's Run" -> "[DISTRIBUTOR]
+United_Artists"
+	Stripes -> "[CINEMATOGRAPHY]
 Haskell_Wexler"
 	"Thomas Crown Affair, The" -> "[DISTRIBUTOR]
 United_Artists"
-	user_1922 -> "Leaving Las Vegas"
-	Grease -> "[CINEMATOGRAPHY]
-Bill_Butler_(cinematographer)"
-	Piranha -> "[DISTRIBUTOR]
-United_Artists"
-	"[CINEMATOGRAPHY]
-Bill_Butler_(cinematographer)" -> "One Flew Over the Cuckoo's Nest"
-	user_1922 -> Network
+	Jaws -> "[CINEMATOGRAPHY]
+Haskell_Wexler"
 	user_1922 -> Stripes
-	user_1922 -> "Thomas Crown Affair, The"
-	user_1922 -> Jaws
+	user_1922 -> Network
 	user_1922 -> Grease
-	user_1922 -> Anaconda
-	user_1922 -> "Logan's Run"
-	Anaconda -> "[CINEMATOGRAPHY]
-Haskell_Wexler"
-	Jaws -> "[CINEMATOGRAPHY]
-Bill_Butler_(cinematographer)"
-	user_1922 -> Piranha
-	Jaws -> "[CINEMATOGRAPHY]
-Haskell_Wexler"
-	Stripes -> "[CINEMATOGRAPHY]
-Haskell_Wexler"
-	"Leaving Las Vegas" -> "[DISTRIBUTOR]
-United_Artists"
-	Stripes -> "[CINEMATOGRAPHY]
-Bill_Butler_(cinematographer)"
-	"[CINEMATOGRAPHY]
-Haskell_Wexler" -> "One Flew Over the Cuckoo's Nest"
-	"Logan's Run" -> "[DISTRIBUTOR]
-United_Artists"
-	Network -> "[DISTRIBUTOR]
-United_Artists"
 	"[DISTRIBUTOR]
 United_Artists" -> "One Flew Over the Cuckoo's Nest"
+	"[CINEMATOGRAPHY]
+Haskell_Wexler" -> "One Flew Over the Cuckoo's Nest"
+	Grease -> "[CINEMATOGRAPHY]
+Bill_Butler_(cinematographer)"
+	user_1922 -> "Logan's Run"
+	Stripes -> "[CINEMATOGRAPHY]
+Bill_Butler_(cinematographer)"
+	user_1922 -> "Leaving Las Vegas"
+	Piranha -> "[DISTRIBUTOR]
+United_Artists"
+	user_1922 -> "Thomas Crown Affair, The"
+	user_1922 -> Piranha
+	Anaconda -> "[CINEMATOGRAPHY]
+Bill_Butler_(cinematographer)"
+	user_1922 -> Jaws
+	"[CINEMATOGRAPHY]
+Bill_Butler_(cinematographer)" -> "One Flew Over the Cuckoo's Nest"
+	Grease -> "[CINEMATOGRAPHY]
+Haskell_Wexler"
+	user_1922 -> Anaconda
+	"Leaving Las Vegas" -> "[DISTRIBUTOR]
+United_Artists"
+	Jaws -> "[CINEMATOGRAPHY]
+Bill_Butler_(cinematographer)"
 }

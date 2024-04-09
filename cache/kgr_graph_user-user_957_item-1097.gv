@@ -1,41 +1,41 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_957 -> "Erin Brockovich"
-	"Schindler's List" -> "[MUSICCOMPOSER]
-John_Williams"
-	user_957 -> "Schindler's List"
-	"Indiana Jones and the Last Crusade" -> "[MUSICCOMPOSER]
-John_Williams"
-	user_957 -> "Twelve Monkeys"
-	user_957 -> "Deer Hunter, The"
-	"Deer Hunter, The" -> "[DISTRIBUTOR]
-Universal_Studios"
-	user_957 -> "To Kill a Mockingbird"
-	"[MUSICCOMPOSER]
-John_Williams" -> "E.T. the Extra-Terrestrial"
-	"Twelve Monkeys" -> "[DISTRIBUTOR]
-Universal_Studios"
-	user_957 -> JFK
-	"[DIRECTOR]
-Steven_Spielberg" -> "E.T. the Extra-Terrestrial"
-	user_957 -> Babe
-	"[DISTRIBUTOR]
-Universal_Studios" -> "E.T. the Extra-Terrestrial"
-	user_957 -> "Indiana Jones and the Last Crusade"
 	"Erin Brockovich" -> "[DISTRIBUTOR]
 Universal_Studios"
-	"Patriot, The" -> "[MUSICCOMPOSER]
+	user_957 -> "Schindler's List"
+	user_957 -> "To Kill a Mockingbird"
+	"[DISTRIBUTOR]
+Universal_Studios" -> "E.T. the Extra-Terrestrial"
+	"To Kill a Mockingbird" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Star Wars - Episode IV - A New Hope" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_957 -> "Indiana Jones and the Last Crusade"
+	"Schindler's List" -> "[MUSICCOMPOSER]
 John_Williams"
 	Babe -> "[DISTRIBUTOR]
 Universal_Studios"
-	user_957 -> "Patriot, The"
-	"Star Wars - Episode IV - A New Hope" -> "[MUSICCOMPOSER]
+	"[DIRECTOR]
+Steven_Spielberg" -> "E.T. the Extra-Terrestrial"
+	user_957 -> Babe
+	"Patriot, The" -> "[MUSICCOMPOSER]
 John_Williams"
-	"Indiana Jones and the Last Crusade" -> "[DIRECTOR]
-Steven_Spielberg"
+	"Twelve Monkeys" -> "[DISTRIBUTOR]
+Universal_Studios"
 	JFK -> "[MUSICCOMPOSER]
 John_Williams"
-	user_957 -> "Star Wars - Episode IV - A New Hope"
-	"To Kill a Mockingbird" -> "[DISTRIBUTOR]
+	"Indiana Jones and the Last Crusade" -> "[MUSICCOMPOSER]
+John_Williams"
+	user_957 -> "Deer Hunter, The"
+	"Deer Hunter, The" -> "[DISTRIBUTOR]
 Universal_Studios"
+	"[MUSICCOMPOSER]
+John_Williams" -> "E.T. the Extra-Terrestrial"
+	user_957 -> "Twelve Monkeys"
+	user_957 -> "Patriot, The"
+	user_957 -> "Star Wars - Episode IV - A New Hope"
+	"Indiana Jones and the Last Crusade" -> "[DIRECTOR]
+Steven_Spielberg"
+	user_957 -> JFK
+	user_957 -> "Erin Brockovich"
 }

@@ -1,28 +1,28 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_4918 -> "As Good As It Gets"
-	"[DISTRIBUTOR]
-Columbia_Pictures" -> "Groundhog Day"
-	"Full Metal Jacket" -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	"As Good As It Gets" -> "[CINEMATOGRAPHY]
-John_Bailey_(cinematographer)"
-	user_4918 -> "Full Metal Jacket"
-	Ghostbusters -> "[DISTRIBUTOR]
-Columbia_Pictures"
-	user_4918 -> "Men in Black"
-	"In the Line of Fire" -> "[CINEMATOGRAPHY]
-John_Bailey_(cinematographer)"
-	user_4918 -> Ghostbusters
 	"[CINEMATOGRAPHY]
 John_Bailey_(cinematographer)" -> "Groundhog Day"
-	"Men in Black" -> "[DISTRIBUTOR]
+	user_4918 -> Ghostbusters
+	"Full Metal Jacket" -> "[DISTRIBUTOR]
 Columbia_Pictures"
-	user_4918 -> Starman
+	user_4918 -> "As Good As It Gets"
+	user_4918 -> "Men in Black"
+	user_4918 -> "In the Line of Fire"
 	"Terminator, The" -> "[DISTRIBUTOR]
 Columbia_Pictures"
-	user_4918 -> "In the Line of Fire"
-	user_4918 -> "Terminator, The"
+	user_4918 -> Starman
 	Starman -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"[DISTRIBUTOR]
+Columbia_Pictures" -> "Groundhog Day"
+	"Men in Black" -> "[DISTRIBUTOR]
+Columbia_Pictures"
+	"In the Line of Fire" -> "[CINEMATOGRAPHY]
+John_Bailey_(cinematographer)"
+	user_4918 -> "Full Metal Jacket"
+	user_4918 -> "Terminator, The"
+	"As Good As It Gets" -> "[CINEMATOGRAPHY]
+John_Bailey_(cinematographer)"
+	Ghostbusters -> "[DISTRIBUTOR]
 Columbia_Pictures"
 }

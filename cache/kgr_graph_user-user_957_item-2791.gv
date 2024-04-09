@@ -1,34 +1,34 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_957 -> "Mission - Impossible 2"
-	user_957 -> "Searching for Bobby Fischer"
-	user_957 -> Shaft
-	user_957 -> "Grifters, The"
-	user_957 -> "To Kill a Mockingbird"
-	"To Kill a Mockingbird" -> "[MUSICCOMPOSER]
-Elmer_Bernstein"
-	user_957 -> "Roger & Me"
-	"[DISTRIBUTOR]
-Paramount_Pictures" -> "Airplane!"
-	"[MUSICCOMPOSER]
-Elmer_Bernstein" -> "Airplane!"
-	Shaft -> "[DISTRIBUTOR]
+	"Searching for Bobby Fischer" -> "[DISTRIBUTOR]
 Paramount_Pictures"
-	"Grifters, The" -> "[MUSICCOMPOSER]
-Elmer_Bernstein"
-	user_957 -> "Simple Plan, A"
+	"Roger & Me" -> "[DISTRIBUTOR]
+Paramount_Pictures"
 	"Keeping the Faith" -> "[MUSICCOMPOSER]
 Elmer_Bernstein"
-	"Searching for Bobby Fischer" -> "[DISTRIBUTOR]
+	user_957 -> "To Kill a Mockingbird"
+	user_957 -> "Roger & Me"
+	user_957 -> "Grifters, The"
+	"Grifters, The" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	user_957 -> Shaft
+	user_957 -> "Searching for Bobby Fischer"
+	"To Kill a Mockingbird" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	"[DISTRIBUTOR]
+Paramount_Pictures" -> "Airplane!"
+	user_957 -> "Mission - Impossible 2"
+	Shaft -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_957 -> "Simple Plan, A"
+	user_957 -> "Age of Innocence, The"
+	"Age of Innocence, The" -> "[MUSICCOMPOSER]
+Elmer_Bernstein"
+	user_957 -> "Keeping the Faith"
+	"[MUSICCOMPOSER]
+Elmer_Bernstein" -> "Airplane!"
+	"Mission - Impossible 2" -> "[DISTRIBUTOR]
 Paramount_Pictures"
 	"Simple Plan, A" -> "[DISTRIBUTOR]
 Paramount_Pictures"
-	"Age of Innocence, The" -> "[MUSICCOMPOSER]
-Elmer_Bernstein"
-	user_957 -> "Age of Innocence, The"
-	"Roger & Me" -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	"Mission - Impossible 2" -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	user_957 -> "Keeping the Faith"
 }

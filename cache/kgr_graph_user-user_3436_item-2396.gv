@@ -1,0 +1,62 @@
+digraph finite_state_machine {
+	node [shape=doublecircle]
+	"[DISTRIBUTOR]
+Universal_Studios" -> "Shakespeare in Love"
+	"Cider House Rules, The" -> "[PRODUCER]
+Harvey_Weinstein"
+	"Mickey Blue Eyes" -> "[DISTRIBUTOR]
+Miramax"
+	"Bone Collector, The" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Cider House Rules, The"
+	user_3436 -> "Bone Collector, The"
+	"[PRODUCER]
+Harvey_Weinstein" -> "Shakespeare in Love"
+	"Cider House Rules, The" -> "[PRODUCER]
+Marc_Norman"
+	"Cider House Rules, The" -> "[PRODUCER]
+Donna_Gigliotti"
+	"Faculty, The" -> "[PRODUCER]
+David_Parfitt"
+	"Bone Collector, The" -> "[DISTRIBUTOR]
+Miramax"
+	user_3436 -> "Mighty, The"
+	"[DISTRIBUTOR]
+Miramax" -> "Shakespeare in Love"
+	"Mighty, The" -> "[PRODUCER]
+Harvey_Weinstein"
+	user_3436 -> "Reality Bites"
+	"[PRODUCER]
+David_Parfitt" -> "Shakespeare in Love"
+	"Mighty, The" -> "[PRODUCER]
+Marc_Norman"
+	user_3436 -> "Faculty, The"
+	"Abbott and Costello Meet Frankenstein" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Faculty, The" -> "[DISTRIBUTOR]
+Universal_Studios"
+	user_3436 -> "Abbott and Costello Meet Frankenstein"
+	"Abbott and Costello Meet Frankenstein" -> "[DISTRIBUTOR]
+Miramax"
+	"Reality Bites" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Cider House Rules, The" -> "[PRODUCER]
+David_Parfitt"
+	"Faculty, The" -> "[DISTRIBUTOR]
+Miramax"
+	"Faculty, The" -> "[PRODUCER]
+Harvey_Weinstein"
+	user_3436 -> "Mickey Blue Eyes"
+	"Faculty, The" -> "[PRODUCER]
+Marc_Norman"
+	"Reality Bites" -> "[DISTRIBUTOR]
+Miramax"
+	"Mickey Blue Eyes" -> "[DISTRIBUTOR]
+Universal_Studios"
+	"Mighty, The" -> "[PRODUCER]
+David_Parfitt"
+	"[PRODUCER]
+Marc_Norman" -> "Shakespeare in Love"
+	"[PRODUCER]
+Donna_Gigliotti" -> "Shakespeare in Love"
+}

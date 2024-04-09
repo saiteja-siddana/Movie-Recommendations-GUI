@@ -1,33 +1,33 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	user_957 -> Network
-	Aliens -> "[EDITING]
-Ray_Lovejoy"
-	user_957 -> "Thin Man, The"
-	"Blue Sky" -> "[DISTRIBUTOR]
-Metro-Goldwyn-Mayer"
-	user_957 -> "Dr. Strangelove or - How I Learned to Stop Worrying and Love the Bomb"
-	"[EDITING]
-Ray_Lovejoy" -> "2001 - A Space Odyssey"
-	"Thin Man, The" -> "[DISTRIBUTOR]
-Metro-Goldwyn-Mayer"
-	user_957 -> "Blue Sky"
-	"[DIRECTOR]
-Stanley_Kubrick" -> "2001 - A Space Odyssey"
-	Network -> "[DISTRIBUTOR]
-Metro-Goldwyn-Mayer"
-	"Mr. Holland's Opus" -> "[DISTRIBUTOR]
-Metro-Goldwyn-Mayer"
-	"Dr. Strangelove or - How I Learned to Stop Worrying and Love the Bomb" -> "[DIRECTOR]
-Stanley_Kubrick"
-	user_957 -> Spartacus
 	Spartacus -> "[DIRECTOR]
 Stanley_Kubrick"
 	"Autumn in New York" -> "[DISTRIBUTOR]
 Metro-Goldwyn-Mayer"
+	"Dr. Strangelove or - How I Learned to Stop Worrying and Love the Bomb" -> "[DIRECTOR]
+Stanley_Kubrick"
+	user_957 -> "Blue Sky"
+	"[DIRECTOR]
+Stanley_Kubrick" -> "2001 - A Space Odyssey"
+	user_957 -> "Dr. Strangelove or - How I Learned to Stop Worrying and Love the Bomb"
+	"Mr. Holland's Opus" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	user_957 -> "Mr. Holland's Opus"
+	"Blue Sky" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
 	"[DISTRIBUTOR]
 Metro-Goldwyn-Mayer" -> "2001 - A Space Odyssey"
-	user_957 -> "Autumn in New York"
-	user_957 -> "Mr. Holland's Opus"
+	"Thin Man, The" -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	Aliens -> "[EDITING]
+Ray_Lovejoy"
+	user_957 -> Network
+	Network -> "[DISTRIBUTOR]
+Metro-Goldwyn-Mayer"
+	user_957 -> Spartacus
 	user_957 -> Aliens
+	user_957 -> "Autumn in New York"
+	"[EDITING]
+Ray_Lovejoy" -> "2001 - A Space Odyssey"
+	user_957 -> "Thin Man, The"
 }

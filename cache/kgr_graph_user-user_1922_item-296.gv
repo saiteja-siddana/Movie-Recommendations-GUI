@@ -1,32 +1,32 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
-	"[PRODUCER]
-Lawrence_Bender" -> "Pulp Fiction"
 	user_1922 -> "True Romance"
-	"Muriel's Wedding" -> "[DISTRIBUTOR]
-Miramax_Films"
-	"[WRITER]
-Quentin_Tarantino" -> "Pulp Fiction"
-	user_1922 -> "Sliding Doors"
-	user_1922 -> "Good Will Hunting"
-	user_1922 -> "From Dusk Till Dawn"
-	user_1922 -> "English Patient, The"
 	"Good Will Hunting" -> "[PRODUCER]
 Lawrence_Bender"
-	"[DISTRIBUTOR]
-Miramax_Films" -> "Pulp Fiction"
+	"[PRODUCER]
+Lawrence_Bender" -> "Pulp Fiction"
 	"True Romance" -> "[WRITER]
 Quentin_Tarantino"
-	"Sling Blade" -> "[DISTRIBUTOR]
+	"[WRITER]
+Quentin_Tarantino" -> "Pulp Fiction"
+	user_1922 -> "Good Will Hunting"
+	user_1922 -> "Muriel's Wedding"
+	"Sliding Doors" -> "[DISTRIBUTOR]
+Miramax_Films"
+	"Muriel's Wedding" -> "[DISTRIBUTOR]
 Miramax_Films"
 	"From Dusk Till Dawn" -> "[WRITER]
 Quentin_Tarantino"
-	"Sliding Doors" -> "[DISTRIBUTOR]
+	user_1922 -> "Sling Blade"
+	user_1922 -> "From Dusk Till Dawn"
+	user_1922 -> "Sliding Doors"
+	"[DISTRIBUTOR]
+Miramax_Films" -> "Pulp Fiction"
+	user_1922 -> "English Patient, The"
+	"Good Will Hunting" -> "[DISTRIBUTOR]
+Miramax_Films"
+	"Sling Blade" -> "[DISTRIBUTOR]
 Miramax_Films"
 	"English Patient, The" -> "[DISTRIBUTOR]
 Miramax_Films"
-	"Good Will Hunting" -> "[DISTRIBUTOR]
-Miramax_Films"
-	user_1922 -> "Sling Blade"
-	user_1922 -> "Muriel's Wedding"
 }

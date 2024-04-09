@@ -1,49 +1,49 @@
 digraph finite_state_machine {
 	node [shape=doublecircle]
+	user_1922 -> "Star Trek - The Wrath of Khan"
+	Cocoon -> "[MUSICCOMPOSER]
+James_Horner"
+	user_1922 -> "Honey, I Shrunk the Kids"
+	user_1922 -> Ransom
+	user_1922 -> "Die Hard"
+	user_1922 -> Cocoon
+	Barbarella -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Escape from the Planet of the Apes" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	"Charlotte's Web" -> "[DISTRIBUTOR]
+Paramount_Pictures"
+	user_1922 -> "Escape from the Planet of the Apes"
 	Glory -> "[MUSICCOMPOSER]
 James_Horner"
+	"Charlotte's Web" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	"Flamingo Kid, The" -> "[DISTRIBUTOR]
+Paramount_Pictures"
 	Barbarella -> "[DISTRIBUTOR]
 20th_Century_Fox"
-	user_1922 -> Glory
-	"Flamingo Kid, The" -> "[DISTRIBUTOR]
+	"Die Hard" -> "[DISTRIBUTOR]
 Paramount_Pictures"
 	"Escape from the Planet of the Apes" -> "[DISTRIBUTOR]
 20th_Century_Fox"
 	"Star Trek - The Wrath of Khan" -> "[MUSICCOMPOSER]
 James_Horner"
 	user_1922 -> "Flamingo Kid, The"
-	user_1922 -> Cocoon
-	"Charlotte's Web" -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	user_1922 -> Ransom
-	"Die Hard" -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	"[DISTRIBUTOR]
-20th_Century_Fox" -> Titanic
-	user_1922 -> "Star Trek - The Wrath of Khan"
-	user_1922 -> "Charlotte's Web"
-	"Flamingo Kid, The" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	"Honey, I Shrunk the Kids" -> "[MUSICCOMPOSER]
-James_Horner"
-	Ransom -> "[MUSICCOMPOSER]
-James_Horner"
-	user_1922 -> Barbarella
-	"Charlotte's Web" -> "[DISTRIBUTOR]
-20th_Century_Fox"
-	"[DISTRIBUTOR]
-Paramount_Pictures" -> Titanic
-	user_1922 -> "Honey, I Shrunk the Kids"
-	Cocoon -> "[MUSICCOMPOSER]
-James_Horner"
-	Barbarella -> "[DISTRIBUTOR]
-Paramount_Pictures"
-	"Escape from the Planet of the Apes" -> "[DISTRIBUTOR]
-Paramount_Pictures"
 	"Die Hard" -> "[DISTRIBUTOR]
 20th_Century_Fox"
 	"[MUSICCOMPOSER]
 James_Horner" -> Titanic
-	user_1922 -> "Escape from the Planet of the Apes"
-	user_1922 -> "Die Hard"
+	"Flamingo Kid, The" -> "[DISTRIBUTOR]
+20th_Century_Fox"
+	Ransom -> "[MUSICCOMPOSER]
+James_Horner"
+	user_1922 -> Barbarella
+	"[DISTRIBUTOR]
+20th_Century_Fox" -> Titanic
+	"[DISTRIBUTOR]
+Paramount_Pictures" -> Titanic
+	user_1922 -> Glory
+	user_1922 -> "Charlotte's Web"
+	"Honey, I Shrunk the Kids" -> "[MUSICCOMPOSER]
+James_Horner"
 }
